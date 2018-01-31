@@ -1,0 +1,11 @@
+<Hoc_sinh Ho_ten="Bàng ngọc trầm Long" Ma_so="HS_10" CMND="040488281" Gioi_tinh="Nữ" Ngay_sinh="4/10/2005" Dia_chi="91 Châu hửu minh Toàn,Phường 4,Quận Tân bình, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_10" Mat_khau="HS_10">
+  <Lop Ten="Lớp 6.1" Ma_so="LOP_6.1">
+    <Khoi Ten="Khối 6" Ma_so="KHOI_6"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="1/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="6/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="4/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="4/9/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

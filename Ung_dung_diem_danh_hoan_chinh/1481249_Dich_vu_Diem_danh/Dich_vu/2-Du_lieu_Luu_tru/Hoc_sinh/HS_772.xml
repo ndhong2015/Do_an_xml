@@ -1,0 +1,11 @@
+<Hoc_sinh Ho_ten="Thái thanh chiến Thắng" Ma_so="HS_772" CMND="050865255" Gioi_tinh="Nữ" Ngay_sinh="3/7/2002" Dia_chi="62 Đổ kim minh Lan,Phường 8,Quận 1, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_772" Mat_khau="HS_772">
+  <Lop Ten="Lớp 9.5" Ma_so="LOP_9.5">
+    <Khoi Ten="Khối 9" Ma_so="KHOI_9"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="6/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="7/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="6/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="7/10/2017" Ly_do="Trốn học"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

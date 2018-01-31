@@ -1,0 +1,10 @@
+<Hoc_sinh Ho_ten="Dương thành Quân" Ma_so="HS_441" CMND="060740320" Gioi_tinh="Nữ" Ngay_sinh="1/8/2003" Dia_chi="459 Nhữ ngọc minh Tâm,Phường 5,Quận Thủ đức, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_441" Mat_khau="HS_441">
+  <Lop Ten="Lớp 8.3" Ma_so="LOP_8.3">
+    <Khoi Ten="Khối 8" Ma_so="KHOI_8"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="1/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="2/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="5/9/2017" Ly_do="việc nhà"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

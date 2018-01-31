@@ -1,0 +1,14 @@
+<Hoc_sinh Ho_ten="Trần an Châu" Ma_so="HS_354" CMND="040688086" Gioi_tinh="Nam" Ngay_sinh="5/9/2004" Dia_chi="583 Bạch văn Hải,Phường 5,Quận Nhà bè, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_354" Mat_khau="HS_354">
+  <Lop Ten="Lớp 7.5" Ma_so="LOP_7.5">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="5/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="3/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="1/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="3/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="2/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="2/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="5/9/2017" Ly_do="Trốn học"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

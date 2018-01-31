@@ -1,0 +1,8 @@
+<Hoc_sinh Ho_ten="Đặng thiện ngọc Châu" Ma_so="HS_233" CMND="060338823" Gioi_tinh="Nữ" Ngay_sinh="1/7/2004" Dia_chi="94 Hứa phúc Trinh,Phường 10,Quận 4, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_233" Mat_khau="HS_233">
+  <Lop Ten="Lớp 7.2" Ma_so="LOP_7.2">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="3/9/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

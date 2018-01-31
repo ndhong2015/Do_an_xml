@@ -1,0 +1,11 @@
+<Hoc_sinh Ho_ten="Hồ cao sơn Trúc" Ma_so="HS_62" CMND="070223542" Gioi_tinh="Nữ" Ngay_sinh="5/9/2005" Dia_chi="424 Phạm bùi Trúc,Phường 9,Quận 9, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_62" Mat_khau="HS_62">
+  <Lop Ten="Lớp 6.2" Ma_so="LOP_6.2">
+    <Khoi Ten="Khối 6" Ma_so="KHOI_6"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="6/9/2017" Ly_do="Trốn học"/>
+    <Vang Ngay="5/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="5/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="4/9/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

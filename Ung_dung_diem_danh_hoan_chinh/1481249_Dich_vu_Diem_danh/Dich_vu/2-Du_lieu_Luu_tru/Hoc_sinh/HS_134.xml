@@ -1,0 +1,9 @@
+<Hoc_sinh Ho_ten="Nguyễn thanh Anh" Ma_so="HS_134" CMND="050470873" Gioi_tinh="Nữ" Ngay_sinh="7/6/2005" Dia_chi="118 Võ đình kim Hồng,Phường 5,Quận Nhà bè, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_134" Mat_khau="HS_134">
+  <Lop Ten="Lớp 6.4" Ma_so="LOP_6.4">
+    <Khoi Ten="Khối 6" Ma_so="KHOI_6"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="2/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="3/9/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

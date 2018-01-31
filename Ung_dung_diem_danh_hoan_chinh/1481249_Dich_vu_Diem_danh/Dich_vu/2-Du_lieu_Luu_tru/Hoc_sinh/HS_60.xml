@@ -1,0 +1,9 @@
+<Hoc_sinh Ho_ten="Thái đình phi Nhung" Ma_so="HS_60" CMND="010343750" Gioi_tinh="Nữ" Ngay_sinh="5/4/2005" Dia_chi="251 Triệu đình Thúy,Phường 7,Quận Tân bình, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_60" Mat_khau="HS_60">
+  <Lop Ten="Lớp 6.2" Ma_so="LOP_6.2">
+    <Khoi Ten="Khối 6" Ma_so="KHOI_6"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="4/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="3/9/2017" Ly_do="việc nhà"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

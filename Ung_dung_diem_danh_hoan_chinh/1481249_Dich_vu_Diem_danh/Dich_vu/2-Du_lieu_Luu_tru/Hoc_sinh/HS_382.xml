@@ -1,0 +1,12 @@
+<Hoc_sinh Ho_ten="Ngô phạm Hạ" Ma_so="HS_382" CMND="010628728" Gioi_tinh="Nữ" Ngay_sinh="6/2/2003" Dia_chi="503 Tô triệu Anh,Phường 9,Quận Thủ đức, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_382" Mat_khau="HS_382">
+  <Lop Ten="Lớp 8.1" Ma_so="LOP_8.1">
+    <Khoi Ten="Khối 8" Ma_so="KHOI_8"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="2/10/2017" Ly_do="Trốn học"/>
+    <Vang Ngay="1/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="1/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="2/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="5/9/2017" Ly_do="Trốn học"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

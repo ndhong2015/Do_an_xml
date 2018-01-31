@@ -1,0 +1,9 @@
+<Hoc_sinh Ho_ten="Hứa phạm Phước" Ma_so="HS_149" CMND="050342756" Gioi_tinh="Nữ" Ngay_sinh="4/6/2005" Dia_chi="185 Lý ngọc Thiết,Phường 4,Quận 6, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_149" Mat_khau="HS_149">
+  <Lop Ten="Lớp 6.5" Ma_so="LOP_6.5">
+    <Khoi Ten="Khối 6" Ma_so="KHOI_6"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="3/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="5/10/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

@@ -1,0 +1,15 @@
+<Hoc_sinh Ho_ten="Lý thiện Liên" Ma_so="HS_254" CMND="070604534" Gioi_tinh="Nam" Ngay_sinh="4/3/2004" Dia_chi="174 Quách lý kim Hồng,Phường 3,Quận 11, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_254" Mat_khau="HS_254">
+  <Lop Ten="Lớp 7.3" Ma_so="LOP_7.3">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="4/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="7/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="7/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="3/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="6/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="6/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="5/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="1/9/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

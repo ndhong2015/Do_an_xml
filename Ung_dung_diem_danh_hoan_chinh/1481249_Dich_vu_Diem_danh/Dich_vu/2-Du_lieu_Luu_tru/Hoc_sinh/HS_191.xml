@@ -1,0 +1,16 @@
+<Hoc_sinh Ho_ten="Lý gia Khiêm" Ma_so="HS_191" CMND="030615404" Gioi_tinh="Nam" Ngay_sinh="2/4/2004" Dia_chi="328 Cao quyết phi Hùng,Phường 9,Quận Phú nhuận, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_191" Mat_khau="HS_191">
+  <Lop Ten="Lớp 7.1" Ma_so="LOP_7.1">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="7/9/2017" Ly_do="Trốn học"/>
+    <Vang Ngay="3/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="4/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="7/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="3/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="6/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="5/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="4/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="7/9/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

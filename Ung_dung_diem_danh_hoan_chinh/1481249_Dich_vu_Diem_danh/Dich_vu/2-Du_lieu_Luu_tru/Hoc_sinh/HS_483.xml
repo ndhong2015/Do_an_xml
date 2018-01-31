@@ -1,0 +1,8 @@
+<Hoc_sinh Ho_ten="Triệu tiến hồng Châu" Ma_so="HS_483" CMND="080625561" Gioi_tinh="Nam" Ngay_sinh="3/10/2003" Dia_chi="366 Hứa quỳnh thanh Tần,Phường 4,Quận Bình chánh, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_483" Mat_khau="HS_483">
+  <Lop Ten="Lớp 8.4" Ma_so="LOP_8.4">
+    <Khoi Ten="Khối 8" Ma_so="KHOI_8"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="5/9/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

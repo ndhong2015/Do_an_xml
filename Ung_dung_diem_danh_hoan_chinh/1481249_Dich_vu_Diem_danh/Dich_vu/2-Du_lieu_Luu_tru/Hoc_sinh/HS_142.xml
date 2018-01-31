@@ -1,0 +1,9 @@
+<Hoc_sinh Ho_ten="Đổ tiến hiền Thục" Ma_so="HS_142" CMND="040247310" Gioi_tinh="Nam" Ngay_sinh="6/11/2005" Dia_chi="299 Thái văn minh Toàn,Phường 2,Quận 10, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_142" Mat_khau="HS_142">
+  <Lop Ten="Lớp 6.4" Ma_so="LOP_6.4">
+    <Khoi Ten="Khối 6" Ma_so="KHOI_6"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="5/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="3/10/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

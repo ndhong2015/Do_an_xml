@@ -1,0 +1,16 @@
+<Hoc_sinh Ho_ten="Hồ đắc Thùy" Ma_so="HS_334" CMND="040411102" Gioi_tinh="Nam" Ngay_sinh="4/10/2004" Dia_chi="349 Quách lâm gia Trưởng,Phường 3,Quận 13, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_334" Mat_khau="HS_334">
+  <Lop Ten="Lớp 7.5" Ma_so="LOP_7.5">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="5/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="2/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="5/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="4/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="4/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="4/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="3/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="5/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="3/10/2017" Ly_do="việc nhà"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

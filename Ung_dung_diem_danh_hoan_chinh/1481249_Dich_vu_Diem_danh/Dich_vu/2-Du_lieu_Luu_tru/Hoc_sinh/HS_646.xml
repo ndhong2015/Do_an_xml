@@ -1,0 +1,14 @@
+<Hoc_sinh Ho_ten="Nguyễn thành Toàn" Ma_so="HS_646" CMND="080541510" Gioi_tinh="Nữ" Ngay_sinh="6/9/2002" Dia_chi="6 Võ triệu phúc Khiêm,Phường 7,Quận Phú nhuận, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_646" Mat_khau="HS_646">
+  <Lop Ten="Lớp 9.3" Ma_so="LOP_9.3">
+    <Khoi Ten="Khối 9" Ma_so="KHOI_9"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="2/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="5/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="3/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="4/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="2/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="5/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="4/10/2017" Ly_do="việc nhà"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

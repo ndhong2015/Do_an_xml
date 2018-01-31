@@ -1,0 +1,14 @@
+<Hoc_sinh Ho_ten="Huỳnh văn Vàng" Ma_so="HS_210" CMND="010500303" Gioi_tinh="Nữ" Ngay_sinh="4/3/2004" Dia_chi="341 Hồ phúc Trí,Phường 7,Quận Bình thạnh, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_210" Mat_khau="HS_210">
+  <Lop Ten="Lớp 7.1" Ma_so="LOP_7.1">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="7/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="4/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="7/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="4/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="3/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="2/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="7/9/2017" Ly_do="việc nhà"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

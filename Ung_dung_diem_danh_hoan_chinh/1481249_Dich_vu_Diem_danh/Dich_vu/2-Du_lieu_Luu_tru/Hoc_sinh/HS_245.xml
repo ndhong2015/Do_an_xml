@@ -1,0 +1,8 @@
+<Hoc_sinh Ho_ten="Nguyễn kim Liên" Ma_so="HS_245" CMND="080461231" Gioi_tinh="Nữ" Ngay_sinh="2/3/2004" Dia_chi="476 Bùi như Thủy,Phường 9,Quận 5, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_245" Mat_khau="HS_245">
+  <Lop Ten="Lớp 7.2" Ma_so="LOP_7.2">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="7/10/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

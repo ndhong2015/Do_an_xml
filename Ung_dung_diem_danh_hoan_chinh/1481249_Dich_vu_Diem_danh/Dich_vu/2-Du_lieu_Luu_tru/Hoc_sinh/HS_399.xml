@@ -1,0 +1,8 @@
+<Hoc_sinh Ho_ten="Trần an Hoan" Ma_so="HS_399" CMND="040778667" Gioi_tinh="Nữ" Ngay_sinh="2/6/2003" Dia_chi="530 Lê phước hồng Thu,Phường 9,Quận 4, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_399" Mat_khau="HS_399">
+  <Lop Ten="Lớp 8.2" Ma_so="LOP_8.2">
+    <Khoi Ten="Khối 8" Ma_so="KHOI_8"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="2/10/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

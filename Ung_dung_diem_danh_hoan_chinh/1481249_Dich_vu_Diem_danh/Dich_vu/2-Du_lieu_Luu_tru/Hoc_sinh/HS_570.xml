@@ -1,0 +1,10 @@
+<Hoc_sinh Ho_ten="Hứa hữu Vàng" Ma_so="HS_570" CMND="030672084" Gioi_tinh="Nữ" Ngay_sinh="3/5/2002" Dia_chi="380 Nhữ thanh thùy Trang,Phường 10,Quận Phú nhuận, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_570" Mat_khau="HS_570">
+  <Lop Ten="Lớp 9.1" Ma_so="LOP_9.1">
+    <Khoi Ten="Khối 9" Ma_so="KHOI_9"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="5/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="7/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="6/9/2017" Ly_do="việc nhà"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

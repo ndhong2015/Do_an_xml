@@ -1,0 +1,15 @@
+<Hoc_sinh Ho_ten="Nguyễn hà Mỹ" Ma_so="HS_453" CMND="050107003" Gioi_tinh="Nữ" Ngay_sinh="6/9/2003" Dia_chi="367 Nguyễn văn Thạch,Phường 6,Quận 2, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_453" Mat_khau="HS_453">
+  <Lop Ten="Lớp 8.3" Ma_so="LOP_8.3">
+    <Khoi Ten="Khối 8" Ma_so="KHOI_8"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="5/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="6/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="4/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="4/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="1/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="3/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="4/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="2/10/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

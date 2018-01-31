@@ -1,0 +1,10 @@
+<Hoc_sinh Ho_ten="Lê bích Hoan" Ma_so="HS_425" CMND="010271716" Gioi_tinh="Nữ" Ngay_sinh="4/6/2003" Dia_chi="464 Đồng thành phi Hùng,Phường 6,Quận Nhà bè, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_425" Mat_khau="HS_425">
+  <Lop Ten="Lớp 8.2" Ma_so="LOP_8.2">
+    <Khoi Ten="Khối 8" Ma_so="KHOI_8"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="4/9/2017" Ly_do="Trốn học"/>
+    <Vang Ngay="1/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="7/10/2017" Ly_do="Trốn học"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

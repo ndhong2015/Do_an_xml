@@ -1,0 +1,16 @@
+<Hoc_sinh Ho_ten="Đặng viết Thăng" Ma_so="HS_313" CMND="050657361" Gioi_tinh="Nữ" Ngay_sinh="6/9/2004" Dia_chi="449 Trầm thị Lành,Phường 9,Quận 3, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_313" Mat_khau="HS_313">
+  <Lop Ten="Lớp 7.4" Ma_so="LOP_7.4">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="4/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="5/9/2017" Ly_do="Trốn học"/>
+    <Vang Ngay="6/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="1/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="6/9/2017" Ly_do="Trốn học"/>
+    <Vang Ngay="7/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="1/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="4/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="3/10/2017" Ly_do="việc nhà"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

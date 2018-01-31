@@ -1,0 +1,9 @@
+<Hoc_sinh Ho_ten="Trần an đổ Quyên" Ma_so="HS_187" CMND="010712575" Gioi_tinh="Nam" Ngay_sinh="5/11/2004" Dia_chi="418 Phí đình Thiều,Phường 2,Quận 6, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_187" Mat_khau="HS_187">
+  <Lop Ten="Lớp 7.1" Ma_so="LOP_7.1">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="6/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="3/10/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

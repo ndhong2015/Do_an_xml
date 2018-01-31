@@ -1,0 +1,14 @@
+<Hoc_sinh Ho_ten="Phạm triệu Sơn" Ma_so="HS_280" CMND="030212226" Gioi_tinh="Nam" Ngay_sinh="4/3/2004" Dia_chi="64 Đặng thanh tuấn Tài,Phường 3,Quận 11, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_280" Mat_khau="HS_280">
+  <Lop Ten="Lớp 7.3" Ma_so="LOP_7.3">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="4/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="1/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="7/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="3/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="5/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="2/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="4/9/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

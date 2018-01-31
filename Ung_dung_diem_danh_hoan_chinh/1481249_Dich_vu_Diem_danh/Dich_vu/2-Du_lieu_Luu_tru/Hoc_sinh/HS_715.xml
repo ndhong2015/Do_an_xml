@@ -1,0 +1,13 @@
+<Hoc_sinh Ho_ten="Nhữ bảo Tấn" Ma_so="HS_715" CMND="060113000" Gioi_tinh="Nam" Ngay_sinh="7/4/2002" Dia_chi="289 Ngô kiến Châu,Phường 8,Quận 9, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_715" Mat_khau="HS_715">
+  <Lop Ten="Lớp 9.5" Ma_so="LOP_9.5">
+    <Khoi Ten="Khối 9" Ma_so="KHOI_9"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="7/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="2/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="2/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="5/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="6/9/2017" Ly_do="Trốn học"/>
+    <Vang Ngay="5/9/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

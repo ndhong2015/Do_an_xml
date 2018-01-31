@@ -1,0 +1,10 @@
+<Hoc_sinh Ho_ten="Dương thiện Dung" Ma_so="HS_358" CMND="020148456" Gioi_tinh="Nam" Ngay_sinh="2/6/2004" Dia_chi="410 Hà thiện cẩm Thúy,Phường 5,Quận Thủ đức, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_358" Mat_khau="HS_358">
+  <Lop Ten="Lớp 7.5" Ma_so="LOP_7.5">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="5/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="3/9/2017" Ly_do="Trốn học"/>
+    <Vang Ngay="4/9/2017" Ly_do="việc nhà"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

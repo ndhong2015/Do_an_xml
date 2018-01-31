@@ -1,0 +1,16 @@
+<Hoc_sinh Ho_ten="Phi hùng Khoa" Ma_so="HS_138" CMND="060832640" Gioi_tinh="Nữ" Ngay_sinh="2/9/2005" Dia_chi="316 Phạm lâm Tươi,Phường 6,Quận Bình thạnh, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_138" Mat_khau="HS_138">
+  <Lop Ten="Lớp 6.4" Ma_so="LOP_6.4">
+    <Khoi Ten="Khối 6" Ma_so="KHOI_6"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="4/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="2/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="5/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="4/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="3/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="4/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="6/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="3/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="4/10/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

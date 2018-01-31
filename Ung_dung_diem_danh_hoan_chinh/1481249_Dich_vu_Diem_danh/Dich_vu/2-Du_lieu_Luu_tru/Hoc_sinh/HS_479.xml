@@ -1,0 +1,10 @@
+<Hoc_sinh Ho_ten="Ngô triệu Kháng" Ma_so="HS_479" CMND="070762573" Gioi_tinh="Nam" Ngay_sinh="1/1/2003" Dia_chi="531 Nguyên thị Thiền,Phường 10,Quận 11, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_479" Mat_khau="HS_479">
+  <Lop Ten="Lớp 8.4" Ma_so="LOP_8.4">
+    <Khoi Ten="Khối 8" Ma_so="KHOI_8"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="3/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="5/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="4/9/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

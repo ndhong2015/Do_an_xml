@@ -1,0 +1,11 @@
+<Hoc_sinh Ho_ten="Bàng hữu Thiền" Ma_so="HS_384" CMND="030220072" Gioi_tinh="Nữ" Ngay_sinh="5/1/2003" Dia_chi="403 Bàng thị thảo Nguyên,Phường 9,Quận Tân bình, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_384" Mat_khau="HS_384">
+  <Lop Ten="Lớp 8.1" Ma_so="LOP_8.1">
+    <Khoi Ten="Khối 8" Ma_so="KHOI_8"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="1/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="2/10/2017" Ly_do="Trốn học"/>
+    <Vang Ngay="7/10/2017" Ly_do="Trốn học"/>
+    <Vang Ngay="3/10/2017" Ly_do="việc nhà"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

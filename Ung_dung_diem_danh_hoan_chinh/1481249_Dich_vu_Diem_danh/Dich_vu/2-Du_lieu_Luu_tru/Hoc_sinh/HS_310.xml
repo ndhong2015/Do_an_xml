@@ -1,0 +1,9 @@
+<Hoc_sinh Ho_ten="Trường kim Thủy" Ma_so="HS_310" CMND="050861454" Gioi_tinh="Nam" Ngay_sinh="1/6/2004" Dia_chi="143 Võ bích tuấn Khoa,Phường 9,Quận 8, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_310" Mat_khau="HS_310">
+  <Lop Ten="Lớp 7.4" Ma_so="LOP_7.4">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="3/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="4/10/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

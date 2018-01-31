@@ -1,0 +1,16 @@
+<Hoc_sinh Ho_ten="Trần xuân Tươi" Ma_so="HS_652" CMND="020663125" Gioi_tinh="Nam" Ngay_sinh="7/1/2002" Dia_chi="293 Đặng viết trầm Long,Phường 6,Quận Phú nhuận, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_652" Mat_khau="HS_652">
+  <Lop Ten="Lớp 9.4" Ma_so="LOP_9.4">
+    <Khoi Ten="Khối 9" Ma_so="KHOI_9"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="3/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="6/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="2/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="6/10/2017" Ly_do="Trốn học"/>
+    <Vang Ngay="1/9/2017" Ly_do="Trốn học"/>
+    <Vang Ngay="7/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="4/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="7/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="4/9/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

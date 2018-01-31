@@ -1,0 +1,10 @@
+<Hoc_sinh Ho_ten="Nguyễn minh sơn Trúc" Ma_so="HS_744" CMND="020514341" Gioi_tinh="Nữ" Ngay_sinh="3/7/2002" Dia_chi="2 Bạch thanh Nhung,Phường 10,Quận Thủ đức, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_744" Mat_khau="HS_744">
+  <Lop Ten="Lớp 9.6" Ma_so="LOP_9.6">
+    <Khoi Ten="Khối 9" Ma_so="KHOI_9"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="5/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="2/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="2/9/2017" Ly_do="việc nhà"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

@@ -1,0 +1,8 @@
+<Hoc_sinh Ho_ten="Thái tiến thụy Lan" Ma_so="HS_122" CMND="020550623" Gioi_tinh="Nữ" Ngay_sinh="3/8/2005" Dia_chi="161 Tô ngọc ngọc Châu,Phường 10,Quận 13, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_122" Mat_khau="HS_122">
+  <Lop Ten="Lớp 6.4" Ma_so="LOP_6.4">
+    <Khoi Ten="Khối 6" Ma_so="KHOI_6"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="4/9/2017" Ly_do="việc nhà"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

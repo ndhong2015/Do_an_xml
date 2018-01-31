@@ -1,0 +1,9 @@
+<Hoc_sinh Ho_ten="Nguyễn văn Thiên" Ma_so="HS_327" CMND="010821018" Gioi_tinh="Nam" Ngay_sinh="3/8/2004" Dia_chi="67 Bạch hồng Tâm,Phường 6,Quận 5, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_327" Mat_khau="HS_327">
+  <Lop Ten="Lớp 7.5" Ma_so="LOP_7.5">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="4/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="2/9/2017" Ly_do="Trốn học"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

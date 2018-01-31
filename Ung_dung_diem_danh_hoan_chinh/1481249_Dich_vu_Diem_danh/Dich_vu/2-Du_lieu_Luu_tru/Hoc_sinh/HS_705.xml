@@ -1,0 +1,10 @@
+<Hoc_sinh Ho_ten="Trầm tắc Anh" Ma_so="HS_705" CMND="010135863" Gioi_tinh="Nữ" Ngay_sinh="1/10/2002" Dia_chi="570 Võ tắc phi Lan,Phường 3,Quận Nhà bè, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_705" Mat_khau="HS_705">
+  <Lop Ten="Lớp 9.5" Ma_so="LOP_9.5">
+    <Khoi Ten="Khối 9" Ma_so="KHOI_9"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="1/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="1/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="6/10/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

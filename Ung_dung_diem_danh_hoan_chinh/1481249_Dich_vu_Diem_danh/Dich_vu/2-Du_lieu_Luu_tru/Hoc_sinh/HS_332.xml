@@ -1,0 +1,13 @@
+<Hoc_sinh Ho_ten="Bạch hùng Tấn" Ma_so="HS_332" CMND="020350671" Gioi_tinh="Nữ" Ngay_sinh="7/5/2004" Dia_chi="307 Huỳnh lê kim Bảo,Phường 7,Quận 3, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_332" Mat_khau="HS_332">
+  <Lop Ten="Lớp 7.5" Ma_so="LOP_7.5">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="6/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="3/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="5/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="2/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="7/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="6/9/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

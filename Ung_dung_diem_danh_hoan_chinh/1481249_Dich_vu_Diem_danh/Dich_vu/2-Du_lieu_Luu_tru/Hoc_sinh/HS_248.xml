@@ -1,0 +1,9 @@
+<Hoc_sinh Ho_ten="Lê bích thục Hiền" Ma_so="HS_248" CMND="080725123" Gioi_tinh="Nam" Ngay_sinh="3/5/2004" Dia_chi="329 Đổ triệu Lam,Phường 10,Quận 10, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_248" Mat_khau="HS_248">
+  <Lop Ten="Lớp 7.2" Ma_so="LOP_7.2">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="2/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="7/10/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

@@ -1,0 +1,24 @@
+<Phan_cong_Kiem_tra_Tuc_Tuyen 
+  Ma_so="Flowers" 
+  Ten="Flowers">
+  <Danh_sach_Phan_cong>
+    <Phan_cong 
+        Ma_so="1581218" 
+        Ho_ten="Nguyễn Đức Hồng" 
+        Cong_viec="Là trưởng nhóm, thực hiện phân hệ Ban Giám hiệu, Dịch vụ phân hệ Ban Giám hiệu, kiểm tra, tổng hợp và nộp bài tập"/>
+    <Phan_cong
+      Ma_so="1481078" 
+      Ho_ten="Nguyễn Ngọc Vũ" 
+      Cong_viec="Thực hiện phân hệ Giám thị, Dịch vụ phân hệ Giám thị"/>
+  </Danh_sach_Phan_cong>
+  <Phan_cong
+      Ma_so="1588218" 
+      Ho_ten="Vũ Thị Xuân Lan" 
+      Cong_viec="Thực hiện phân hệ Học sinh, Dịch vụ phân hệ Học sinh"/>
+  </Danh_sach_Phan_cong>
+  <Phan_cong
+      Ma_so="1481249" 
+      Ho_ten="Trần Thị Phượng" 
+      Cong_viec="Thực hiện và kiểm tra các phân hệ, tổng hợp dịch vụ, hỗ trợ viết phần Điểm danh"/>
+  </Danh_sach_Phan_cong>
+</Phan_cong_Kiem_tra_Tuc_Tuyen>

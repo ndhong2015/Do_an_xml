@@ -1,0 +1,16 @@
+<Hoc_sinh Ho_ten="Lý bảo đổ Quyên" Ma_so="HS_480" CMND="070501400" Gioi_tinh="Nam" Ngay_sinh="3/4/2003" Dia_chi="9 Lâm hùng Hiền,Phường 6,Quận 5, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_480" Mat_khau="HS_480">
+  <Lop Ten="Lớp 8.4" Ma_so="LOP_8.4">
+    <Khoi Ten="Khối 8" Ma_so="KHOI_8"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="2/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="2/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="3/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="3/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="3/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="6/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="2/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="2/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="5/10/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

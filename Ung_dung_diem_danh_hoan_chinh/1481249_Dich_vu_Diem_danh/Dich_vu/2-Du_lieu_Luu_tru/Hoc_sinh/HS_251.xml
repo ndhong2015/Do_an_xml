@@ -1,0 +1,13 @@
+<Hoc_sinh Ho_ten="Triệu kim thục Phán" Ma_so="HS_251" CMND="080564283" Gioi_tinh="Nam" Ngay_sinh="2/3/2004" Dia_chi="550 Trang chiến Tấn,Phường 5,Quận Phú nhuận, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_251" Mat_khau="HS_251">
+  <Lop Ten="Lớp 7.2" Ma_so="LOP_7.2">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="1/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="6/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="3/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="7/10/2017" Ly_do="Trốn học"/>
+    <Vang Ngay="6/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="5/9/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

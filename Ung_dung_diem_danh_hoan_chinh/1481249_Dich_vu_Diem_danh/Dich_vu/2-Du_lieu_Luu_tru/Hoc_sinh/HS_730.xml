@@ -1,0 +1,12 @@
+<Hoc_sinh Ho_ten="Nguyễn quyết Hoa" Ma_so="HS_730" CMND="070813410" Gioi_tinh="Nam" Ngay_sinh="2/9/2002" Dia_chi="560 Huỳnh duy Giảng,Phường 4,Quận Tân bình, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_730" Mat_khau="HS_730">
+  <Lop Ten="Lớp 9.6" Ma_so="LOP_9.6">
+    <Khoi Ten="Khối 9" Ma_so="KHOI_9"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="5/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="5/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="5/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="3/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="7/9/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

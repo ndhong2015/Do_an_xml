@@ -1,0 +1,10 @@
+<Hoc_sinh Ho_ten="Quách xuân Hạnh" Ma_so="HS_266" CMND="050800461" Gioi_tinh="Nữ" Ngay_sinh="7/1/2004" Dia_chi="202 Nguyễn văn sơn Hà,Phường 1,Quận 11, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_266" Mat_khau="HS_266">
+  <Lop Ten="Lớp 7.3" Ma_so="LOP_7.3">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="3/9/2017" Ly_do="Trốn học"/>
+    <Vang Ngay="2/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="4/9/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

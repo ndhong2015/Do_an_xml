@@ -1,0 +1,10 @@
+<Hoc_sinh Ho_ten="Phí thành Hạnh" Ma_so="HS_17" CMND="050186642" Gioi_tinh="Nam" Ngay_sinh="4/10/2005" Dia_chi="280 Đặng bích Tấn,Phường 2,Quận Tân bình, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_17" Mat_khau="HS_17">
+  <Lop Ten="Lớp 6.1" Ma_so="LOP_6.1">
+    <Khoi Ten="Khối 6" Ma_so="KHOI_6"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="3/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="2/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="5/10/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

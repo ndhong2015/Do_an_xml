@@ -1,0 +1,11 @@
+<Hoc_sinh Ho_ten="Phạm minh Khóa" Ma_so="HS_533" CMND="060322520" Gioi_tinh="Nam" Ngay_sinh="7/2/2003" Dia_chi="476 Phùng văn kim Bảo,Phường 10,Quận 13, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_533" Mat_khau="HS_533">
+  <Lop Ten="Lớp 8.5" Ma_so="LOP_8.5">
+    <Khoi Ten="Khối 8" Ma_so="KHOI_8"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="6/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="1/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="2/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="5/10/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

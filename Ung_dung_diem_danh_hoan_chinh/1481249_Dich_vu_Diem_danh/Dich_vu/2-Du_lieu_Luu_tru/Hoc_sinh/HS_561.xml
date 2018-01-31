@@ -1,0 +1,8 @@
+<Hoc_sinh Ho_ten="Huỳnh đình hải Liên" Ma_so="HS_561" CMND="040607112" Gioi_tinh="Nam" Ngay_sinh="4/11/2002" Dia_chi="488 Phạm sơn Tài,Phường 5,Quận 6, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_561" Mat_khau="HS_561">
+  <Lop Ten="Lớp 9.1" Ma_so="LOP_9.1">
+    <Khoi Ten="Khối 9" Ma_so="KHOI_9"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="6/10/2017" Ly_do="việc nhà"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

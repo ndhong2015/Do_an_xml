@@ -1,0 +1,9 @@
+<Hoc_sinh Ho_ten="Hà kiên Bắc" Ma_so="HS_159" CMND="040373232" Gioi_tinh="Nam" Ngay_sinh="1/10/2005" Dia_chi="145 Trần thiện Quyền,Phường 3,Quận Thủ đức, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_159" Mat_khau="HS_159">
+  <Lop Ten="Lớp 6.5" Ma_so="LOP_6.5">
+    <Khoi Ten="Khối 6" Ma_so="KHOI_6"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="7/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="6/9/2017" Ly_do="việc nhà"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

@@ -1,0 +1,8 @@
+<Hoc_sinh Ho_ten="Trầm nam Hồng" Ma_so="HS_623" CMND="070120241" Gioi_tinh="Nam" Ngay_sinh="1/2/2002" Dia_chi="75 Bạch lê liên Trúc,Phường 7,Quận 4, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_623" Mat_khau="HS_623">
+  <Lop Ten="Lớp 9.3" Ma_so="LOP_9.3">
+    <Khoi Ten="Khối 9" Ma_so="KHOI_9"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="1/10/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

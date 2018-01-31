@@ -1,0 +1,11 @@
+<Hoc_sinh Ho_ten="Liên quyết đổ Quyên" Ma_so="HS_41" CMND="060114156" Gioi_tinh="Nữ" Ngay_sinh="3/3/2005" Dia_chi="556 Trần thị Viễn,Phường 10,Quận 7, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_41" Mat_khau="HS_41">
+  <Lop Ten="Lớp 6.2" Ma_so="LOP_6.2">
+    <Khoi Ten="Khối 6" Ma_so="KHOI_6"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="7/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="7/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="2/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="3/9/2017" Ly_do="việc nhà"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

@@ -1,0 +1,14 @@
+<Hoc_sinh Ho_ten="Chu ngọc phúc Khiêm" Ma_so="HS_752" CMND="080768611" Gioi_tinh="Nam" Ngay_sinh="4/8/2002" Dia_chi="398 Cao thanh sơn Hà,Phường 1,Quận Nhà bè, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_752" Mat_khau="HS_752">
+  <Lop Ten="Lớp 9.6" Ma_so="LOP_9.6">
+    <Khoi Ten="Khối 9" Ma_so="KHOI_9"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="7/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="3/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="5/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="5/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="4/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="1/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="3/10/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

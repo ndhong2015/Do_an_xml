@@ -1,0 +1,8 @@
+<Hoc_sinh Ho_ten="Lý ngọc thảo Trúc" Ma_so="HS_341" CMND="020611146" Gioi_tinh="Nam" Ngay_sinh="7/5/2004" Dia_chi="377 Ôn ngọc Bảo,Phường 6,Quận 13, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_341" Mat_khau="HS_341">
+  <Lop Ten="Lớp 7.5" Ma_so="LOP_7.5">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="7/10/2017" Ly_do="việc nhà"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

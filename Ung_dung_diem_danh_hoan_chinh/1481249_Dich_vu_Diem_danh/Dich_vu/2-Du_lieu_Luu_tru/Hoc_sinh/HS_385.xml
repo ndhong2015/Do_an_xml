@@ -1,0 +1,11 @@
+<Hoc_sinh Ho_ten="Trầm hồng trang Đài" Ma_so="HS_385" CMND="020304870" Gioi_tinh="Nữ" Ngay_sinh="5/9/2003" Dia_chi="580 Nguyễn an hảo Tâm,Phường 4,Quận 11, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_385" Mat_khau="HS_385">
+  <Lop Ten="Lớp 8.1" Ma_so="LOP_8.1">
+    <Khoi Ten="Khối 8" Ma_so="KHOI_8"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="4/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="4/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="3/9/2017" Ly_do="Trốn học"/>
+    <Vang Ngay="1/10/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

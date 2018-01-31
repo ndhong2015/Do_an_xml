@@ -1,0 +1,13 @@
+<Hoc_sinh Ho_ten="Nguyễn thị Nam" Ma_so="HS_550" CMND="030244263" Gioi_tinh="Nữ" Ngay_sinh="5/4/2002" Dia_chi="326 Hồ triệu tuấn Khoa,Phường 6,Quận Phú nhuận, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_550" Mat_khau="HS_550">
+  <Lop Ten="Lớp 9.1" Ma_so="LOP_9.1">
+    <Khoi Ten="Khối 9" Ma_so="KHOI_9"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="1/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="6/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="7/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="2/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="2/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="2/10/2017" Ly_do="Trốn học"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

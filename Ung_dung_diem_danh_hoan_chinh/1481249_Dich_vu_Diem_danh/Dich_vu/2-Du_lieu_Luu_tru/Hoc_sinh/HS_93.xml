@@ -1,0 +1,15 @@
+<Hoc_sinh Ho_ten="Phùng thị bình Minh" Ma_so="HS_93" CMND="040117123" Gioi_tinh="Nam" Ngay_sinh="4/9/2005" Dia_chi="395 Dương ngọc Mai,Phường 8,Quận 6, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_93" Mat_khau="HS_93">
+  <Lop Ten="Lớp 6.3" Ma_so="LOP_6.3">
+    <Khoi Ten="Khối 6" Ma_so="KHOI_6"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="2/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="7/10/2017" Ly_do="Trốn học"/>
+    <Vang Ngay="5/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="6/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="6/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="3/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="7/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="5/9/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

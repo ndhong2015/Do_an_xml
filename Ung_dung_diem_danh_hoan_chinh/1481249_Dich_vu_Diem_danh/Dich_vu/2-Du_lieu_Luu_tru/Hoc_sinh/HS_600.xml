@@ -1,0 +1,8 @@
+<Hoc_sinh Ho_ten="Trang thị Nguyên" Ma_so="HS_600" CMND="040210585" Gioi_tinh="Nam" Ngay_sinh="7/6/2002" Dia_chi="484 Nguyên đình chiến Thắng,Phường 10,Quận 7, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_600" Mat_khau="HS_600">
+  <Lop Ten="Lớp 9.2" Ma_so="LOP_9.2">
+    <Khoi Ten="Khối 9" Ma_so="KHOI_9"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="6/9/2017" Ly_do="việc nhà"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

@@ -1,0 +1,11 @@
+<Hoc_sinh Ho_ten="Hứa gia Táo" Ma_so="HS_118" CMND="030227541" Gioi_tinh="Nữ" Ngay_sinh="4/1/2005" Dia_chi="471 Triệu hữu thục Mai,Phường 8,Quận 4, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_118" Mat_khau="HS_118">
+  <Lop Ten="Lớp 6.4" Ma_so="LOP_6.4">
+    <Khoi Ten="Khối 6" Ma_so="KHOI_6"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="6/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="5/9/2017" Ly_do="Trốn học"/>
+    <Vang Ngay="2/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="6/10/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

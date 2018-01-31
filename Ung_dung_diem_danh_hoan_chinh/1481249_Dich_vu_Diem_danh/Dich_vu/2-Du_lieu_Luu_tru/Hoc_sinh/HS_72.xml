@@ -1,0 +1,10 @@
+<Hoc_sinh Ho_ten="Mai kỳ Tế" Ma_so="HS_72" CMND="030254125" Gioi_tinh="Nữ" Ngay_sinh="7/6/2005" Dia_chi="63 Bành xuân trang Đài,Phường 3,Quận Thủ đức, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_72" Mat_khau="HS_72">
+  <Lop Ten="Lớp 6.3" Ma_so="LOP_6.3">
+    <Khoi Ten="Khối 6" Ma_so="KHOI_6"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="2/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="7/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="5/9/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

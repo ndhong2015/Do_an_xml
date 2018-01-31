@@ -1,0 +1,44 @@
+﻿@using System.Xml;
+@{
+    // *********Khởi động Dữ liệu nguồn/nội bộ ********
+    var Du_lieu =XL_LUU_TRU.Doc_Du_lieu();
+
+    //*********Khai báo Biến/Đối tượng :Nhận & Kết quả *********
+    var Ma_so_Xu_ly = ""; // Biến Nhận
+    var Chuoi_Kq = ""; // Biến Kêt quả
+
+    //*********Xử lý Nhập liệu Nếu có + Tạo Kết quả Nếu Hợp lệ  *********
+    if (Request["Ma_so_Xu_ly"] != null)
+    {
+        Ma_so_Xu_ly = Request["Ma_so_Xu_ly"];// Nhận Tham số 
+        var Bo_doc = new StreamReader(Request.InputStream);
+        var Chuoi_Nhan = Bo_doc.ReadToEnd(); // Nhận Đối tượng 
+        if (Ma_so_Xu_ly == "KHOI_DONG_DU_LIEU_BAN_GIAM_HIEU")
+        {
+            var Du_lieu_Kq = XL_NGHIEP_VU.Tao_Du_lieu_cua_Ban_giam_hieu(Du_lieu);
+            Chuoi_Kq = Du_lieu_Kq.OuterXml;
+        }
+        else if (Ma_so_Xu_ly == "KHOI_DONG_DU_LIEU_HOC_SINH")
+        {
+            var Du_lieu_Kq = XL_NGHIEP_VU.Tao_Du_lieu_cua_Hoc_sinh(Du_lieu);
+            Chuoi_Kq = Du_lieu_Kq.OuterXml;
+        }
+        else if (Ma_so_Xu_ly == "KHOI_DONG_DU_LIEU_GIAM_THI")
+        {
+            var Du_lieu_Kq = XL_NGHIEP_VU.Tao_Du_lieu_cua_Giam_thi(Du_lieu);
+            Chuoi_Kq = Du_lieu_Kq.OuterXml;
+        }
+        else if (Ma_so_Xu_ly == "GHI_DIEM_DANH")
+        {
+            var Ma_so_Hoc_sinh = Request["Ma_so_Hoc_sinh"];
+            var Hoc_sinh = XL_NGHIEP_VU.Tim_Hoc_sinh(Ma_so_Hoc_sinh, Du_lieu);
+            var Vang = XL_NGHIEP_VU.Tao_Doi_tuong_Con(Chuoi_Nhan, Hoc_sinh);
+            Chuoi_Kq = XL_LUU_TRU.Ghi_Diem_danh(Hoc_sinh, Vang);
+
+        }
+    }
+    // Xử lý trả Kết quả
+    Response.Write(Chuoi_Kq);
+}
+
+

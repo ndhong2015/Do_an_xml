@@ -1,0 +1,13 @@
+<Hoc_sinh Ho_ten="Đinh thị quyết Thắng" Ma_so="HS_774" CMND="050336780" Gioi_tinh="Nam" Ngay_sinh="6/9/2002" Dia_chi="319 Lê nam Nguyên,Phường 10,Quận 5, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_774" Mat_khau="HS_774">
+  <Lop Ten="Lớp 9.5" Ma_so="LOP_9.5">
+    <Khoi Ten="Khối 9" Ma_so="KHOI_9"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="7/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="5/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="1/10/2017" Ly_do="Trốn học"/>
+    <Vang Ngay="5/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="4/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="6/10/2017" Ly_do="việc nhà"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

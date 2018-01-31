@@ -1,0 +1,10 @@
+<Hoc_sinh Ho_ten="Lý hửu Thiện" Ma_so="HS_601" CMND="010210224" Gioi_tinh="Nam" Ngay_sinh="1/6/2002" Dia_chi="446 Lý hùng bình Minh,Phường 6,Quận Phú nhuận, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_601" Mat_khau="HS_601">
+  <Lop Ten="Lớp 9.2" Ma_so="LOP_9.2">
+    <Khoi Ten="Khối 9" Ma_so="KHOI_9"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="2/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="1/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="1/9/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

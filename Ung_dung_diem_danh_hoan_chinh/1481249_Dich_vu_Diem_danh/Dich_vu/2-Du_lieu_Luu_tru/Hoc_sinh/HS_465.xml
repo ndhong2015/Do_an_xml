@@ -1,0 +1,9 @@
+<Hoc_sinh Ho_ten="Trần quyết Lam" Ma_so="HS_465" CMND="040584652" Gioi_tinh="Nam" Ngay_sinh="5/1/2003" Dia_chi="221 Hứa văn Hà,Phường 8,Quận Phú nhuận, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_465" Mat_khau="HS_465">
+  <Lop Ten="Lớp 8.3" Ma_so="LOP_8.3">
+    <Khoi Ten="Khối 8" Ma_so="KHOI_8"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="5/9/2017" Ly_do="Trốn học"/>
+    <Vang Ngay="1/10/2017" Ly_do="Trốn học"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

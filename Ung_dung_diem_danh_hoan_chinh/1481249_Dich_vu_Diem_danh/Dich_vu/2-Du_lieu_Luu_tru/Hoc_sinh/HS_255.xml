@@ -1,0 +1,14 @@
+<Hoc_sinh Ho_ten="Cao phúc minh Lan" Ma_so="HS_255" CMND="040187088" Gioi_tinh="Nam" Ngay_sinh="2/2/2004" Dia_chi="363 Đổ văn bích Châu,Phường 9,Quận 10, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_255" Mat_khau="HS_255">
+  <Lop Ten="Lớp 7.3" Ma_so="LOP_7.3">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="4/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="5/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="1/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="3/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="7/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="5/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="6/10/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

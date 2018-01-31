@@ -1,0 +1,8 @@
+<Hoc_sinh Ho_ten="Triệu thành Phước" Ma_so="HS_22" CMND="070165771" Gioi_tinh="Nam" Ngay_sinh="2/11/2005" Dia_chi="383 Bạch văn Trí,Phường 8,Quận 8, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_22" Mat_khau="HS_22">
+  <Lop Ten="Lớp 6.1" Ma_so="LOP_6.1">
+    <Khoi Ten="Khối 6" Ma_so="KHOI_6"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="1/10/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

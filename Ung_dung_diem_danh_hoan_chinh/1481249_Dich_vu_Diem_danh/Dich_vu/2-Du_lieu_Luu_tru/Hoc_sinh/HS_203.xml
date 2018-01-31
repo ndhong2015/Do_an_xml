@@ -1,0 +1,15 @@
+<Hoc_sinh Ho_ten="Cao lê Hạnh" Ma_so="HS_203" CMND="050356105" Gioi_tinh="Nữ" Ngay_sinh="7/10/2004" Dia_chi="531 Lê triệu phi Hùng,Phường 1,Quận Tân bình, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_203" Mat_khau="HS_203">
+  <Lop Ten="Lớp 7.1" Ma_so="LOP_7.1">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="4/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="4/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="1/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="2/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="5/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="3/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="4/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="2/10/2017" Ly_do="việc nhà"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

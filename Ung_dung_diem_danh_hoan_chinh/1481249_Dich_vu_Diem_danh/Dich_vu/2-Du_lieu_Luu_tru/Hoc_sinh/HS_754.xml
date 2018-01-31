@@ -1,0 +1,10 @@
+<Hoc_sinh Ho_ten="Mai thị Quyên" Ma_so="HS_754" CMND="050483088" Gioi_tinh="Nữ" Ngay_sinh="5/10/2002" Dia_chi="28 Lý sơn bảo Châu,Phường 4,Quận Bình chánh, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_754" Mat_khau="HS_754">
+  <Lop Ten="Lớp 9.6" Ma_so="LOP_9.6">
+    <Khoi Ten="Khối 9" Ma_so="KHOI_9"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="6/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="6/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="1/9/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

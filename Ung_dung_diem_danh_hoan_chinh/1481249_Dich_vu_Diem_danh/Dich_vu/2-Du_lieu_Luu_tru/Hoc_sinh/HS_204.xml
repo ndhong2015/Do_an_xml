@@ -1,0 +1,11 @@
+<Hoc_sinh Ho_ten="Phi văn Thạch" Ma_so="HS_204" CMND="050503034" Gioi_tinh="Nữ" Ngay_sinh="5/5/2004" Dia_chi="401 Lê ngọc thụy Lan,Phường 4,Quận Nhà bè, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_204" Mat_khau="HS_204">
+  <Lop Ten="Lớp 7.1" Ma_so="LOP_7.1">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="7/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="1/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="6/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="3/10/2017" Ly_do="việc nhà"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

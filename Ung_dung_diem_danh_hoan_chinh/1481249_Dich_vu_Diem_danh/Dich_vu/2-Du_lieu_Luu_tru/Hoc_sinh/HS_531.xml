@@ -1,0 +1,14 @@
+<Hoc_sinh Ho_ten="Hà gia Tạo" Ma_so="HS_531" CMND="020611205" Gioi_tinh="Nữ" Ngay_sinh="1/3/2003" Dia_chi="467 Dương phước Thạch,Phường 4,Quận Thủ đức, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_531" Mat_khau="HS_531">
+  <Lop Ten="Lớp 8.5" Ma_so="LOP_8.5">
+    <Khoi Ten="Khối 8" Ma_so="KHOI_8"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="5/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="3/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="5/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="1/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="2/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="3/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="7/10/2017" Ly_do="việc nhà"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

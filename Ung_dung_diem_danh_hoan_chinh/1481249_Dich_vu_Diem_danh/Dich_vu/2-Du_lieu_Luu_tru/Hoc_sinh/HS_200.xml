@@ -1,0 +1,8 @@
+<Hoc_sinh Ho_ten="Lâm tiến Thu" Ma_so="HS_200" CMND="040741112" Gioi_tinh="Nữ" Ngay_sinh="2/1/2004" Dia_chi="549 Mai đắc Tân,Phường 9,Quận 10, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_200" Mat_khau="HS_200">
+  <Lop Ten="Lớp 7.1" Ma_so="LOP_7.1">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="1/9/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

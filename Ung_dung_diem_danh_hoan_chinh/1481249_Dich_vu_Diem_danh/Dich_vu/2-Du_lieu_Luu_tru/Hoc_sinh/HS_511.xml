@@ -1,0 +1,12 @@
+<Hoc_sinh Ho_ten="Nguyễn thị hảo Tâm" Ma_so="HS_511" CMND="070463673" Gioi_tinh="Nữ" Ngay_sinh="5/6/2003" Dia_chi="545 Lý đắc Đài,Phường 10,Quận Bình tân, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_511" Mat_khau="HS_511">
+  <Lop Ten="Lớp 8.5" Ma_so="LOP_8.5">
+    <Khoi Ten="Khối 8" Ma_so="KHOI_8"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="6/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="3/9/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="6/10/2017" Ly_do="việc nhà"/>
+    <Vang Ngay="1/9/2017" Ly_do="Trốn học"/>
+    <Vang Ngay="3/9/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

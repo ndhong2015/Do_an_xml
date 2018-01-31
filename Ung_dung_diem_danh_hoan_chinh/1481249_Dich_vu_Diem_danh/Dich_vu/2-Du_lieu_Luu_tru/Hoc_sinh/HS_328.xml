@@ -1,0 +1,12 @@
+<Hoc_sinh Ho_ten="Kiều sơn Viễn" Ma_so="HS_328" CMND="020220156" Gioi_tinh="Nữ" Ngay_sinh="1/11/2004" Dia_chi="364 Nguyên kiên phi Sơn,Phường 4,Quận Bình thạnh, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_328" Mat_khau="HS_328">
+  <Lop Ten="Lớp 7.5" Ma_so="LOP_7.5">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="5/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="1/10/2017" Ly_do="Trốn học"/>
+    <Vang Ngay="4/10/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="1/9/2017" Ly_do="Không lý do"/>
+    <Vang Ngay="4/10/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

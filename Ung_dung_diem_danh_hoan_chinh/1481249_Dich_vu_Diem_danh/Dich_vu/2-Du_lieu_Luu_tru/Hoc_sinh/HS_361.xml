@@ -1,0 +1,8 @@
+<Hoc_sinh Ho_ten="Ngô ngọc Thạch" Ma_so="HS_361" CMND="030282275" Gioi_tinh="Nam" Ngay_sinh="1/1/2004" Dia_chi="344 Trường lâm ngọc Dung,Phường 6,Quận 1, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_361" Mat_khau="HS_361">
+  <Lop Ten="Lớp 7.5" Ma_so="LOP_7.5">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="6/9/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>

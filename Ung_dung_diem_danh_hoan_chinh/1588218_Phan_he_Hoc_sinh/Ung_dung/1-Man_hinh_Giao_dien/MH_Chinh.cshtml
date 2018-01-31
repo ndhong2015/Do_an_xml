@@ -1,0 +1,48 @@
+﻿@using System.Xml;
+@{
+    //****************** Xử lý Bảo mật  **********
+    var Hoc_sinh = (XmlElement)Session["Hoc_sinh_Dang_nhap"];
+    if (Hoc_sinh == null)
+    {
+        Response.Write("Người dùng chưa Đăng nhập");
+        Response.End();
+    }
+    //****************** Khởi động Dữ liệu Nguồn-Nội bộ **********
+    var Du_lieu = XL_LUU_TRU.Doc_Du_lieu();
+    var Quan_ly = (XmlElement)Du_lieu.GetElementsByTagName("Quan_ly")[0];
+    var Danh_sach_Hoc_sinh = (XmlElement)Du_lieu.GetElementsByTagName("Danh_sach_Hoc_sinh")[0];
+
+    //******************* Khai báo Biến  ********************
+    var Chuoi_HTML_Hoc_sinh = ""; // Biến Kết quả
+    var Chuoi_HTML_Thong_bao = "";
+    //******************* Kết xuất  **********
+    Chuoi_HTML_Hoc_sinh = XL_THE_HIEN.Tao_Chuoi_HTML_Hoc_sinh(Hoc_sinh);
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+<body style="font-family:Arial;width:100%;box-sizing:border-box;
+              margin:0px;padding:0px;overflow-x:hidden" class="container-fluid">
+
+    <div class="CUA_SO_PET" style="background-color:aliceblue;margin:10px">
+        <div class="btn btn-outline-primary" style="background-color:white;color:blue">
+            Công nghệ Xml và Ứng dụng  - Ứng dụng Giảng dạy - Tháng 1/2018
+            <br />  @Quan_ly.GetAttribute("Ten") - Phân hệ Học sinh
+        </div>
+    </div>    
+    <div class="CUA_SO_KET_QUA" style="background-color:white;margin:10px">
+        @Html.Raw(Chuoi_HTML_Thong_bao)
+        @Html.Raw(Chuoi_HTML_Hoc_sinh)
+    </div>
+</body>
+</html>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>

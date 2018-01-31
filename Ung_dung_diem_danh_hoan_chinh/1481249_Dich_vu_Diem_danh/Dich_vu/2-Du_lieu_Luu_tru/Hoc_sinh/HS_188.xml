@@ -1,0 +1,10 @@
+<Hoc_sinh Ho_ten="Nguyễn thế hải Bích" Ma_so="HS_188" CMND="070172637" Gioi_tinh="Nam" Ngay_sinh="3/5/2004" Dia_chi="231 Lý thế Nguyên,Phường 7,Quận 3, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_188" Mat_khau="HS_188">
+  <Lop Ten="Lớp 7.1" Ma_so="LOP_7.1">
+    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
+  </Lop>
+  <Danh_sach_Vang>
+    <Vang Ngay="7/9/2017" Ly_do="Trốn học"/>
+    <Vang Ngay="2/9/2017" Ly_do="Trốn học"/>
+    <Vang Ngay="7/9/2017" Ly_do="Không lý do"/>
+  </Danh_sach_Vang>
+</Hoc_sinh>
