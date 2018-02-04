@@ -1,0 +1,5 @@
+<Banh_rong_bien Ma_so="B_4" Ten="Snack rong biển Tao Kae Noi Big Sheet vị truyền thống 4g" Don_gia_Ban="6000" Don_gia_Nhap="4000">
+    <Nhom_Banh_rong_bien Ma_so="VI_TRUYEN_THONG" Ten="Vị truyền thống" />
+    <Danh_sach_Ban_hang />
+    <Danh_sach_Nhap_hang/>
+</Banh_rong_bien>

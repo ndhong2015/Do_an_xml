@@ -1,0 +1,5 @@
+<Banh_rong_bien Ma_so="B_7" Ten="Snack rong biển Tao Kae Noi vị cay 15g" Don_gia_Ban="20000" Don_gia_Nhap="10000">
+    <Nhom_Banh_rong_bien Ma_so="VI_CAY" Ten="Vị cay" />
+    <Danh_sach_Ban_hang />
+    <Danh_sach_Nhap_hang/>
+</Banh_rong_bien>
