@@ -1,9 +1,0 @@
-<Hoc_sinh Ho_ten="Hoa cao Táo" Ma_so="HS_475" CMND="060203160" Gioi_tinh="Nữ" Ngay_sinh="4/11/2003" Dia_chi="143 Lâm thiện Hà,Phường 8,Quận 13, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_475" Mat_khau="HS_475">
-  <Lop Ten="Lớp 8.4" Ma_so="LOP_8.4">
-    <Khoi Ten="Khối 8" Ma_so="KHOI_8"/>
-  </Lop>
-  <Danh_sach_Vang>
-    <Vang Ngay="5/9/2017" Ly_do="Trốn học"/>
-    <Vang Ngay="2/9/2017" Ly_do="Không lý do"/>
-  </Danh_sach_Vang>
-</Hoc_sinh>

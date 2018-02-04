@@ -1,8 +1,0 @@
-<Hoc_sinh Ho_ten="Phạm văn Viễn" Ma_so="HS_562" CMND="070116503" Gioi_tinh="Nam" Ngay_sinh="7/10/2002" Dia_chi="313 Triệu bảo Khuê,Phường 8,Quận 11, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_562" Mat_khau="HS_562">
-  <Lop Ten="Lớp 9.1" Ma_so="LOP_9.1">
-    <Khoi Ten="Khối 9" Ma_so="KHOI_9"/>
-  </Lop>
-  <Danh_sach_Vang>
-    <Vang Ngay="1/9/2017" Ly_do="Không lý do"/>
-  </Danh_sach_Vang>
-</Hoc_sinh>

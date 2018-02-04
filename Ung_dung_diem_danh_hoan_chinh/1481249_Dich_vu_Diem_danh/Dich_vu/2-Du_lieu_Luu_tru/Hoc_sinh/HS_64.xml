@@ -1,8 +1,0 @@
-<Hoc_sinh Ho_ten="Nguyên hữu Dũng" Ma_so="HS_64" CMND="010232462" Gioi_tinh="Nam" Ngay_sinh="5/11/2005" Dia_chi="26 Bàng bùi thụy Lan,Phường 6,Quận 11, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_64" Mat_khau="HS_64">
-  <Lop Ten="Lớp 6.2" Ma_so="LOP_6.2">
-    <Khoi Ten="Khối 6" Ma_so="KHOI_6"/>
-  </Lop>
-  <Danh_sach_Vang>
-    <Vang Ngay="4/9/2017" Ly_do="Không lý do"/>
-  </Danh_sach_Vang>
-</Hoc_sinh>

@@ -1,8 +1,0 @@
-<Hoc_sinh Ho_ten="Hoàng văn kiên Trường" Ma_so="HS_326" CMND="040775573" Gioi_tinh="Nam" Ngay_sinh="2/1/2004" Dia_chi="421 Cao triệu Long,Phường 8,Quận Bình thạnh, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_326" Mat_khau="HS_326">
-  <Lop Ten="Lớp 7.4" Ma_so="LOP_7.4">
-    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
-  </Lop>
-  <Danh_sach_Vang>
-    <Vang Ngay="2/9/2017" Ly_do="việc nhà"/>
-  </Danh_sach_Vang>
-</Hoc_sinh>

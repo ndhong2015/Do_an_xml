@@ -1,9 +1,0 @@
-<Hoc_sinh Ho_ten="Hà tiến Thủy" Ma_so="HS_29" CMND="050185207" Gioi_tinh="Nữ" Ngay_sinh="7/11/2005" Dia_chi="353 Trầm an Tạo,Phường 7,Quận 3, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_29" Mat_khau="HS_29">
-  <Lop Ten="Lớp 6.1" Ma_so="LOP_6.1">
-    <Khoi Ten="Khối 6" Ma_so="KHOI_6"/>
-  </Lop>
-  <Danh_sach_Vang>
-    <Vang Ngay="2/10/2017" Ly_do="Không lý do"/>
-    <Vang Ngay="4/9/2017" Ly_do="Không lý do"/>
-  </Danh_sach_Vang>
-</Hoc_sinh>

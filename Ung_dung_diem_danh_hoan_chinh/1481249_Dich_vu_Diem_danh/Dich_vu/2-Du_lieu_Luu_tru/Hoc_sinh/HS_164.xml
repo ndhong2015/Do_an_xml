@@ -1,9 +1,0 @@
-<Hoc_sinh Ho_ten="Lê duy liên Trúc" Ma_so="HS_164" CMND="060430025" Gioi_tinh="Nam" Ngay_sinh="6/7/2005" Dia_chi="484 Lê đình ngọc Mai,Phường 9,Quận 13, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_164" Mat_khau="HS_164">
-  <Lop Ten="Lớp 6.5" Ma_so="LOP_6.5">
-    <Khoi Ten="Khối 6" Ma_so="KHOI_6"/>
-  </Lop>
-  <Danh_sach_Vang>
-    <Vang Ngay="3/10/2017" Ly_do="Không lý do"/>
-    <Vang Ngay="4/9/2017" Ly_do="Không lý do"/>
-  </Danh_sach_Vang>
-</Hoc_sinh>

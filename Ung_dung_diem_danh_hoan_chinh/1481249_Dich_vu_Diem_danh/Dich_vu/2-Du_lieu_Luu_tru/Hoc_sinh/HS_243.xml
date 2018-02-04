@@ -1,8 +1,0 @@
-<Hoc_sinh Ho_ten="Phí lê xuân Trường" Ma_so="HS_243" CMND="080322254" Gioi_tinh="Nam" Ngay_sinh="5/7/2004" Dia_chi="26 Hoa triệu Long,Phường 7,Quận Bình tân, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_243" Mat_khau="HS_243">
-  <Lop Ten="Lớp 7.2" Ma_so="LOP_7.2">
-    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
-  </Lop>
-  <Danh_sach_Vang>
-    <Vang Ngay="6/10/2017" Ly_do="Không lý do"/>
-  </Danh_sach_Vang>
-</Hoc_sinh>

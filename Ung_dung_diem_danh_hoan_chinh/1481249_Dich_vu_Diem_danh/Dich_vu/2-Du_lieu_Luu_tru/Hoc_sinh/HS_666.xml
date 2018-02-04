@@ -1,8 +1,0 @@
-<Hoc_sinh Ho_ten="Nguyễn thiện Toàn" Ma_so="HS_666" CMND="060342326" Gioi_tinh="Nữ" Ngay_sinh="5/5/2002" Dia_chi="591 Hà kỳ trang Đài,Phường 4,Quận Thủ đức, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_666" Mat_khau="HS_666">
-  <Lop Ten="Lớp 9.4" Ma_so="LOP_9.4">
-    <Khoi Ten="Khối 9" Ma_so="KHOI_9"/>
-  </Lop>
-  <Danh_sach_Vang>
-    <Vang Ngay="4/10/2017" Ly_do="Không lý do"/>
-  </Danh_sach_Vang>
-</Hoc_sinh>

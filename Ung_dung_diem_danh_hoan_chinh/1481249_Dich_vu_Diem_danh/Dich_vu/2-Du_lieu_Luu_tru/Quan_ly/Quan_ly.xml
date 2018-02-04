@@ -1,7 +1,0 @@
-<Quan_ly Ma_so="PET" Ten="CHƯƠNG TRÌNH ĐIỂM DANH HỌC SINH" >
-  <Ban_giam_hieu>
-    <Giam_hieu Ma_so="GH_1" Ho_ten="Nguyễn Giám Hiệu 1" Ten_Dang_nhap = "GH_1" Mat_khau = "GH_1"/>
-    <Giam_hieu Ma_so="GH_2" Ho_ten="Nguyễn Giám Hiệu 2" Ten_Dang_nhap = "GH_2" Mat_khau = "GH_2"/>
-  </Ban_giam_hieu>
-  <Giam_thi Ma_so="GT" Ho_ten="Nguyễn Giám Thị" Ten_Dang_nhap = "GT" Mat_khau = "GT"/>
-</Quan_ly>

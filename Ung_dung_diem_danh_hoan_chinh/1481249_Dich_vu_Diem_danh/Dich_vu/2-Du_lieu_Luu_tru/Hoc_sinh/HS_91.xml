@@ -1,8 +1,0 @@
-<Hoc_sinh Ho_ten="Lâm hùng kim Hồng" Ma_so="HS_91" CMND="080686576" Gioi_tinh="Nữ" Ngay_sinh="3/11/2005" Dia_chi="510 Triệu hồng minh Toàn,Phường 5,Quận 10, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_91" Mat_khau="HS_91">
-  <Lop Ten="Lớp 6.3" Ma_so="LOP_6.3">
-    <Khoi Ten="Khối 6" Ma_so="KHOI_6"/>
-  </Lop>
-  <Danh_sach_Vang>
-    <Vang Ngay="5/9/2017" Ly_do="Trốn học"/>
-  </Danh_sach_Vang>
-</Hoc_sinh>

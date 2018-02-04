@@ -1,9 +1,0 @@
-<Hoc_sinh Ho_ten="Chu cao sơn Tài" Ma_so="HS_757" CMND="030415808" Gioi_tinh="Nam" Ngay_sinh="4/1/2002" Dia_chi="514 Phạm hùng Thành,Phường 1,Quận Tân bình, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_757" Mat_khau="HS_757">
-  <Lop Ten="Lớp 9.6" Ma_so="LOP_9.6">
-    <Khoi Ten="Khối 9" Ma_so="KHOI_9"/>
-  </Lop>
-  <Danh_sach_Vang>
-    <Vang Ngay="1/9/2017" Ly_do="Không lý do"/>
-    <Vang Ngay="4/9/2017" Ly_do="Không lý do"/>
-  </Danh_sach_Vang>
-</Hoc_sinh>

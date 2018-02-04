@@ -1,8 +1,0 @@
-<Hoc_sinh Ho_ten="Chu quyết Tạo" Ma_so="HS_398" CMND="020857513" Gioi_tinh="Nam" Ngay_sinh="2/7/2003" Dia_chi="108 Quách minh Thắng,Phường 6,Quận 7, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_398" Mat_khau="HS_398">
-  <Lop Ten="Lớp 8.2" Ma_so="LOP_8.2">
-    <Khoi Ten="Khối 8" Ma_so="KHOI_8"/>
-  </Lop>
-  <Danh_sach_Vang>
-    <Vang Ngay="4/10/2017" Ly_do="Không lý do"/>
-  </Danh_sach_Vang>
-</Hoc_sinh>

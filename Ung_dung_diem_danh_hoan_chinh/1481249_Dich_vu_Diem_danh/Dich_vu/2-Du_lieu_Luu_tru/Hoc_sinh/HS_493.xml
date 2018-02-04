@@ -1,9 +1,0 @@
-<Hoc_sinh Ho_ten="Triệu lý Thành" Ma_so="HS_493" CMND="060307588" Gioi_tinh="Nam" Ngay_sinh="7/7/2003" Dia_chi="477 Huỳnh duy Thắng,Phường 3,Quận 8, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_493" Mat_khau="HS_493">
-  <Lop Ten="Lớp 8.4" Ma_so="LOP_8.4">
-    <Khoi Ten="Khối 8" Ma_so="KHOI_8"/>
-  </Lop>
-  <Danh_sach_Vang>
-    <Vang Ngay="5/10/2017" Ly_do="việc nhà"/>
-    <Vang Ngay="3/10/2017" Ly_do="việc nhà"/>
-  </Danh_sach_Vang>
-</Hoc_sinh>

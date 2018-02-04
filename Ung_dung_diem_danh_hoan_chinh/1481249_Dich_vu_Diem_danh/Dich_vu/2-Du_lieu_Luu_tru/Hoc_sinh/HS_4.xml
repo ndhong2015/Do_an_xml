@@ -1,8 +1,0 @@
-<Hoc_sinh Ho_ten="Triệu quyết Vàng" Ma_so="HS_4" CMND="060187768" Gioi_tinh="Nam" Ngay_sinh="3/1/2005" Dia_chi="383 Hoa nam Thùy,Phường 2,Quận Bình tân, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_4" Mat_khau="HS_4">
-  <Lop Ten="Lớp 6.1" Ma_so="LOP_6.1">
-    <Khoi Ten="Khối 6" Ma_so="KHOI_6"/>
-  </Lop>
-  <Danh_sach_Vang>
-    <Vang Ngay="6/9/2017" Ly_do="Trốn học"/>
-  </Danh_sach_Vang>
-</Hoc_sinh>

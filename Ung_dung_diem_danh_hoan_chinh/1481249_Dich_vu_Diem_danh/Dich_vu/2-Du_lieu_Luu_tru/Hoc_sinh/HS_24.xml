@@ -1,9 +1,0 @@
-<Hoc_sinh Ho_ten="Hà bảo thục Hiền" Ma_so="HS_24" CMND="030840715" Gioi_tinh="Nam" Ngay_sinh="3/1/2005" Dia_chi="61 Phạm bảo thảo Nguyên,Phường 9,Quận Thủ đức, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_24" Mat_khau="HS_24">
-  <Lop Ten="Lớp 6.1" Ma_so="LOP_6.1">
-    <Khoi Ten="Khối 6" Ma_so="KHOI_6"/>
-  </Lop>
-  <Danh_sach_Vang>
-    <Vang Ngay="5/10/2017" Ly_do="việc nhà"/>
-    <Vang Ngay="6/9/2017" Ly_do="Trốn học"/>
-  </Danh_sach_Vang>
-</Hoc_sinh>

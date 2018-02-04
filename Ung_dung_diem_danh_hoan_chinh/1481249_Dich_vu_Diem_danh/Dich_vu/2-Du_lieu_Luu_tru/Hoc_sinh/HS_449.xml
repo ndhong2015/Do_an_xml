@@ -1,9 +1,0 @@
-<Hoc_sinh Ho_ten="Lâm minh minh Lý" Ma_so="HS_449" CMND="010420314" Gioi_tinh="Nam" Ngay_sinh="2/6/2003" Dia_chi="343 Trần phúc Mai,Phường 6,Quận 6, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_449" Mat_khau="HS_449">
-  <Lop Ten="Lớp 8.3" Ma_so="LOP_8.3">
-    <Khoi Ten="Khối 8" Ma_so="KHOI_8"/>
-  </Lop>
-  <Danh_sach_Vang>
-    <Vang Ngay="1/9/2017" Ly_do="việc nhà"/>
-    <Vang Ngay="7/9/2017" Ly_do="Không lý do"/>
-  </Danh_sach_Vang>
-</Hoc_sinh>

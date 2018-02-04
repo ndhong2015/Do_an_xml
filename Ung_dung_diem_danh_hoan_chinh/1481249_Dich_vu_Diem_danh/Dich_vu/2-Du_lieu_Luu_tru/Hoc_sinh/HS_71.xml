@@ -1,9 +1,0 @@
-<Hoc_sinh Ho_ten="Phí phạm Hóa" Ma_so="HS_71" CMND="080818268" Gioi_tinh="Nam" Ngay_sinh="4/3/2005" Dia_chi="168 Trương sơn Anh,Phường 8,Quận 4, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_71" Mat_khau="HS_71">
-  <Lop Ten="Lớp 6.2" Ma_so="LOP_6.2">
-    <Khoi Ten="Khối 6" Ma_so="KHOI_6"/>
-  </Lop>
-  <Danh_sach_Vang>
-    <Vang Ngay="3/9/2017" Ly_do="Không lý do"/>
-    <Vang Ngay="3/9/2017" Ly_do="việc nhà"/>
-  </Danh_sach_Vang>
-</Hoc_sinh>

@@ -1,0 +1,26 @@
+﻿{
+  "Ma_so": "BANH_RONG_BIEN",
+  "Ten": "CÔNG TY BÁNH RONG BIỂN",
+  "Danh_sach_Sinh_vien": [
+    {
+      "Ma_so": "1581218",
+      "Ho_ten": "Nguyễn Đức Hồng",
+      "Ma_so_Nhom": "Flowers"
+    },
+    {
+      "Ma_so": "1481249",
+      "Ho_ten": "Trần Thị Phượng",
+      "Ma_so_Nhom": "Flowers"
+    },
+    {
+      "Ma_so": "1588218",
+      "Ho_ten": "Vũ Thị Xuân Lan",
+      "Ma_so_Nhom": "Flowers"
+    },
+    {
+      "Ma_so": "1481078",
+      "Ho_ten": "Nguyễn Ngọc Vũ",
+      "Ma_so_Nhom": "Flowers"
+    }
+  ]
+}

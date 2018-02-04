@@ -1,8 +1,0 @@
-<Hoc_sinh Ho_ten="Huỳnh tiến khánh Ngọc" Ma_so="HS_423" CMND="070366014" Gioi_tinh="Nam" Ngay_sinh="5/8/2003" Dia_chi="440 Trần nam Táo,Phường 4,Quận 2, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_423" Mat_khau="HS_423">
-  <Lop Ten="Lớp 8.2" Ma_so="LOP_8.2">
-    <Khoi Ten="Khối 8" Ma_so="KHOI_8"/>
-  </Lop>
-  <Danh_sach_Vang>
-    <Vang Ngay="3/10/2017" Ly_do="Không lý do"/>
-  </Danh_sach_Vang>
-</Hoc_sinh>

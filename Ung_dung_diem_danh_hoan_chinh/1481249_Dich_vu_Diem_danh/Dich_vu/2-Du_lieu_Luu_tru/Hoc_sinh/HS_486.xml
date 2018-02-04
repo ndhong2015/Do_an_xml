@@ -1,8 +1,0 @@
-<Hoc_sinh Ho_ten="Lâm hữu bạch Mai" Ma_so="HS_486" CMND="010676354" Gioi_tinh="Nam" Ngay_sinh="6/3/2003" Dia_chi="313 Phạm ngọc Thu,Phường 8,Quận Phú nhuận, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_486" Mat_khau="HS_486">
-  <Lop Ten="Lớp 8.4" Ma_so="LOP_8.4">
-    <Khoi Ten="Khối 8" Ma_so="KHOI_8"/>
-  </Lop>
-  <Danh_sach_Vang>
-    <Vang Ngay="2/10/2017" Ly_do="Không lý do"/>
-  </Danh_sach_Vang>
-</Hoc_sinh>

@@ -1,8 +1,0 @@
-<Hoc_sinh Ho_ten="Ôn hửu nguyên Tấn" Ma_so="HS_202" CMND="040843513" Gioi_tinh="Nam" Ngay_sinh="7/8/2004" Dia_chi="11 Hà bảo hồng Thu,Phường 4,Quận Tân bình, Ho Chi Minh City, Ho Chi Minh, Vietnam" Ten_Dang_nhap="HS_202" Mat_khau="HS_202">
-  <Lop Ten="Lớp 7.1" Ma_so="LOP_7.1">
-    <Khoi Ten="Khối 7" Ma_so="KHOI_7"/>
-  </Lop>
-  <Danh_sach_Vang>
-    <Vang Ngay="4/9/2017" Ly_do="Trốn học"/>
-  </Danh_sach_Vang>
-</Hoc_sinh>
