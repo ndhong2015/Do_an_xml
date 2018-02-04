@@ -10,11 +10,11 @@ PHÂN CÔNG NHIỆM VỤ
 -	Phân hệ Nhân viên Bán hàng + Dịch vụ Nhân viên Bán hàng
 -	Phân hệ Nhân viên Giao hàng + Dịch vụ Nhân viên Giao hàng
 3.	Phượng
--	Phân hệ Quản lý kho
+-	Phân hệ Quản lý kho + Dịch vụ Quản lý kho
 •	Lưu ý: Ở đây Quản lý kho vừa là kế toán, có vai trò Quản lý Nhập hàng, vừa có vai trò là Nhân viên nhập hàng.
 -	Phân hệ Quản lý Bán hàng
 -	Thiết kế Phiếu Nhập, Xuất kho
 4.	Lan
--	Phân hệ Khách thăm quan
+-	Phân hệ Khách thăm quan + Dịch vụ Khách thăm quan
 -	Thiết kế Phiếu Đặt, Phiếu Bán
 -	Giao diện trang chủ
