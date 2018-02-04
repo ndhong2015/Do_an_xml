@@ -1,0 +1,200 @@
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\Ban_Dien_thoai_Khach_Tham_quan_Khung_XML_Khi_Day\Ung_dung\bin\Ung_dung.dll.config
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\Ban_Dien_thoai_Khach_Tham_quan_Khung_XML_Khi_Day\Ung_dung\bin\Ung_dung.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\Ban_Dien_thoai_Khach_Tham_quan_Khung_XML_Khi_Day\Ung_dung\bin\Ung_dung.pdb
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\Ban_Dien_thoai_Khach_Tham_quan_Khung_XML_Khi_Day\Ung_dung\obj\Debug\Ung_dung.csprojResolveAssemblyReference.cache
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\Ban_Dien_thoai_Khach_Tham_quan_Khung_XML_Khi_Day\Ung_dung\obj\Debug\Ung_dung.csproj.CoreCompileInputs.cache
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\Ban_Dien_thoai_Khach_Tham_quan_Khung_XML_Khi_Day\Ung_dung\obj\Debug\Ung_dung.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\Ban_Dien_thoai_Khach_Tham_quan_Khung_XML_Khi_Day\Ung_dung\obj\Debug\Ung_dung.pdb
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\Ban_Dien_thoai_Khach_Tham_quan_Khung_XML_Khi_Day\Ung_dung\bin\Microsoft.Web.Infrastructure.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\Ban_Dien_thoai_Khach_Tham_quan_Khung_XML_Khi_Day\Ung_dung\bin\System.Web.Helpers.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\Ban_Dien_thoai_Khach_Tham_quan_Khung_XML_Khi_Day\Ung_dung\bin\System.Web.Mvc.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\Ban_Dien_thoai_Khach_Tham_quan_Khung_XML_Khi_Day\Ung_dung\bin\System.Web.Razor.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\Ban_Dien_thoai_Khach_Tham_quan_Khung_XML_Khi_Day\Ung_dung\bin\System.Web.WebPages.Deployment.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\Ban_Dien_thoai_Khach_Tham_quan_Khung_XML_Khi_Day\Ung_dung\bin\System.Web.WebPages.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\Ban_Dien_thoai_Khach_Tham_quan_Khung_XML_Khi_Day\Ung_dung\bin\System.Web.WebPages.Razor.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\Ban_Dien_thoai_Khach_Tham_quan_Khung_XML_Khi_Day\Ung_dung\bin\System.Web.Helpers.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\Ban_Dien_thoai_Khach_Tham_quan_Khung_XML_Khi_Day\Ung_dung\bin\System.Web.Mvc.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\Ban_Dien_thoai_Khach_Tham_quan_Khung_XML_Khi_Day\Ung_dung\bin\System.Web.Razor.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\Ban_Dien_thoai_Khach_Tham_quan_Khung_XML_Khi_Day\Ung_dung\bin\System.Web.WebPages.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\Ban_Dien_thoai_Khach_Tham_quan_Khung_XML_Khi_Day\Ung_dung\bin\System.Web.WebPages.Deployment.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\Ban_Dien_thoai_Khach_Tham_quan_Khung_XML_Khi_Day\Ung_dung\bin\System.Web.WebPages.Razor.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\XML_Khung_Ban_Dien_thoai_Khach_Tham_quan_Khi_Day\Ung_dung\bin\Ung_dung.dll.config
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\XML_Khung_Ban_Dien_thoai_Khach_Tham_quan_Khi_Day\Ung_dung\bin\Ung_dung.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\XML_Khung_Ban_Dien_thoai_Khach_Tham_quan_Khi_Day\Ung_dung\bin\Ung_dung.pdb
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\XML_Khung_Ban_Dien_thoai_Khach_Tham_quan_Khi_Day\Ung_dung\bin\Microsoft.Web.Infrastructure.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\XML_Khung_Ban_Dien_thoai_Khach_Tham_quan_Khi_Day\Ung_dung\bin\System.Web.Helpers.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\XML_Khung_Ban_Dien_thoai_Khach_Tham_quan_Khi_Day\Ung_dung\bin\System.Web.Mvc.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\XML_Khung_Ban_Dien_thoai_Khach_Tham_quan_Khi_Day\Ung_dung\bin\System.Web.Razor.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\XML_Khung_Ban_Dien_thoai_Khach_Tham_quan_Khi_Day\Ung_dung\bin\System.Web.WebPages.Deployment.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\XML_Khung_Ban_Dien_thoai_Khach_Tham_quan_Khi_Day\Ung_dung\bin\System.Web.WebPages.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\XML_Khung_Ban_Dien_thoai_Khach_Tham_quan_Khi_Day\Ung_dung\bin\System.Web.WebPages.Razor.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\XML_Khung_Ban_Dien_thoai_Khach_Tham_quan_Khi_Day\Ung_dung\bin\System.Web.Helpers.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\XML_Khung_Ban_Dien_thoai_Khach_Tham_quan_Khi_Day\Ung_dung\bin\System.Web.Mvc.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\XML_Khung_Ban_Dien_thoai_Khach_Tham_quan_Khi_Day\Ung_dung\bin\System.Web.Razor.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\XML_Khung_Ban_Dien_thoai_Khach_Tham_quan_Khi_Day\Ung_dung\bin\System.Web.WebPages.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\XML_Khung_Ban_Dien_thoai_Khach_Tham_quan_Khi_Day\Ung_dung\bin\System.Web.WebPages.Deployment.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\XML_Khung_Ban_Dien_thoai_Khach_Tham_quan_Khi_Day\Ung_dung\bin\System.Web.WebPages.Razor.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\XML_Khung_Ban_Dien_thoai_Khach_Tham_quan_Khi_Day\Ung_dung\obj\Debug\Ung_dung.csprojResolveAssemblyReference.cache
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\XML_Khung_Ban_Dien_thoai_Khach_Tham_quan_Khi_Day\Ung_dung\obj\Debug\Ung_dung.csproj.CoreCompileInputs.cache
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\XML_Khung_Ban_Dien_thoai_Khach_Tham_quan_Khi_Day\Ung_dung\obj\Debug\Ung_dung.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\Ung_dung_Ban_hang\XML_Khung_Ban_Dien_thoai_Khach_Tham_quan_Khi_Day\Ung_dung\obj\Debug\Ung_dung.pdb
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Khach_tham_quan\Ung_dung\bin\Ung_dung.dll.config
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Khach_tham_quan\Ung_dung\bin\Ung_dung.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Khach_tham_quan\Ung_dung\bin\Ung_dung.pdb
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Khach_tham_quan\Ung_dung\bin\Microsoft.Web.Infrastructure.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Khach_tham_quan\Ung_dung\bin\System.Web.Helpers.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Khach_tham_quan\Ung_dung\bin\System.Web.Mvc.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Khach_tham_quan\Ung_dung\bin\System.Web.Razor.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Khach_tham_quan\Ung_dung\bin\System.Web.WebPages.Deployment.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Khach_tham_quan\Ung_dung\bin\System.Web.WebPages.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Khach_tham_quan\Ung_dung\bin\System.Web.WebPages.Razor.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Khach_tham_quan\Ung_dung\bin\System.Web.Helpers.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Khach_tham_quan\Ung_dung\bin\System.Web.Mvc.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Khach_tham_quan\Ung_dung\bin\System.Web.Razor.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Khach_tham_quan\Ung_dung\bin\System.Web.WebPages.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Khach_tham_quan\Ung_dung\bin\System.Web.WebPages.Deployment.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Khach_tham_quan\Ung_dung\bin\System.Web.WebPages.Razor.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Khach_tham_quan\Ung_dung\obj\Debug\Ung_dung.csprojResolveAssemblyReference.cache
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Khach_tham_quan\Ung_dung\obj\Debug\Ung_dung.csproj.CoreCompileInputs.cache
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Khach_tham_quan\Ung_dung\obj\Debug\Ung_dung.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Khach_tham_quan\Ung_dung\obj\Debug\Ung_dung.pdb
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\Ung_dung.dll.config
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\Ung_dung.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\Ung_dung.pdb
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\Microsoft.Web.Infrastructure.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.Helpers.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.Mvc.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.Razor.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.WebPages.Deployment.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.WebPages.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.WebPages.Razor.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.Helpers.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.Mvc.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.Razor.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.WebPages.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.WebPages.Deployment.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.WebPages.Razor.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\obj\Debug\Ung_dung.csprojResolveAssemblyReference.cache
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\obj\Debug\Ung_dung.csproj.CoreCompileInputs.cache
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\obj\Debug\Ung_dung.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\obj\Debug\Ung_dung.pdb
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\Ung_dung.dll.config
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\Ung_dung.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\Ung_dung.pdb
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\Microsoft.Web.Infrastructure.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.Helpers.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.Mvc.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.Razor.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.WebPages.Deployment.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.WebPages.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.WebPages.Razor.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.Helpers.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.Mvc.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.Razor.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.WebPages.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.WebPages.Deployment.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\bin\System.Web.WebPages.Razor.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\obj\Debug\Ung_dung.csprojResolveAssemblyReference.cache
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\obj\Debug\Ung_dung.csproj.CoreCompileInputs.cache
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\obj\Debug\Ung_dung.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang-Xem\Ung_dung\obj\Debug\Ung_dung.pdb
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang\Ung_dung\bin\Ung_dung.dll.config
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang\Ung_dung\bin\Ung_dung.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang\Ung_dung\bin\Ung_dung.pdb
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang\Ung_dung\bin\Microsoft.Web.Infrastructure.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang\Ung_dung\bin\System.Web.Helpers.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang\Ung_dung\bin\System.Web.Mvc.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang\Ung_dung\bin\System.Web.Razor.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang\Ung_dung\bin\System.Web.WebPages.Deployment.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang\Ung_dung\bin\System.Web.WebPages.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang\Ung_dung\bin\System.Web.WebPages.Razor.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang\Ung_dung\bin\System.Web.Helpers.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang\Ung_dung\bin\System.Web.Mvc.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang\Ung_dung\bin\System.Web.Razor.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang\Ung_dung\bin\System.Web.WebPages.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang\Ung_dung\bin\System.Web.WebPages.Deployment.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang\Ung_dung\bin\System.Web.WebPages.Razor.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang\Ung_dung\obj\Debug\Ung_dung.csprojResolveAssemblyReference.cache
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang\Ung_dung\obj\Debug\Ung_dung.csproj.CoreCompileInputs.cache
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang\Ung_dung\obj\Debug\Ung_dung.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\DOM\Dich_vu\Ban_Dien_thoai_Nhan_vien_Nhap_hang\Ung_dung\obj\Debug\Ung_dung.pdb
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\CNXML_Ung_dung_Phan_quyen\Dich_vu\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\Ung_dung.dll.config
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\CNXML_Ung_dung_Phan_quyen\Dich_vu\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\Ung_dung.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\CNXML_Ung_dung_Phan_quyen\Dich_vu\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\Ung_dung.pdb
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\CNXML_Ung_dung_Phan_quyen\Dich_vu\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\Microsoft.Web.Infrastructure.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\CNXML_Ung_dung_Phan_quyen\Dich_vu\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.Helpers.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\CNXML_Ung_dung_Phan_quyen\Dich_vu\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.Mvc.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\CNXML_Ung_dung_Phan_quyen\Dich_vu\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.Razor.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\CNXML_Ung_dung_Phan_quyen\Dich_vu\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.WebPages.Deployment.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\CNXML_Ung_dung_Phan_quyen\Dich_vu\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.WebPages.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\CNXML_Ung_dung_Phan_quyen\Dich_vu\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.WebPages.Razor.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\CNXML_Ung_dung_Phan_quyen\Dich_vu\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.Helpers.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\CNXML_Ung_dung_Phan_quyen\Dich_vu\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.Mvc.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\CNXML_Ung_dung_Phan_quyen\Dich_vu\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.Razor.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\CNXML_Ung_dung_Phan_quyen\Dich_vu\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.WebPages.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\CNXML_Ung_dung_Phan_quyen\Dich_vu\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.WebPages.Deployment.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\CNXML_Ung_dung_Phan_quyen\Dich_vu\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.WebPages.Razor.xml
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\CNXML_Ung_dung_Phan_quyen\Dich_vu\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\obj\Debug\Ung_dung.csprojResolveAssemblyReference.cache
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\CNXML_Ung_dung_Phan_quyen\Dich_vu\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\obj\Debug\Ung_dung.csproj.CoreCompileInputs.cache
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\CNXML_Ung_dung_Phan_quyen\Dich_vu\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\obj\Debug\Ung_dung.dll
+F:\2018\Tai_lieu_Hoc_tap_va_Giang_day\CNXML\CNXML_Ung_dung_Phan_quyen\Dich_vu\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\obj\Debug\Ung_dung.pdb
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\Ung_dung.dll.config
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\Ung_dung.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\Ung_dung.pdb
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.Helpers.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.Mvc.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.Razor.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.WebPages.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.Helpers.xml
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.Mvc.xml
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.Razor.xml
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.WebPages.xml
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\obj\Debug\Ung_dung.csprojResolveAssemblyReference.cache
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\obj\Debug\Ung_dung.csproj.CoreCompileInputs.cache
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\obj\Debug\Ung_dung.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Nhan_vien_Ban_hang\Ung_dung\obj\Debug\Ung_dung.pdb
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Ban_hang\Ung_dung\bin\Ung_dung.dll.config
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Ban_hang\Ung_dung\bin\Ung_dung.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Ban_hang\Ung_dung\bin\Ung_dung.pdb
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Ban_hang\Ung_dung\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Ban_hang\Ung_dung\bin\System.Web.Helpers.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Ban_hang\Ung_dung\bin\System.Web.Mvc.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Ban_hang\Ung_dung\bin\System.Web.Razor.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Ban_hang\Ung_dung\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Ban_hang\Ung_dung\bin\System.Web.WebPages.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Ban_hang\Ung_dung\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Ban_hang\Ung_dung\bin\System.Web.Helpers.xml
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Ban_hang\Ung_dung\bin\System.Web.Mvc.xml
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Ban_hang\Ung_dung\bin\System.Web.Razor.xml
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Ban_hang\Ung_dung\bin\System.Web.WebPages.xml
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Ban_hang\Ung_dung\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Ban_hang\Ung_dung\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Ban_hang\Ung_dung\obj\Debug\Ung_dung.csproj.CoreCompileInputs.cache
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Ban_hang\Ung_dung\obj\Debug\Ung_dung.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Ban_hang\Ung_dung\obj\Debug\Ung_dung.pdb
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Ban_hang\Ung_dung\obj\Debug\Ung_dung.csprojResolveAssemblyReference.cache
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Cua_hang\Ung_dung\bin\Ung_dung.dll.config
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Cua_hang\Ung_dung\bin\Ung_dung.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Cua_hang\Ung_dung\bin\Ung_dung.pdb
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Cua_hang\Ung_dung\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Cua_hang\Ung_dung\bin\System.Web.Helpers.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Cua_hang\Ung_dung\bin\System.Web.Mvc.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Cua_hang\Ung_dung\bin\System.Web.Razor.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Cua_hang\Ung_dung\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Cua_hang\Ung_dung\bin\System.Web.WebPages.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Cua_hang\Ung_dung\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Cua_hang\Ung_dung\bin\System.Web.Helpers.xml
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Cua_hang\Ung_dung\bin\System.Web.Mvc.xml
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Cua_hang\Ung_dung\bin\System.Web.Razor.xml
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Cua_hang\Ung_dung\bin\System.Web.WebPages.xml
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Cua_hang\Ung_dung\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Cua_hang\Ung_dung\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Cua_hang\Ung_dung\obj\Debug\Ung_dung.csprojResolveAssemblyReference.cache
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Cua_hang\Ung_dung\obj\Debug\Ung_dung.csproj.CoreCompileInputs.cache
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Cua_hang\Ung_dung\obj\Debug\Ung_dung.dll
+C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Ban_Dien_thoai_Quan_ly_Cua_hang\Ung_dung\obj\Debug\Ung_dung.pdb

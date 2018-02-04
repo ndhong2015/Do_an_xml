@@ -1,0 +1,118 @@
+﻿@using System.Xml;
+@{   
+    //****************** Xử lý Bảo mật  **********
+    var Nhan_vien = (XmlElement)Session["Nhan_vien_Dang_nhap"];
+    if (Nhan_vien == null)
+    {
+        Response.Write("Người dùng chưa Đăng nhập");
+        Response.End();
+    }
+    //****************** Khởi động Dữ liệu Nguồn-Nội bộ **********
+    var Du_lieu = XL_LUU_TRU.Doc_Du_lieu();
+    var Cua_hang = (XmlElement)Du_lieu.GetElementsByTagName("Cua_hang")[0];
+    var Danh_sach_Dien_thoai =(XmlElement) Du_lieu.GetElementsByTagName("Danh_sach_Dien_thoai")[0];
+    var Danh_sach_Dien_thoai_Xem = Danh_sach_Dien_thoai;
+    //************ Khai báo Biến ********************
+    //####### Chức năng Tra cứu :
+    var Chuoi_Tra_cuu = "";// Biến Nhập
+    //####### Chức năng Nhập Dien_thoai :
+    var Ma_so_Dien_thoai = "";// Biến Nhập
+    var So_luong = 1;// Biến Nhập
+
+    var Chuoi_HTML_Thong_bao = "";
+
+    //**** Nhập liệu cho Biến Nhập nếu có - Tính Biến kết quả nếu Hợp lệ   *****************
+    //####### Chức năng Tra cứu :
+    if (Request["Th_Chuoi_Tra_cuu"] != null)
+    {
+        Chuoi_Tra_cuu = Request["Th_Chuoi_Tra_cuu"];
+        Danh_sach_Dien_thoai_Xem = XL_NGHIEP_VU.Tra_cuu_Dien_thoai(Chuoi_Tra_cuu, Danh_sach_Dien_thoai);
+        Chuoi_HTML_Thong_bao = "<div class='alert alert-info'>Danh sách " +
+                          Danh_sach_Dien_thoai_Xem.ChildNodes.Count + " Dien_thoai " +
+                        "</div>";
+    }
+    //####### Chức năng Nhập Dien_thoai :
+    if (Request["Th_Ma_so_Dien_thoai"] != null)
+    {
+        Ma_so_Dien_thoai = Request["Th_Ma_so_Dien_thoai"];
+        So_luong = int.Parse(Request["Th_So_luong"]);
+        var Dien_thoai = (XmlElement)  Danh_sach_Dien_thoai.SelectSingleNode("Dien_thoai[@Ma_so='"+ Ma_so_Dien_thoai +"']");
+        var Hop_le = Dien_thoai !=null  && So_luong >= 1;
+        if (Hop_le)
+        {
+            var Nhap_hang = Dien_thoai.OwnerDocument.CreateElement("Nhap_hang");
+            var Don_gia_Nhap = long.Parse(Dien_thoai.GetAttribute("Don_gia_Nhap"));
+            var Tien = So_luong * Don_gia_Nhap;
+            Nhap_hang.SetAttribute("Ngay", DateTime.Now.ToString());
+            Nhap_hang.SetAttribute("So_luong", So_luong.ToString());
+            Nhap_hang.SetAttribute("Don_gia", Don_gia_Nhap.ToString());
+            Nhap_hang.SetAttribute("Tien", Tien.ToString());
+            var Kq_Ghi = XL_LUU_TRU.Ghi_Nhap_hang_Moi(Dien_thoai, Nhap_hang);
+            // Lưu ý : Chưa xét trường hợp của Kq_Ghi
+            Chuoi_HTML_Thong_bao = "<div class='alert alert-success'>Tiền phải trả khi nhập " + So_luong
+                                        + " " + Dien_thoai.GetAttribute("Ten") + " là "
+                                 +  Tien.ToString("n0", XL_THE_HIEN.Dinh_dang_VN) + "</div>";
+        }
+        else
+        {
+            Chuoi_HTML_Thong_bao = "<div class='alert alert-warning'>Dữ liệu Nhập không hợp lệ</div>";
+        }
+    }
+
+    //******************* Kết xuất  **********
+    var Chuoi_HTML_Danh_sach_Dien_thoai = XL_THE_HIEN.Tao_Chuoi_HTML_Danh_sach_Dien_thoai(Danh_sach_Dien_thoai_Xem);
+}
+ 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+<body style="font-family:Arial;width:100%;box-sizing:border-box;
+              margin:0px;;padding:0px;overflow-x:hidden" class="container-fluid">
+
+    <div class="CUA_SO_PET" style="background-color:aliceblue;margin:10px">
+        <div class="btn PET" style="margin-left:0px">
+            <img src="@XL_THE_HIEN.Dia_chi_Media/PET.png"
+                 style="width:40px;height:30px;" />
+            <div class="btn TOM_TAT" style="color:blue;text-align:center">
+                Mô hình - Công nghệ - Kỹ thuật
+                <br /><b><i>Đơn giản</i></b>
+            </div>
+        </div>
+        <div class="btn btn-outline-primary" style="background-color:white;color:blue">
+            Công nghệ Xml và Ứng dụng  - Ứng dụng Giảng dạy - Tháng 1/2018
+            <br />  @Cua_hang.GetAttribute("Ten") - Nhân viên Nhập hàng
+        </div>
+    </div>
+    <div class="CUA_SO_CHUC_NANG" style="background-color:gray;margin:10px">
+        <div class="DANH_SACH_CHUC_NANG">
+            <div class="btn  CHUC_NANG">
+                <form method="post">
+                    <input name="Th_Chuoi_Tra_cuu" style="height:30px" placeholder="" required="required"
+                           spellcheck="false" autocomplete="off" value="@Chuoi_Tra_cuu" />
+
+                </form>
+            </div>
+            
+
+        </div>
+    </div>
+    <div class="CUA_SO_KET_QUA" style="background-color:white;margin:10px">
+        @Html.Raw(Chuoi_HTML_Thong_bao)
+        @Html.Raw(Chuoi_HTML_Danh_sach_Dien_thoai)
+    </div>
+
+
+
+
+</body>
+</html>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
