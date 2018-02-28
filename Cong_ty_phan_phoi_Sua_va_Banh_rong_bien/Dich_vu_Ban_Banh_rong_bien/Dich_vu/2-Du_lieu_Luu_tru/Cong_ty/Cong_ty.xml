@@ -1,8 +1,8 @@
-﻿<Cua_hang Ma_so="PET" Ten="Cửa hàng Điện thoại PET" >
-  <Danh_sach_Nhom_Dien_thoai>
+﻿<Cong_ty Ma_so="PET" Ten="Cửa hàng Điện thoại PET" >
+  <Danh_sach_Nhom_San_pham>
     <Nhom_Dien_thoai Ma_so="ANDROID" Ten="Android" />
     <Nhom_Dien_thoai Ma_so="IPHONE" Ten="iphone" />
-  </Danh_sach_Nhom_Dien_thoai>
+  </Danh_sach_Nhom_San_pham>
   <Danh_sach_Nhan_vien>
     <Nhan_vien Ma_so="NV_1" Ho_ten="Nguyễn thị bé Nhỏ" Ten_Dang_nhap="NV_1" Mat_khau="NV_1">
       <Nhom_Nhan_vien Ma_so="NHAP_HANG" Ten="Nhân viên Nhập hàng" />
@@ -20,7 +20,7 @@
       <Nhom_Quan_ly Ma_so="QUAN_LY_BAN_HANG" Ten="Quản lý Bán hàng" />
     </Quan_ly>
     <Quan_ly Ma_so="NV_6" Ho_ten="Nguyễn thị quá Lớn" Ten_Dang_nhap="NV_6" Mat_khau="NV_6">
-      <Nhom_Quan_ly Ma_so="QUAN_LY_CUA_HANG" Ten="Quản lý Cửa hàng" />
+      <Nhom_Quan_ly Ma_so="QUAN_LY_Cong_ty" Ten="Quản lý Cửa hàng" />
     </Quan_ly>
   </Danh_sach_Nhan_vien>
-</Cua_hang>
+</Cong_ty>
