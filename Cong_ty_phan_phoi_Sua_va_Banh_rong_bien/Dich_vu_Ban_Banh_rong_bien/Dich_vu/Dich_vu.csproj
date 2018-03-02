@@ -81,112 +81,13 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="2-Du_lieu_Luu_tru\Cua_hang\Cua_hang.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_1.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_10.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_11.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_12.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_13.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_14.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_15.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_16.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_17.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_18.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_19.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_2.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_20.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_21.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_22.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_23.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_24.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_25.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_26.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_27.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_28.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_29.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_3.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_30.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_31.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_32.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_33.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_34.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_35.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_36.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_37.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_38.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_39.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_4.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_40.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_41.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_42.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_5.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_6.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_7.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_8.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\ANDROID_9.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\IPHONE_1.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\IPHONE_2.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\IPHONE_3.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\IPHONE_4.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\IPHONE_5.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\IPHONE_6.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\IPHONE_7.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Dien_thoai\IPHONE_8.xml" />
-    <Content Include="Media\ANDROID_1.png" />
-    <Content Include="Media\ANDROID_10.png" />
-    <Content Include="Media\ANDROID_11.png" />
-    <Content Include="Media\ANDROID_12.png" />
-    <Content Include="Media\ANDROID_13.png" />
-    <Content Include="Media\ANDROID_14.png" />
-    <Content Include="Media\ANDROID_15.png" />
-    <Content Include="Media\ANDROID_16.png" />
-    <Content Include="Media\ANDROID_17.png" />
-    <Content Include="Media\ANDROID_18.png" />
-    <Content Include="Media\ANDROID_19.png" />
-    <Content Include="Media\ANDROID_2.png" />
-    <Content Include="Media\ANDROID_20.png" />
-    <Content Include="Media\ANDROID_21.png" />
-    <Content Include="Media\ANDROID_22.png" />
-    <Content Include="Media\ANDROID_23.png" />
-    <Content Include="Media\ANDROID_24.png" />
-    <Content Include="Media\ANDROID_25.png" />
-    <Content Include="Media\ANDROID_26.png" />
-    <Content Include="Media\ANDROID_27.png" />
-    <Content Include="Media\ANDROID_28.png" />
-    <Content Include="Media\ANDROID_29.png" />
-    <Content Include="Media\ANDROID_3.png" />
-    <Content Include="Media\ANDROID_30.png" />
-    <Content Include="Media\ANDROID_31.png" />
-    <Content Include="Media\ANDROID_32.png" />
-    <Content Include="Media\ANDROID_33.png" />
-    <Content Include="Media\ANDROID_34.png" />
-    <Content Include="Media\ANDROID_35.png" />
-    <Content Include="Media\ANDROID_36.png" />
-    <Content Include="Media\ANDROID_37.png" />
-    <Content Include="Media\ANDROID_38.png" />
-    <Content Include="Media\ANDROID_39.png" />
-    <Content Include="Media\ANDROID_4.png" />
-    <Content Include="Media\ANDROID_40.png" />
-    <Content Include="Media\ANDROID_41.png" />
-    <Content Include="Media\ANDROID_42.png" />
-    <Content Include="Media\ANDROID_5.png" />
-    <Content Include="Media\ANDROID_6.png" />
-    <Content Include="Media\ANDROID_7.png" />
-    <Content Include="Media\ANDROID_8.png" />
-    <Content Include="Media\ANDROID_9.png" />
-    <Content Include="Media\DIEN_THOAI.png" />
-    <Content Include="Media\IPHONE_1.png" />
-    <Content Include="Media\IPHONE_2.png" />
-    <Content Include="Media\IPHONE_3.png" />
-    <Content Include="Media\IPHONE_4.png" />
-    <Content Include="Media\IPHONE_5.png" />
-    <Content Include="Media\IPHONE_6.png" />
-    <Content Include="Media\IPHONE_7.png" />
-    <Content Include="Media\IPHONE_8.png" />
+    <Content Include="Media\B_1.jpg" />
+    <Content Include="Media\B_2.jpg" />
+    <Content Include="Media\B_3.jpg" />
+    <Content Include="Media\B_4.jpg" />
+    <Content Include="Media\B_5.jpg" />
+    <Content Include="Media\B_6.jpg" />
+    <Content Include="Media\B_7.jpg" />
     <Content Include="Media\Khach_hang.png" />
     <Content Include="Media\KHACH_HANG_0.png" />
     <Content Include="Media\KHACH_HANG_1.png" />
@@ -204,7 +105,7 @@
     <Content Include="Media\NV_4.png" />
     <Content Include="Media\NV_5.png" />
     <Content Include="Media\NV_6.png" />
-    <Content Include="Media\PET.png" />
+    <Content Include="Media\S_3.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -222,7 +123,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="2-Du_lieu_Luu_tru\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

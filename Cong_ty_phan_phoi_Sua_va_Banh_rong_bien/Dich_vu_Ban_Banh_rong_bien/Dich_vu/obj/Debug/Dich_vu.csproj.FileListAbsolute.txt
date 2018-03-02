@@ -136,3 +136,23 @@ C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen
 C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Dich_vu_Ban_Dien_thoai\Dich_vu\obj\Debug\Dich_vu.csproj.CoreCompileInputs.cache
 C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Dich_vu_Ban_Dien_thoai\Dich_vu\obj\Debug\Dich_vu.dll
 C:\Users\Hector Nguyen\Desktop\xml\CNXML_Ban_Dien_thoai_Dich_vu_Khong_Phan_quyen\Dich_vu_Ban_Dien_thoai\Dich_vu\obj\Debug\Dich_vu.pdb
+C:\Users\Admin\Documents\GitHub\Do_an_xml\Cong_ty_phan_phoi_Sua_va_Banh_rong_bien\Dich_vu_Ban_Banh_rong_bien\Dich_vu\bin\Dich_vu.dll.config
+C:\Users\Admin\Documents\GitHub\Do_an_xml\Cong_ty_phan_phoi_Sua_va_Banh_rong_bien\Dich_vu_Ban_Banh_rong_bien\Dich_vu\bin\Dich_vu.dll
+C:\Users\Admin\Documents\GitHub\Do_an_xml\Cong_ty_phan_phoi_Sua_va_Banh_rong_bien\Dich_vu_Ban_Banh_rong_bien\Dich_vu\bin\Dich_vu.pdb
+C:\Users\Admin\Documents\GitHub\Do_an_xml\Cong_ty_phan_phoi_Sua_va_Banh_rong_bien\Dich_vu_Ban_Banh_rong_bien\Dich_vu\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Documents\GitHub\Do_an_xml\Cong_ty_phan_phoi_Sua_va_Banh_rong_bien\Dich_vu_Ban_Banh_rong_bien\Dich_vu\bin\System.Web.Helpers.dll
+C:\Users\Admin\Documents\GitHub\Do_an_xml\Cong_ty_phan_phoi_Sua_va_Banh_rong_bien\Dich_vu_Ban_Banh_rong_bien\Dich_vu\bin\System.Web.Mvc.dll
+C:\Users\Admin\Documents\GitHub\Do_an_xml\Cong_ty_phan_phoi_Sua_va_Banh_rong_bien\Dich_vu_Ban_Banh_rong_bien\Dich_vu\bin\System.Web.Razor.dll
+C:\Users\Admin\Documents\GitHub\Do_an_xml\Cong_ty_phan_phoi_Sua_va_Banh_rong_bien\Dich_vu_Ban_Banh_rong_bien\Dich_vu\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Documents\GitHub\Do_an_xml\Cong_ty_phan_phoi_Sua_va_Banh_rong_bien\Dich_vu_Ban_Banh_rong_bien\Dich_vu\bin\System.Web.WebPages.dll
+C:\Users\Admin\Documents\GitHub\Do_an_xml\Cong_ty_phan_phoi_Sua_va_Banh_rong_bien\Dich_vu_Ban_Banh_rong_bien\Dich_vu\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Documents\GitHub\Do_an_xml\Cong_ty_phan_phoi_Sua_va_Banh_rong_bien\Dich_vu_Ban_Banh_rong_bien\Dich_vu\bin\System.Web.Helpers.xml
+C:\Users\Admin\Documents\GitHub\Do_an_xml\Cong_ty_phan_phoi_Sua_va_Banh_rong_bien\Dich_vu_Ban_Banh_rong_bien\Dich_vu\bin\System.Web.Mvc.xml
+C:\Users\Admin\Documents\GitHub\Do_an_xml\Cong_ty_phan_phoi_Sua_va_Banh_rong_bien\Dich_vu_Ban_Banh_rong_bien\Dich_vu\bin\System.Web.Razor.xml
+C:\Users\Admin\Documents\GitHub\Do_an_xml\Cong_ty_phan_phoi_Sua_va_Banh_rong_bien\Dich_vu_Ban_Banh_rong_bien\Dich_vu\bin\System.Web.WebPages.xml
+C:\Users\Admin\Documents\GitHub\Do_an_xml\Cong_ty_phan_phoi_Sua_va_Banh_rong_bien\Dich_vu_Ban_Banh_rong_bien\Dich_vu\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Documents\GitHub\Do_an_xml\Cong_ty_phan_phoi_Sua_va_Banh_rong_bien\Dich_vu_Ban_Banh_rong_bien\Dich_vu\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Documents\GitHub\Do_an_xml\Cong_ty_phan_phoi_Sua_va_Banh_rong_bien\Dich_vu_Ban_Banh_rong_bien\Dich_vu\obj\Debug\Dich_vu.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\Do_an_xml\Cong_ty_phan_phoi_Sua_va_Banh_rong_bien\Dich_vu_Ban_Banh_rong_bien\Dich_vu\obj\Debug\Dich_vu.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\Do_an_xml\Cong_ty_phan_phoi_Sua_va_Banh_rong_bien\Dich_vu_Ban_Banh_rong_bien\Dich_vu\obj\Debug\Dich_vu.dll
+C:\Users\Admin\Documents\GitHub\Do_an_xml\Cong_ty_phan_phoi_Sua_va_Banh_rong_bien\Dich_vu_Ban_Banh_rong_bien\Dich_vu\obj\Debug\Dich_vu.pdb
