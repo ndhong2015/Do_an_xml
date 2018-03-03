@@ -1,4 +1,4 @@
-﻿<Cong_ty Ma_so="BANH_RONG_BIEN" Ten="CÔNG TY BÁNH RONG BIỂN" >
+﻿<Cong_ty Ma_so="BANH_RONG_BIEN" Ten="CÔNG TY BÁNH RONG BIỂN" Dien_thoai="12345678" Dia_chi="235 Nguyễn Văn Cừ, quận 1, TPHCM" Mail="banhrongbien@gmail.com" >
   <Danh_sach_Nhom_San_pham>
     <Nhom_San_pham Ma_so="BANH_RONG_BIEN" Ten="Bánh rong biển" />
     <Nhom_San_pham Ma_so="SUA_HANH_NHAN" Ten="Sữa hạnh nhân" />
