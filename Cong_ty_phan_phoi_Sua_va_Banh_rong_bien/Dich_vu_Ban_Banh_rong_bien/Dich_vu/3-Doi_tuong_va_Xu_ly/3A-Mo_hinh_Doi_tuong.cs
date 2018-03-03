@@ -18,7 +18,7 @@ using System.Web;
 //      * San_pham :Ma_so,Ten,Don_gia_Ban,Don_gia_Nhap
 //          Nhom_San_pham:Ma_so,Ten
 //          Danh_sach_Ban_hang:
-//            * Ban_hang : Ngay,So_luong,Don_gia,Tien, Giao_hang, NV_Ban, NV_Giao, Ho_ten, Dia_chi, Dien thoai
+//            * Ban_hang : Ngay,So_luong,Don_gia,Tien, Giao_hang, NV_Ban, NV_Giao, Ho_ten, Dia_chi, Dien thoai 
 //          Danh_sach_Nhap_hang:
 //            * Nhap_hang : Ngay,So_luong,Don_gia,Tien
 #endregion
