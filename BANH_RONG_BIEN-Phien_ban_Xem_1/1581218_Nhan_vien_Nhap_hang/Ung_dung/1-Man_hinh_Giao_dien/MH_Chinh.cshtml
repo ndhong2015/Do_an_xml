@@ -1,0 +1,71 @@
+﻿@using System.Xml;
+@{
+    //****************** Khởi động Dữ liệu Nguồn-Nội bộ **********
+    var Ung_dung = XL_UNG_DUNG.Khoi_dong_Ung_dung();
+    var Nguoi_dung =(XmlElement) Session["Nguoi_dung_Dang_Nhap"];
+    if (Nguoi_dung == null) { Response.Write("Người dùng không hợp lệ");Response.End(); }
+    //******************* Khai báo và Khởi động giá trị đầu cho Biến  ********************
+    var Ma_so_Chuc_nang = Request["Th_Ma_so_Chuc_nang"]; // Biến Nhập
+    if (Ma_so_Chuc_nang == null) { Ma_so_Chuc_nang = "KHOI_DONG"; };
+
+    var Chuoi_HTML_Ket_qua = "";
+    if (Ma_so_Chuc_nang == "KHOI_DONG"){
+        Chuoi_HTML_Ket_qua = Ung_dung.Khoi_dong();
+    }
+    else if (Ma_so_Chuc_nang == "TRA_CUU") {
+        var Chuoi_Tra_cuu = Request["Th_Chuoi_Tra_cuu"];
+        Chuoi_HTML_Ket_qua = Ung_dung.Tra_cuu(Chuoi_Tra_cuu);
+    }
+    else if (Ma_so_Chuc_nang == "CHON_NHOM_SAN_PHAM")
+    {
+        var Ma_so_Nhom_San_pham = Request["Th_Ma_so_Nhom_San_pham"];
+        Chuoi_HTML_Ket_qua = Ung_dung.Chon_Nhom_San_pham(Ma_so_Nhom_San_pham);
+    }
+
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+<body style="font-family:Arial;width:100%;box-sizing:border-box;
+              margin:0px;padding:0px;overflow-x:hidden" class="container-fluid">
+    <div class="CUA_SO_TIEU_DE" style="background-color:aliceblue;margin:10px">
+        <div class="btn PET" style="margin-left:0px">
+            <img src="@XL_THE_HIEN.Dia_chi_Media/PET.png"
+                 style="width:40px;height:30px;" />
+            <div class="btn TOM_TAT" style="color:blue;text-align:center">
+                Mô hình - Công nghệ - Kỹ thuật
+                <br /><b><i>Đơn giản</i></b>
+            </div>
+        </div>
+        <div class="btn btn-outline-primary" style="background-color:white;color:blue">
+            Công nghệ Xml và Ứng dụng  - Minh họa Phiên bản Xem thứ 1 - Tháng 3/2018 
+            <br />@Nguoi_dung.SelectSingleNode("Nhom_Nguoi_dung/@Ten").Value  @Nguoi_dung.GetAttribute("Ho_ten") - Bảo mật nhưng Không phân quyền 
+        </div>
+    </div>
+    <div class="CUA_SO_CHUC_NANG" style="background-color:gray;margin:10px">
+        <div class="DANH_SACH_CHUC_NANG">
+            <div class="btn  CHUC_NANG">
+                <form method="post">
+                    <input name="Th_Ma_so_Chuc_nang" type="hidden" value="TRA_CUU" />
+                    <input name="Th_Chuoi_Tra_cuu" style="height:30px"
+                           spellcheck="false" autocomplete="off" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <div class="CUA_SO_KET_QUA" style="background-color:white;margin:10px">
+        @Html.Raw(Chuoi_HTML_Ket_qua)
+    </div>
+</body>
+</html>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>

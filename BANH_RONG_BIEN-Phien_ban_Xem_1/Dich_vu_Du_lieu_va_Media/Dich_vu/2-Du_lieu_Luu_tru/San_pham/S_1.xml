@@ -2,6 +2,12 @@
   <Nhom_San_pham Ma_so="SUA" Ten="Sữa">
     <Phan_loai Ma_so="VI_OC_CHO" Ten ="Vị óc chó"/>
   </Nhom_San_pham>
-    <Danh_sach_Ban_hang />
-    <Danh_sach_Nhap_hang/>
+  <Danh_sach_Ban_hang >
+    <Ban_hang Ngay="16/01/2018 10:08:35 AM" So_luong="1" Don_gia="282000" Tien="282000" />
+  </Danh_sach_Ban_hang>
+  <Danh_sach_Nhap_hang>
+    <Nhap_hang Ngay="31/12/2017 12:00:00 AM" Don_gia="200000" So_luong="1" Tien="200000" />
+    <Nhap_hang Ngay="09/01/2018 12:00:00 AM" Don_gia="200000" So_luong="1" Tien="200000" />
+    <Nhap_hang Ngay="16/01/2018 9:25:28 AM"  Don_gia="200000" So_luong="1" Tien="200000" />
+  </Danh_sach_Nhap_hang>
 </San_pham>
