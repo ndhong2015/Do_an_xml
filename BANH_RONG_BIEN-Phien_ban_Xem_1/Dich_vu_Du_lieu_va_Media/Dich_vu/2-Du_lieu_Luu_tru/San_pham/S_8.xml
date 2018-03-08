@@ -1,0 +1,7 @@
+<San_pham Ma_so="S_8" Ten="Sữa Hạnh nhân Đậu đỏ " Don_gia_Ban="25000" Don_gia_Nhap="20000">
+  <Nhom_San_pham Ma_so="SUA" Ten="Sữa">
+    <Phan_loai Ma_so="VI_VANI" Ten ="Vị Vani"/>
+  </Nhom_San_pham>
+  <Danh_sach_Ban_hang />
+    <Danh_sach_Nhap_hang/>
+</San_pham>
