@@ -1,4 +1,4 @@
-﻿<Cua_hang Ma_so="PET" Ten="Cửa hàng phân phối Bánh rong biển và Sữa hạnh nhân" >
+﻿<Cua_hang Ma_so="PET" Ten="Cửa hàng phân phối Bánh rong biển và Sữa hạnh nhân" Dien_thoai="055.3970285" Dia_chi ="113 Võ Văn Ngân, P. Linh Đông, Q.Thủ Đức, Tp.HCM" Email="ndhong2015@gmail.com">
   <Danh_sach_Nhom_San_pham>
     <Nhom_San_pham Ma_so="BANH_RONG_BIEN" Ten="Bánh rong biển" />
     <Nhom_San_pham Ma_so="SUA" Ten="Sữa" />

@@ -9,7 +9,7 @@ using System.Globalization;
 using System.Net;
 public class XL_UNG_DUNG
 { 
-//==================== Khở động ==============
+//==================== Khởi động ==============
     static XL_UNG_DUNG Ung_dung = null;
     XmlElement Du_lieu_Ung_dung;
     XmlElement Cua_hang;
