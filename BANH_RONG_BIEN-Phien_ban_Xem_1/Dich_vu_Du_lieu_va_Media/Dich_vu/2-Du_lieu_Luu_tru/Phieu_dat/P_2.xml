@@ -1,0 +1,6 @@
+﻿<PHIEU_DAT Ma_so="P_2"  Ngay="06/03/2018 12:00:00 AM"  Trang_thai="CHO_PHAN_CONG">
+  <Khach_hang Ho_ten="Trần văn Hùng" Dien_thoai="0507333311" Dia_chi="123 Trần hưng Đạo" />
+  <Danh_sach_San_pham>
+    <San_pham Ma_so="S_1" Ten="Sữa Óc Chó Hạnh Nhân Đậu Đen Hàn Quốc 24 hộp/thùng" Don_gia="282000"   So_luong="1"   Tien="282000" />
+  </Danh_sach_San_pham>
+</PHIEU_DAT>

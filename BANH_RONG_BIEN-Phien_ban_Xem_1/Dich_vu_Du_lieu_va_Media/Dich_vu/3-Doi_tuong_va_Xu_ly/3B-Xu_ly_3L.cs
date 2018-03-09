@@ -96,9 +96,78 @@ using System.Globalization;
 
         return Du_lieu;
     }
-     
+    public XmlElement Tao_Du_lieu_cua_Ung_dung_Nhan_vien_Ban_hang()
+    {
+        var Chuoi_XML = Du_lieu_Dich_vu.OuterXml;
+        var Tai_lieu = new XmlDocument();
+        Tai_lieu.LoadXml(Chuoi_XML);
+        var Du_lieu = Tai_lieu.DocumentElement;
+
+        //Bổ sung theo yêu cầu của phân hệ  
+        
+
+        return Du_lieu;
+    }
+    public XmlElement Tao_Du_lieu_cua_Ung_dung_Nhan_vien_Giao_hang()
+    {
+        var Chuoi_XML = Du_lieu_Dich_vu.OuterXml;
+        var Tai_lieu = new XmlDocument();
+        Tai_lieu.LoadXml(Chuoi_XML);
+        var Du_lieu = Tai_lieu.DocumentElement;
+
+        //Bổ sung theo yêu cầu của phân hệ  
 
 
+        return Du_lieu;
+    }
+    public XmlElement Tao_Du_lieu_cua_Ung_dung_Quan_ly_Nhap_hang()
+    {
+        var Chuoi_XML = Du_lieu_Dich_vu.OuterXml;
+        var Tai_lieu = new XmlDocument();
+        Tai_lieu.LoadXml(Chuoi_XML);
+        var Du_lieu = Tai_lieu.DocumentElement;
+
+        //Bổ sung theo yêu cầu của phân hệ  
+
+
+        return Du_lieu;
+    }
+    public XmlElement Tao_Du_lieu_cua_Ung_dung_Quan_ly_Ban_hang()
+    {
+        var Chuoi_XML = Du_lieu_Dich_vu.OuterXml;
+        var Tai_lieu = new XmlDocument();
+        Tai_lieu.LoadXml(Chuoi_XML);
+        var Du_lieu = Tai_lieu.DocumentElement;
+
+        //Bổ sung theo yêu cầu của phân hệ  
+
+
+        return Du_lieu;
+    }
+    public XmlElement Tao_Du_lieu_cua_Ung_dung_Quan_ly_Giao_hang()
+    {
+        var Chuoi_XML = Du_lieu_Dich_vu.OuterXml;
+        var Tai_lieu = new XmlDocument();
+        Tai_lieu.LoadXml(Chuoi_XML);
+        var Du_lieu = Tai_lieu.DocumentElement;
+
+        //Bổ sung theo yêu cầu của phân hệ  
+
+
+        return Du_lieu;
+    }
+    public XmlElement Tao_Du_lieu_cua_Ung_dung_Quan_ly_Cua_hang()
+    {
+        var Chuoi_XML = Du_lieu_Dich_vu.OuterXml;
+        var Tai_lieu = new XmlDocument();
+        Tai_lieu.LoadXml(Chuoi_XML);
+        var Du_lieu = Tai_lieu.DocumentElement;
+
+        //Bổ sung theo yêu cầu của phân hệ  
+
+
+        return Du_lieu;
+    }
 
 
 }

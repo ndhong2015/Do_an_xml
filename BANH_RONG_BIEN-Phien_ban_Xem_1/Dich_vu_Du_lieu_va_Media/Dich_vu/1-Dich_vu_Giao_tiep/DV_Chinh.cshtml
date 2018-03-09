@@ -17,9 +17,36 @@
         var Du_lieu_Kq = Dich_vu.Tao_Du_lieu_cua_Ung_dung_Nhan_vien_Nhap_hang();
         Chuoi_XML_Ket_qua = Du_lieu_Kq.OuterXml;
     }
-
-
-
+    else if (Ma_so_Xu_ly == "KHOI_DONG_DU_LIEU_NHAN_VIEN_BAN_HANG")
+    {
+        var Du_lieu_Kq = Dich_vu.Tao_Du_lieu_cua_Ung_dung_Nhan_vien_Ban_hang();
+        Chuoi_XML_Ket_qua = Du_lieu_Kq.OuterXml;
+    }
+    else if (Ma_so_Xu_ly == "KHOI_DONG_DU_LIEU_NHAN_VIEN_GIAO_HANG")
+    {
+        var Du_lieu_Kq = Dich_vu.Tao_Du_lieu_cua_Ung_dung_Nhan_vien_Giao_hang();
+        Chuoi_XML_Ket_qua = Du_lieu_Kq.OuterXml;
+    }
+    else if (Ma_so_Xu_ly == "KHOI_DONG_DU_LIEU_QUAN_LY_NHAP_HANG")
+    {
+        var Du_lieu_Kq = Dich_vu.Tao_Du_lieu_cua_Ung_dung_Quan_ly_Nhap_hang();
+        Chuoi_XML_Ket_qua = Du_lieu_Kq.OuterXml;
+    }
+    else if (Ma_so_Xu_ly == "KHOI_DONG_DU_LIEU_QUAN_LY_BAN_HANG")
+    {
+        var Du_lieu_Kq = Dich_vu.Tao_Du_lieu_cua_Ung_dung_Quan_ly_Ban_hang();
+        Chuoi_XML_Ket_qua = Du_lieu_Kq.OuterXml;
+    }
+    else if (Ma_so_Xu_ly == "KHOI_DONG_DU_LIEU_QUAN_LY_GIAO_HANG")
+    {
+        var Du_lieu_Kq = Dich_vu.Tao_Du_lieu_cua_Ung_dung_Quan_ly_Giao_hang();
+        Chuoi_XML_Ket_qua = Du_lieu_Kq.OuterXml;
+    }
+    else if (Ma_so_Xu_ly == "KHOI_DONG_DU_LIEU_QUAN_LY_CUA_HANG")
+    {
+        var Du_lieu_Kq = Dich_vu.Tao_Du_lieu_cua_Ung_dung_Quan_ly_Cua_hang();
+        Chuoi_XML_Ket_qua = Du_lieu_Kq.OuterXml;
+    }
     // Xử lý trả Kết quả
     Response.Write(Chuoi_XML_Ket_qua);
 }
