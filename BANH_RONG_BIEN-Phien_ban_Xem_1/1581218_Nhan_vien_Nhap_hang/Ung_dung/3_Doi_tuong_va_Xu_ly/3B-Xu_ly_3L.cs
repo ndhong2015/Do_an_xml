@@ -76,6 +76,10 @@ public class XL_UNG_DUNG
              $"</div>";
         return Chuoi_HTML;
     }
+    public string Ten_Cua_hang()
+    {
+        return Cua_hang.GetAttribute("Ten");
+    }
 }
 //************************* View/Presentation -Layers VL/PL **********************************
 public partial class XL_THE_HIEN
