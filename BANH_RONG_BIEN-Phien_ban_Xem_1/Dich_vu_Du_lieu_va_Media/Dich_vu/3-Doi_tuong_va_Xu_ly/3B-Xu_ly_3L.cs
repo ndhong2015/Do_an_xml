@@ -110,10 +110,14 @@ using System.Globalization;
                 Danh_sach_Nguoi_dung.RemoveChild(Nguoi_dung);// Xóa Các Người dùng không thuộc Nhóm tương ứng  
         foreach (XmlElement San_pham in Du_lieu.GetElementsByTagName("San_pham"))
         {
-            var Danh_sach_Ban_hang = (XmlElement)San_pham.GetElementsByTagName("Danh_sach_Ban_hang")[0];
-            San_pham.RemoveChild(Danh_sach_Ban_hang);
-            var Danh_sach_Nhap_hang = (XmlElement)San_pham.GetElementsByTagName("Danh_sach_Nhap_hang")[0];
-            San_pham.RemoveChild(Danh_sach_Nhap_hang);
+            if (San_pham.GetElementsByTagName("Danh_sach_Nhap_hang").Count > 0)
+            {
+                var Danh_sach_Ban_hang = (XmlElement)San_pham.GetElementsByTagName("Danh_sach_Ban_hang")[0];
+                San_pham.RemoveChild(Danh_sach_Ban_hang);
+                var Danh_sach_Nhap_hang = (XmlElement)San_pham.GetElementsByTagName("Danh_sach_Nhap_hang")[0];
+                San_pham.RemoveChild(Danh_sach_Nhap_hang);
+            }
+                
         }// Xóa Tất các  Nhập hàng, Bán hàng 
 
         return Du_lieu;
