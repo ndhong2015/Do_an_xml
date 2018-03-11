@@ -1,0 +1,6 @@
+<PHIEU_DAT Ma_so="P_5"  Ngay="11/03/2018 12:00:00 AM"  Trang_thai="CHO_PHAN_CONG">
+  <Khach_hang Ho_ten="Trần Minh Anh" Dien_thoai="0979274123" Dia_chi="45 Cách Mạng Tháng 8" />
+  <Danh_sach_San_pham>
+    <San_pham Ma_so="S_6" Ten="Sữa Macca Hạnh nhân" Don_gia="45000"   So_luong="1"   Tien="45000" />
+  </Danh_sach_San_pham>
+</PHIEU_DAT>
