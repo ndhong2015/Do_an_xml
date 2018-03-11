@@ -1,6 +1,6 @@
 ﻿<PHIEU_DAT Ma_so="P_3"  Ngay="06/03/2018 12:00:00 AM"  Trang_thai="CHO_GIAO_HANG">
   <Khach_hang Ho_ten="Trần văn Ngọc" Dien_thoai="0707333311" Dia_chi="1235 Trần hưng Đạo" />
   <Danh_sach_San_pham>
-    <Dien_thoai Ma_so="B_2" Ten="Snack khoai tây Poca vị rong biển 54g" Don_gia="11000"   So_luong="1"   Tien="11000" />
+    <San_pham Ma_so="B_2" Ten="Snack khoai tây Poca vị rong biển 54g" Don_gia="11000"   So_luong="1"   Tien="11000" />
   </Danh_sach_San_pham>
 </PHIEU_DAT>
