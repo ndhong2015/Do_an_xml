@@ -100,7 +100,7 @@ public partial class XL_THE_HIEN
                           $"</div>";
             }
             var Chuoi_Thong_tin = $"<div class='btn' style='text-align:left'> " +
-                          $"<br />Mã phiếu: {  Ma_Phieu}" +
+                          $"<br /><b>Mã phiếu: {  Ma_Phieu}</b>" +
                           $"<br />Ngày: {  Ngay}" +
                           $"<br />Tên khách hàng: {  Ten_Khach_hang}" +
                           $"<br />Số Điện thoại Khách hàng: {  So_Dien_thoai}" +
