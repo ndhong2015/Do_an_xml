@@ -130,19 +130,6 @@ using System.Globalization;
         Tai_lieu.LoadXml(Chuoi_XML);
         var Du_lieu = Tai_lieu.DocumentElement;
 
-        var Cua_hang = (XmlElement)Du_lieu.GetElementsByTagName("Cua_hang")[0];
-        var Danh_sach_Nguoi_dung = (XmlElement)Cua_hang.GetElementsByTagName("Danh_sach_Nguoi_dung")[0];
-        var DS_Nguoi_dung = XL_NGHIEP_VU.Tao_Danh_sach(Danh_sach_Nguoi_dung, "Nguoi_dung");
-        foreach (XmlElement Nguoi_dung in DS_Nguoi_dung)
-            if (Nguoi_dung.SelectSingleNode("Nhom_Nguoi_dung/@Ma_so").Value != "QUAN_LY_NHAP_HANG")
-                Danh_sach_Nguoi_dung.RemoveChild(Nguoi_dung);// Xóa Các Người dùng không thuộc Nhóm tương ứng  
-        foreach (XmlElement San_pham in Du_lieu.GetElementsByTagName("San_pham"))
-        {
-            var Danh_sach_Ban_hang = (XmlElement)San_pham.GetElementsByTagName("Danh_sach_Ban_hang")[0];
-            San_pham.RemoveChild(Danh_sach_Ban_hang);
-        }// Xóa Tất các  Nhập hàng, Bán hàng 
-
-
         return Du_lieu;
     }
     public XmlElement Tao_Du_lieu_cua_Ung_dung_Quan_ly_Ban_hang()
