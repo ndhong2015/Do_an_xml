@@ -18,3 +18,23 @@ E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dun
 E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dung\Online\Do_an\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\1481078_Nhan_vien_Ban_hang\Ung_dung\obj\Debug\Ung_dung.csproj.CoreCompileInputs.cache
 E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dung\Online\Do_an\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\1481078_Nhan_vien_Ban_hang\Ung_dung\obj\Debug\Ung_dung.dll
 E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dung\Online\Do_an\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\1481078_Nhan_vien_Ban_hang\Ung_dung\obj\Debug\Ung_dung.pdb
+C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\1481078_Nhan_vien_Ban_hang\Ung_dung\bin\Ung_dung.dll.config
+C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\1481078_Nhan_vien_Ban_hang\Ung_dung\bin\Ung_dung.dll
+C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\1481078_Nhan_vien_Ban_hang\Ung_dung\bin\Ung_dung.pdb
+C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\1481078_Nhan_vien_Ban_hang\Ung_dung\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\1481078_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.Helpers.dll
+C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\1481078_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.Mvc.dll
+C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\1481078_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.Razor.dll
+C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\1481078_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\1481078_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.WebPages.dll
+C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\1481078_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\1481078_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.Helpers.xml
+C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\1481078_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.Mvc.xml
+C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\1481078_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.Razor.xml
+C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\1481078_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.WebPages.xml
+C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\1481078_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\1481078_Nhan_vien_Ban_hang\Ung_dung\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\1481078_Nhan_vien_Ban_hang\Ung_dung\obj\Debug\Ung_dung.csprojResolveAssemblyReference.cache
+C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\1481078_Nhan_vien_Ban_hang\Ung_dung\obj\Debug\Ung_dung.csproj.CoreCompileInputs.cache
+C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\1481078_Nhan_vien_Ban_hang\Ung_dung\obj\Debug\Ung_dung.dll
+C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\1481078_Nhan_vien_Ban_hang\Ung_dung\obj\Debug\Ung_dung.pdb
