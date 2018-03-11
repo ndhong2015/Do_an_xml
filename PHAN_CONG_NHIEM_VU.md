@@ -10,8 +10,8 @@ PHÂN CÔNG NHIỆM VỤ
 -	Phân hệ Nhân viên Bán hàng + Dịch vụ Nhân viên Bán hàng
 -	Phân hệ Quản lý Bán hàng + Dịch vụ Quản lý Bán hàng
 3.	Phượng
--	Phân hệ Quản lý Nhập hàng + Dịch vụ Quản lý Nhập hàng
 -	Phân hệ Nhân viên Giao hàng + Dịch vụ Nhân viên Giao hàng
+-	Phân hệ Quản lý Giao hàng + Dịch vụ Quản lý Giao hàng
 4.	Lan
 -	Phân hệ Quản lý chung + Dịch vụ Quản lý chung
--	Phân hệ Quản lý Giao hàng + Dịch vụ Quản lý Giao hàng
+-	Phân hệ Quản lý Nhập hàng + Dịch vụ Quản lý Nhập hàng
