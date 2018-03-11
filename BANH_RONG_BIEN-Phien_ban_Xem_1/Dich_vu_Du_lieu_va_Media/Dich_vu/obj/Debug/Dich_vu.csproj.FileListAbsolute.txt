@@ -18,3 +18,23 @@ C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich
 C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich_vu_Du_lieu_va_Media\Dich_vu\obj\Debug\Dich_vu.csproj.CoreCompileInputs.cache
 C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich_vu_Du_lieu_va_Media\Dich_vu\obj\Debug\Dich_vu.dll
 C:\Users\Hector Nguyen\Desktop\git\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich_vu_Du_lieu_va_Media\Dich_vu\obj\Debug\Dich_vu.pdb
+E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dung\Online\Do_an\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich_vu_Du_lieu_va_Media\Dich_vu\bin\Dich_vu.dll.config
+E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dung\Online\Do_an\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich_vu_Du_lieu_va_Media\Dich_vu\bin\Dich_vu.dll
+E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dung\Online\Do_an\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich_vu_Du_lieu_va_Media\Dich_vu\bin\Dich_vu.pdb
+E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dung\Online\Do_an\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich_vu_Du_lieu_va_Media\Dich_vu\bin\Microsoft.Web.Infrastructure.dll
+E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dung\Online\Do_an\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich_vu_Du_lieu_va_Media\Dich_vu\bin\System.Web.Helpers.dll
+E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dung\Online\Do_an\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich_vu_Du_lieu_va_Media\Dich_vu\bin\System.Web.Mvc.dll
+E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dung\Online\Do_an\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich_vu_Du_lieu_va_Media\Dich_vu\bin\System.Web.Razor.dll
+E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dung\Online\Do_an\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich_vu_Du_lieu_va_Media\Dich_vu\bin\System.Web.WebPages.Deployment.dll
+E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dung\Online\Do_an\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich_vu_Du_lieu_va_Media\Dich_vu\bin\System.Web.WebPages.dll
+E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dung\Online\Do_an\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich_vu_Du_lieu_va_Media\Dich_vu\bin\System.Web.WebPages.Razor.dll
+E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dung\Online\Do_an\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich_vu_Du_lieu_va_Media\Dich_vu\bin\System.Web.Helpers.xml
+E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dung\Online\Do_an\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich_vu_Du_lieu_va_Media\Dich_vu\bin\System.Web.Mvc.xml
+E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dung\Online\Do_an\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich_vu_Du_lieu_va_Media\Dich_vu\bin\System.Web.Razor.xml
+E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dung\Online\Do_an\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich_vu_Du_lieu_va_Media\Dich_vu\bin\System.Web.WebPages.xml
+E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dung\Online\Do_an\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich_vu_Du_lieu_va_Media\Dich_vu\bin\System.Web.WebPages.Deployment.xml
+E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dung\Online\Do_an\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich_vu_Du_lieu_va_Media\Dich_vu\bin\System.Web.WebPages.Razor.xml
+E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dung\Online\Do_an\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich_vu_Du_lieu_va_Media\Dich_vu\obj\Debug\Dich_vu.csprojResolveAssemblyReference.cache
+E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dung\Online\Do_an\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich_vu_Du_lieu_va_Media\Dich_vu\obj\Debug\Dich_vu.csproj.CoreCompileInputs.cache
+E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dung\Online\Do_an\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich_vu_Du_lieu_va_Media\Dich_vu\obj\Debug\Dich_vu.dll
+E:\LEARNING\05 - Kiến thức chuyên sâu ngành\11 - Cong nghe XML va ung dung\Online\Do_an\Do_an_xml\BANH_RONG_BIEN-Phien_ban_Xem_1\Dich_vu_Du_lieu_va_Media\Dich_vu\obj\Debug\Dich_vu.pdb
