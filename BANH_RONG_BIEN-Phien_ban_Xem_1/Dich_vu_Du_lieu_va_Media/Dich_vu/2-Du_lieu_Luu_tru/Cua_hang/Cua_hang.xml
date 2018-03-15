@@ -38,7 +38,7 @@
     <Nguoi_dung Ma_so="NV_8" Ho_ten="Nguyễn Giao Hàng 2" Ten_Dang_nhap="NV_8" Mat_khau="NV_8">
       <Nhom_Nguoi_dung Ma_so="GIAO_HANG" Ten="Nhân viên Giao hàng" />
     </Nguoi_dung>
-    <Nguoi_dung Ma_so="NV_9" Ho_ten="Nguyễn QL Giao Hàng" Ten_Dang_nhap="NV_8" Mat_khau="NV_8">
+    <Nguoi_dung Ma_so="NV_9" Ho_ten="Nguyễn QL Giao Hàng" Ten_Dang_nhap="NV_9" Mat_khau="NV_9">
       <Nhom_Nguoi_dung Ma_so="QUAN_LY_GIAO_HANG" Ten="Quản lý Giao hàng" />
     </Nguoi_dung>
   </Danh_sach_Nguoi_dung>
