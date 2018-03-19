@@ -2,7 +2,7 @@
 @{
     //****************** Khởi động Dữ liệu Nguồn-Nội bộ **********
     var Ung_dung = XL_UNG_DUNG.Khoi_dong_Ung_dung();
-    var Nguoi_dung =(XmlElement) Session["Nguoi_dung_Dang_Nhap"];
+    var Nguoi_dung =(XL_NGUOI_DUNG_DANG_NHAP) Session["Nguoi_dung_Dang_Nhap"];
     if (Nguoi_dung == null) { Response.Write("Người dùng không hợp lệ");Response.End(); }
     //******************* Khai báo và Khởi động giá trị đầu cho Biến  ********************
     var Ma_so_Chuc_nang = Request["Th_Ma_so_Chuc_nang"]; // Biến Nhập
@@ -45,7 +45,7 @@
         </div>
         <div class="btn btn-outline-primary" style="background-color:white;color:blue">
             Công nghệ Xml và Ứng dụng  - Minh họa Phiên bản Xem thứ 1 - Tháng 3/2018 
-            <br />@Nguoi_dung.SelectSingleNode("Nhom_Nguoi_dung/@Ten").Value  @Nguoi_dung.GetAttribute("Ho_ten") - Bảo mật nhưng Không phân quyền 
+            <br />  Nguoi_dung.GetAttribute("Ho_ten") - Bảo mật nhưng Không phân quyền 
         </div>
     </div>
     <div class="CUA_SO_CHUC_NANG" style="background-color:gray;margin:10px">

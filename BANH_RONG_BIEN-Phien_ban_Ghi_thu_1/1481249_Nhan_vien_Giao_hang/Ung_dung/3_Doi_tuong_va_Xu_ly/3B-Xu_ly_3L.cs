@@ -141,7 +141,8 @@ public partial class XL_THE_HIEN
             var Ma_Phieu = Phieu_dat.GetAttribute("Ma_so");
             var Ngay = Phieu_dat.GetAttribute("Ngay");
             var Ten_Khach_hang = Phieu_dat.SelectSingleNode("Khach_hang/@Ho_ten").Value;
-            var So_Phieu_dat = Phieu_dat.SelectSingleNode("Khach_hang/@Phieu_dat").Value;
+            //var So_Phieu_dat = Phieu_dat.SelectSingleNode("Khach_hang/@Phieu_dat").Value;
+            var So_Dien_thoai = Phieu_dat.SelectSingleNode("Khach_hang/@Dien_thoai").Value;
             var Dia_chi = Phieu_dat.SelectSingleNode("Khach_hang/@Dia_chi").Value;
 
             var Chuoi_Thong_tin_sp = "";
@@ -171,7 +172,7 @@ public partial class XL_THE_HIEN
                           $"<br /><b>Mã phiếu: {  Ma_Phieu}</b>" +
                           $"<br />Ngày: {  Ngay}" +
                           $"<br />Tên khách hàng: {  Ten_Khach_hang}" +
-                          $"<br />Số Điện thoại Khách hàng: {  So_Phieu_dat}" +
+                          $"<br />Số Điện thoại Khách hàng: {  So_Dien_thoai}" +
                           $"<br />Địa chỉ Khách hàng: {  Dia_chi}";
 
 
@@ -233,12 +234,13 @@ public partial class XL_LUU_TRU
         }
         catch (Exception Loi)
         {
-            Chuoi_XML = $"<Du_lieu Loi='{Loi.Message}'  />";
+            Chuoi_XML = $"<Du_lieu Kq='{Loi.Message}'  />";
         }
 
         var Tai_lieu = new XmlDocument();
         Tai_lieu.LoadXml(Chuoi_XML);
         var Du_lieu = Tai_lieu.DocumentElement;
+        Du_lieu.SetAttribute("Kq", "OK");
 
         return Du_lieu;
     }
