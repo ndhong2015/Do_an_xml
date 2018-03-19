@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-
+using System.Xml;
 #region "********Nhân viên Giao hàng ***********"
 // Du_lieu:
 //   Danh_sach_San_pham: 
@@ -18,3 +18,12 @@ using System.Web;
 //         * San_pham: Ma_so, Ten, Don_gia, So_luong, Tien
 #endregion
 
+public class XL_NGUOI_DUNG_DANG_NHAP
+{
+    public string Ho_ten, Ma_so = "";
+    public List<XmlElement> Danh_sach_Phieu_dat = new List<XmlElement>();
+    
+    public string Thong_bao = "";
+    public List<XmlElement> Danh_sach_Phieu_dat_Xem = new List<XmlElement>();
+
+}

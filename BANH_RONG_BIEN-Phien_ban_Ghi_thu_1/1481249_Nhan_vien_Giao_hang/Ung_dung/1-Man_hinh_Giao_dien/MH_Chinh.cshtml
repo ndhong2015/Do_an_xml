@@ -16,7 +16,11 @@
         var Chuoi_Tra_cuu = Request["Th_Chuoi_Tra_cuu"];
         Chuoi_HTML_Ket_qua = Ung_dung.Tra_cuu(Chuoi_Tra_cuu);
     }
-   
+    else if (Ma_so_Chuc_nang == "GIAO_HANG")
+    {
+        var Ma_Phieu_dat = Request["Th_Ma_so_Phieu_dat"];
+        Chuoi_HTML_Ket_qua = Ung_dung.Ghi_Giao_hang(Ma_Phieu_dat);
+    }
 
 }
 <!DOCTYPE html>
