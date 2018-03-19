@@ -249,31 +249,7 @@ public partial class XL_NGHIEP_VU
            || x.SelectSingleNode("Nhom_San_pham/@Ma_so").Value == Chuoi_Tra_cuu);
         return Danh_sach_Kq;
     }
-    //public static List<XmlElement> Tra_cuu_Nhom_San_pham(
-    //      string Chuoi_Tra_cuu, List<XmlElement> Danh_sach_Nhom_San_pham)
-    //{
-    //    Chuoi_Tra_cuu = Chuoi_Tra_cuu.ToUpper();
-    //    var Danh_sach_Kq = new List<XmlElement>();
-    //    Danh_sach_Kq = Danh_sach_Nhom_San_pham.FindAll(x => x.GetAttribute("").ToUpper().Contains(Chuoi_Tra_cuu)
-    //       || x.SelectSingleNode("Nhom_San_pham/@Ma_so").Value == Chuoi_Tra_cuu);
-    //    return Danh_sach_Kq;
-    //}
-    //public static XmlElement Tim_San_pham(
-    //      string Ma_so, XmlElement Du_lieu)
-    //{
-
-    //    var Danh_sach_San_pham = (XmlElement)Du_lieu.GetElementsByTagName("Danh_sach_San_pham")[0];
-    //    var Kq = (XmlElement)null;
-    //    foreach (XmlElement San_pham in Danh_sach_San_pham.GetElementsByTagName("San_pham"))
-    //    {
-    //        if (Ma_so == San_pham.GetAttribute("Ma_so"))
-    //            Kq = San_pham;
-
-    //    }
-
-
-    //    return Kq;
-    //}
+    
     // Tạo Danh sách ======
     public static List<XmlElement> Tao_Danh_sach(XmlElement Danh_sach_Nguon, string Loai_Doi_tuong)
     {

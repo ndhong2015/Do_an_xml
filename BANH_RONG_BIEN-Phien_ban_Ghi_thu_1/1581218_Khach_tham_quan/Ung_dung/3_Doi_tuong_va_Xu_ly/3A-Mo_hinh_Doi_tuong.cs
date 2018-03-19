@@ -18,6 +18,7 @@ using System.Xml;
 
 public class XL_KHACH_THAM_QUAN
 {
+    public string Ma_so, Ho_ten, Dien_thoai, Mail, Dia_chi;
     public List<XmlElement> Danh_sach_San_pham = new List<XmlElement>();
     public List<XmlElement> Danh_sach_Nhom_San_pham = new List<XmlElement>();
 

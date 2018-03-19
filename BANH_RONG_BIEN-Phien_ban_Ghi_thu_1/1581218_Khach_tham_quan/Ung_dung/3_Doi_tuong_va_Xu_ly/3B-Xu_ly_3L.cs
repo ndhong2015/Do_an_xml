@@ -135,6 +135,40 @@ public class XL_UNG_DUNG
     {
         return Cua_hang.GetAttribute("Ten");
     }
+    //2222222 Chức năng Ghi 222222222222222
+    public string Ghi_Phieu_Dat_moi(List<XmlElement> Danh_sach)
+    {
+        //var Nguoi_dung_Dang_nhap = (XL_NGUOI_DUNG_DANG_NHAP)HttpContext.Current.Session["Nguoi_dung_Dang_nhap"];
+        //var San_pham = Danh_sach_San_pham.FirstOrDefault(x => x.GetAttribute("Ma_so") == Ma_so_San_pham);
+
+
+        //var Hop_le = San_pham != null;
+        //if (Hop_le)
+        //{
+        //    Nguoi_dung_Dang_nhap.Danh_sach_San_pham_Xem = new List<XmlElement>();
+        //    Nguoi_dung_Dang_nhap.Danh_sach_San_pham_Xem.Add(San_pham);
+
+        //    var Nhap_hang = San_pham.OwnerDocument.CreateElement("Nhap_hang");
+        //    var Don_gia_Nhap = long.Parse(San_pham.GetAttribute("Don_gia_Nhap"));
+        //    var Tien = So_luong * Don_gia_Nhap;
+        //    Nhap_hang.SetAttribute("Ngay", DateTime.Now.ToString());
+        //    Nhap_hang.SetAttribute("So_luong", So_luong.ToString());
+        //    Nhap_hang.SetAttribute("Don_gia", Don_gia_Nhap.ToString());
+        //    Nhap_hang.SetAttribute("Tien", Tien.ToString());
+        //    var Kq_Ghi = XL_LUU_TRU.Ghi_Phieu_Dat_moi(San_pham, Nhap_hang);
+        //    if (Kq_Ghi == "OK")
+        //        Nguoi_dung_Dang_nhap.Thong_bao = "Tiền " + Tien.ToString();
+        //    else
+        //        Nguoi_dung_Dang_nhap.Thong_bao = "Lỗi Hệ thống - Xin Thực hiện lại  ";
+
+        //}
+        //else
+        //    Nguoi_dung_Dang_nhap.Thong_bao = "Lỗi Hệ thống - Xin Thực hiện lại ";
+
+        var Chuoi_HTML = XL_THE_HIEN.Tao_Chuoi_HTML_Dat_hang(Danh_sach);
+        return Chuoi_HTML;
+
+    }
 }
 //************************* View/Presentation -Layers VL/PL **********************************
 public partial class XL_THE_HIEN
@@ -254,6 +288,35 @@ public partial class XL_THE_HIEN
 
         Chuoi_HTML_Danh_sach += "</div>";
         return Chuoi_HTML_Danh_sach;
+    }
+    public static string Tao_Chuoi_HTML_Dat_hang(List<XmlElement> Danh_sach)
+    {
+        //var Chuoi_HTML_Gio_hang = Tao_Chuoi_HTML_Danh_sach_San_pham_Chon(Danh_sach);
+        var Chuoi_Thong_tin = $"<div class='btn' style='text-align:left'> " +
+                          $"<h1>PHIẾU ĐẶT HÀNG</h1>" +                          
+                          $"</div>";
+        var Chuoi_Chuc_nang_Dat_hang = $"<form method='post'>   " +
+                                 $"<input name='Th_Ma_so_Chuc_nang' type='hidden' value='GHI_PHIEU_DAT_MOI' />  " +
+                                
+                                    $"Họ tên: <br><input name='Th_Ho_ten' required='required' autocomplete='off' " +
+                                     $"style='border:none;border-bottom:solid 1px blue'" +
+                                    $"type='text' value='' /> <br> " +
+
+                                    $"Số điện thoại: <br><input name='Th_Dien_thoai' required='required' autocomplete='off' " +
+                                     $"style='border:none;border-bottom:solid 1px blue'" +
+                                    $"type='text' value='' /> <br> " +                                   
+
+                                    $"Địa chỉ: <br><input name='Th_Dia_chi' required='required' autocomplete='off' " +
+                                     $"style='border:none;border-bottom:solid 1px blue'" +
+                                    $"type='text' value='' /> <br> " +
+                                
+                             $"</form>";
+        var Chuoi_HTML = $"<div class='col-md-4' style='margin-bottom:10px;' >" +
+                           $"{Chuoi_Thong_tin}" +
+                           $"{Chuoi_Chuc_nang_Dat_hang}" +
+                           //$"{Chuoi_HTML_Gio_hang}" +
+                         "</div>";
+        return Chuoi_HTML;
     }
 }
 //************************* Business-Layers BL **********************************

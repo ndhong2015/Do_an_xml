@@ -436,6 +436,32 @@ public partial class XL_LUU_TRU
         return Kq;
 
     }
+    public static string Ghi_Phieu_Dat_moi(XmlElement Phieu_dat)
+    {
+        var Kq = "";
+
+        //try
+        //{
+
+        //    var Danh_sach_Nhap_hang = San_pham.GetElementsByTagName("Danh_sach_Nhap_hang")[0];
+        //    Danh_sach_Nhap_hang.AppendChild(Nhap_hang);
+        //    var Duong_dan = Thu_muc_San_pham.FullName + $"\\{San_pham.GetAttribute("Ma_so")}.xml";
+        //    var Chuoi_XML = San_pham.OuterXml;
+        //    File.WriteAllText(Duong_dan, Chuoi_XML);
+        //    Kq = "OK";
+        //}
+        //catch (Exception Loi)
+        //{
+        //    Kq = Loi.Message;
+        //}
+        //if (Kq != "OK" && San_pham != null && Nhap_hang != null)
+        //{
+        //    var Danh_sach_Nhap_hang = San_pham.GetElementsByTagName("Danh_sach_Nhap_hang")[0];
+        //    Danh_sach_Nhap_hang.RemoveChild(Nhap_hang);
+        //}
+        return Kq;
+
+    }
     public static string Ghi_Ban_hang_Moi(XmlElement San_pham, XmlElement Ban_hang)
     {
         var Kq = "";
