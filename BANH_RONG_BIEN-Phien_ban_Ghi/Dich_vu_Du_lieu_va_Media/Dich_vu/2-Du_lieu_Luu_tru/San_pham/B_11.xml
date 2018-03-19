@@ -1,7 +1,0 @@
-<San_pham Ma_so="B_11" Ten="Bánh rong biển ăn liền BIBIGO 5g" Don_gia_Ban="12000" Don_gia_Nhap="10000">
-  <Nhom_San_pham Ma_so="BANH_RONG_BIEN" Ten="Bánh rong biển">
-    <Phan_loai Ma_so="VI_RONG_BIEN" Ten ="Vị rong biển"/>
-  </Nhom_San_pham>    
-  <Danh_sach_Ban_hang />
-   <Danh_sach_Nhap_hang/>
-</San_pham>

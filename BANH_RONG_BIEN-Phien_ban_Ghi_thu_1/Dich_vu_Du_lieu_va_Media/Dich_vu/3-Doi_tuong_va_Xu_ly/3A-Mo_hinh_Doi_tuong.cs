@@ -47,6 +47,7 @@ using System.Web;
 //              * Nhom_San_pham: Ma_so,Ten
 
 #endregion
+
 #region "********Nhân viên Bán hàng ***********"
 // Du_lieu:
 //   Danh_sach_San_pham: (Chỉ có các sản phẩm mà nhân viên đó bán)
@@ -60,6 +61,7 @@ using System.Web;
 //          Nhom_Nguoi_dung:Ma_so,Ten
 
 #endregion
+
 #region "******** Nhân viên Giao hàng ***********"
 // Du_lieu:
 //   Danh_sach_San_pham: 
@@ -78,6 +80,7 @@ using System.Web;
 //          Danh_sach_Nhom_San_pham:
 //              * Nhom_San_pham:Ma_so,Ten
 #endregion
+
 #region "******** Quản lý Nhập hàng ***********"
 // Du_lieu:
 //   Danh_sach_San_pham: 
@@ -96,6 +99,7 @@ using System.Web;
 //          Danh_sach_Nhom_San_pham:
 //              * Nhom_San_pham:Ma_so,Ten
 #endregion
+
 #region "******** Quản lý Bán hàng ***********"
 // Du_lieu:
 //   Danh_sach_San_pham: 
@@ -114,6 +118,7 @@ using System.Web;
 //          Danh_sach_Nhom_San_pham:
 //              * Nhom_San_pham:Ma_so,Ten
 #endregion
+
 #region "******** Quản lý Giao hàng ***********"
 // Du_lieu:
 //   Danh_sach_San_pham: 
@@ -132,6 +137,7 @@ using System.Web;
 //          Danh_sach_Nhom_San_pham:
 //              * Nhom_San_pham:Ma_so,Ten
 #endregion
+
 #region "******** Quản lý Cửa hàng ***********"
 // Du_lieu:
 //   Danh_sach_San_pham: 

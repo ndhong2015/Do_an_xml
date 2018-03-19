@@ -2,10 +2,10 @@
 @{
     //****************** Khởi động Dữ liệu Nguồn-Nội bộ **********
     var Ung_dung = XL_UNG_DUNG.Khoi_dong_Ung_dung();
-    var Nguoi_dung =(XmlElement) Session["Nguoi_dung_Dang_Nhap"];
+    var Nguoi_dung = (XL_NGUOI_DUNG_DANG_NHAP)Session["Nguoi_dung_Dang_Nhap"];
     if (Nguoi_dung == null) { Response.Write("Người dùng không hợp lệ");Response.End(); }
     //******************* Khai báo và Khởi động giá trị đầu cho Biến  ********************
-    var Ma_so_Chuc_nang = Request["Th_Ma_so_Chuc_nang"]; // Biến Nhập
+    var Ma_so_Chuc_nang = Request["Th_Ma_so_Chuc_nang"]; // Biến s
     if (Ma_so_Chuc_nang == null) { Ma_so_Chuc_nang = "KHOI_DONG"; };
 
     var Chuoi_HTML_Ket_qua = "";
@@ -21,7 +21,12 @@
         var Ma_so_Nhom_San_pham = Request["Th_Ma_so_Nhom_San_pham"];
         Chuoi_HTML_Ket_qua = Ung_dung.Chon_Nhom_San_pham(Ma_so_Nhom_San_pham);
     }
-
+    else if (Ma_so_Chuc_nang == "GHI_NHAP_HANG_MOI")
+    {
+        var Ma_so_San_pham = Request["Th_Ma_so_San_pham"];
+        var So_luong = int.Parse(Request["Th_So_luong"]);
+        Chuoi_HTML_Ket_qua = Ung_dung.Ghi_Nhap_hang_Moi(Ma_so_San_pham, So_luong);
+    }
 }
 <!DOCTYPE html>
 <html>
@@ -44,8 +49,7 @@
             </div>
         </div>
         <div class="btn btn-outline-primary" style="background-color:white;color:blue">
-            <h1>@Html.Raw(Ung_dung.Ten_Cua_hang())</h1> 
-            <br />@Nguoi_dung.SelectSingleNode("Nhom_Nguoi_dung/@Ten").Value  @Nguoi_dung.GetAttribute("Ho_ten")
+            <h1>@Html.Raw(Ung_dung.Ten_Cua_hang())</h1>
         </div>
     </div>
     <div class="CUA_SO_CHUC_NANG" style="background-color:gray;margin:10px">

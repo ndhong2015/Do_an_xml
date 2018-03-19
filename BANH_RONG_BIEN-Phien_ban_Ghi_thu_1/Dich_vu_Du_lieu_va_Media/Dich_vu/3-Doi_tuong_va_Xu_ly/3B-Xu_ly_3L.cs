@@ -410,7 +410,6 @@ public partial class XL_LUU_TRU
     }
 
     //===Ghi ========
-    // Ghi 
     public static string Ghi_Nhap_hang_Moi(XmlElement San_pham, XmlElement Nhap_hang)
     {
         var Kq = "";
