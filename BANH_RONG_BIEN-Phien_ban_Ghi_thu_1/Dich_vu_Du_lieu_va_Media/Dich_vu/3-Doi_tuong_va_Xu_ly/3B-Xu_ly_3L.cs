@@ -62,6 +62,30 @@ using System.Globalization;
         }
     }
     //====== Tạo Dữ liệu cho các Hệ khách ======
+
+    //public XmlElement Tao_Du_lieu_cua_Ung_dung_Quan_ly_Nguoi_dung()
+    //{
+    //    var Chuoi_XML = Du_lieu_Dich_vu.OuterXml;
+    //    var Tai_lieu = new XmlDocument();
+    //    Tai_lieu.LoadXml(Chuoi_XML);
+    //    var Du_lieu = Tai_lieu.DocumentElement;
+    //    var Cua_hang = (XmlElement)Du_lieu.GetElementsByTagName("Cua_hang")[0];
+    //    //var Danh_sach_Nguoi_dung = (XmlElement)Cua_hang.GetElementsByTagName("Danh_sach_Nguoi_dung")[0];
+    //    //var DS_Nguoi_dung = XL_NGHIEP_VU.Tao_Danh_sach(Danh_sach_Nguoi_dung, "Nguoi_dung");
+    //    //foreach (XmlElement Nguoi_dung in DS_Nguoi_dung)
+    //    //    if (Nguoi_dung.SelectSingleNode("Nhom_Nguoi_dung/@Ma_so").Value != "NHAP_HANG")
+    //    //        Danh_sach_Nguoi_dung.RemoveChild(Nguoi_dung);// Xóa Các Người dùng không thuộc Nhóm tương ứng  
+    //    foreach (XmlElement Dien_thoai in Du_lieu.GetElementsByTagName("Dien_thoai"))
+    //    {
+    //        var Danh_sach_Ban_hang = (XmlElement)Dien_thoai.GetElementsByTagName("Danh_sach_Ban_hang")[0];
+    //        Dien_thoai.RemoveChild(Danh_sach_Ban_hang);
+    //        var Danh_sach_Nhap_hang = (XmlElement)Dien_thoai.GetElementsByTagName("Danh_sach_Nhap_hang")[0];
+    //        Dien_thoai.RemoveChild(Danh_sach_Nhap_hang);
+    //    }// Xóa Tất các  Nhập hàng, Bán hàng 
+
+
+    //    return Du_lieu;
+    //}
     public XmlElement Tao_Du_lieu_cua_Ung_dung_Khach_Tham_quan()
     {
 
@@ -70,8 +94,8 @@ using System.Globalization;
         Tai_lieu.LoadXml(Chuoi_XML);
         var Du_lieu = Tai_lieu.DocumentElement;
         var Cua_hang = (XmlElement)Du_lieu.GetElementsByTagName("Cua_hang")[0];
-        var Danh_sach_Nguoi_dung= (XmlElement)Cua_hang.GetElementsByTagName("Danh_sach_Nguoi_dung")[0];
-        Cua_hang.RemoveChild(Danh_sach_Nguoi_dung);
+        //var Danh_sach_Nguoi_dung= (XmlElement)Cua_hang.GetElementsByTagName("Danh_sach_Nguoi_dung")[0];
+        //Cua_hang.RemoveChild(Danh_sach_Nguoi_dung);
 
         foreach (XmlElement San_pham in Du_lieu.GetElementsByTagName("San_pham"))
         {

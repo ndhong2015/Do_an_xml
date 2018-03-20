@@ -12,10 +12,20 @@
     {
         Chuoi_HTML_Ket_qua = Ung_dung.Khoi_dong_Nguoi_dung();
     }
+    else if (Ma_so_Chuc_nang == "DANG_NHAP")
+    {
+        var Ten_Dang_nhap = Request["Th_Ten_Dang_nhap"];
+        var Mat_khau = Request["Th_Mat_khau"];
+        Chuoi_HTML_Ket_qua = Ung_dung.Dang_nhap(Ten_Dang_nhap, Mat_khau);
+    }
     else if (Ma_so_Chuc_nang == "TRA_CUU")
     {
         var Chuoi_Tra_cuu = Request["Th_Chuoi_Tra_cuu"];
         Chuoi_HTML_Ket_qua = Ung_dung.Tra_cuu(Chuoi_Tra_cuu);
+    }
+    else if (Ma_so_Chuc_nang == "VE_TRANG_CHU")
+    {
+        HttpContext.Current.Response.Redirect("http://localhost:64816/1-Man_hinh_Giao_dien/MH_Chinh.cshtml");
     }
     else if (Ma_so_Chuc_nang == "CHON_NHOM_SAN_PHAM")
     {
@@ -53,15 +63,24 @@
               margin:0px;padding:0px;overflow-x:hidden" class="container-fluid">
     <div class="CUA_SO_TIEU_DE" style="background-color:aliceblue;margin:10px">
         <div class="btn PET" style="margin-left:0px">
-            <img src="@XL_THE_HIEN.Dia_chi_Media/PET.png"
-                 style="width:40px;height:30px;" />
+            <form method="post">
+                <input name="Th_Ma_so_Chuc_nang" type="hidden" value="VE_TRANG_CHU" />
+                <button type='submit' class='btn btn-primary'>
+                    <img src="@XL_THE_HIEN.Dia_chi_Media/PET.png" style="width:40px;height:30px;" />Trang chủ
+                </button>
+            </form>
             <div class="btn TOM_TAT" style="color:blue;text-align:center">
                 Mô hình - Công nghệ - Kỹ thuật
                 <br /><b><i>Đơn giản</i></b>
             </div>
         </div>
         <div class="btn btn-outline-primary" style="background-color:white;color:blue">
-            <h1>@Html.Raw(Ung_dung.Ten_Cua_hang())</h1>
+            <h3>@Html.Raw(Ung_dung.Ten_Cua_hang())</h3>
+        </div>
+        @*Sử dụng Collapse : Có thể thay với Dropdown hay Modal*@
+        <div class="btn btn-primary"
+             data-toggle="collapse" data-target="#Dang_nhap">
+            Đăng nhập
         </div>
     </div>
     <div class="CUA_SO_CHUC_NANG" style="background-color:gray;margin:10px">
@@ -75,6 +94,28 @@
             </div>
 
         </div>
+    </div>
+    <div class="CUA_SO_DANG_NHAP">
+
+        <form method="post" id="Dang_nhap" class="collapse">
+            <input name="Th_Ma_so_Chuc_nang" value="DANG_NHAP" type="hidden" />
+            <div>
+                <div class="alert" style="height:10px">
+                    Đăng nhập
+                </div>
+                <div class="alert" style="height:30px">
+                    <input name="Th_Ten_Dang_nhap" required="required"
+                           spellcheck="false" autocomplete="off" />
+                </div>
+                <div class="alert" style="height:30px">
+                    <input name="Th_Mat_khau" type="password" required="required"
+                           spellcheck="false" autocomplete="off" />
+                </div>
+                <div class="alert" style="height:40px">
+                    <button class="btn btn-danger" type="submit">Đồng ý</button>
+                </div>
+            </div>
+        </form>
     </div>
     <div class="CUA_SO_KET_QUA" style="background-color:white;margin:10px">
         @Html.Raw(Chuoi_HTML_Ket_qua)

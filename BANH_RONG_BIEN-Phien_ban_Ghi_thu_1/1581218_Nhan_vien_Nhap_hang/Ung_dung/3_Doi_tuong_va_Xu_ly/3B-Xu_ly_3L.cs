@@ -92,6 +92,8 @@ public class XL_UNG_DUNG
         var Chuoi_HTML = Tao_Chuoi_HTML_Ket_qua();
         return Chuoi_HTML;
     }
+   
+    
     //2222222Chức năng Ghi222222222222222
     public string Ghi_Nhap_hang_Moi(string Ma_so_San_pham, int So_luong)
     {

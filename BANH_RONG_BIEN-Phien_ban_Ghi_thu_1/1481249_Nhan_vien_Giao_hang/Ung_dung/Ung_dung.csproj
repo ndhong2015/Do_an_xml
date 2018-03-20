@@ -115,9 +115,9 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>64816</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:64817/</IISUrl>
+          <IISUrl>http://localhost:64850/</IISUrl>
           <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
-          <IISAppRootUrl>http://localhost:64817/</IISAppRootUrl>
+          <IISAppRootUrl>http://localhost:64850/</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

@@ -1,7 +1,1 @@
-<San_pham Ma_so="S_5" Ten="Sữa óc chó hạnh nhân Yonsei Hàn quốc " Don_gia_Ban="230000" Don_gia_Nhap="200000">
-  <Nhom_San_pham Ma_so="SUA" Ten="Sữa">
-    <Phan_loai Ma_so="VI_OC_CHO" Ten ="Vị óc chó"/>
-  </Nhom_San_pham>
-  <Danh_sach_Ban_hang />
-    <Danh_sach_Nhap_hang/>
-</San_pham>
+<San_pham Ma_so="S_5" Ten="Sữa óc chó hạnh nhân Yonsei Hàn quốc " Don_gia_Ban="230000" Don_gia_Nhap="200000" So_luong_Ton="0" Doanh_thu="0"><Nhom_San_pham Ma_so="SUA" Ten="Sữa"><Phan_loai Ma_so="VI_OC_CHO" Ten="Vị óc chó" /></Nhom_San_pham><Danh_sach_Ban_hang /><Danh_sach_Nhap_hang><Nhap_hang Ngay="20/03/2018 9:07:18 PM" So_luong="11" Don_gia="200000" Tien="2200000" /></Danh_sach_Nhap_hang></San_pham>

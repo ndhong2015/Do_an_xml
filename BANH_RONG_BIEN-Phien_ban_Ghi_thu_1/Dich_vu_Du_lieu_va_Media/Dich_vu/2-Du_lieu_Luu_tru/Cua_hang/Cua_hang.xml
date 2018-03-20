@@ -4,42 +4,42 @@
     <Nhom_San_pham Ma_so="SUA" Ten="Sữa" />
   </Danh_sach_Nhom_San_pham>
   <Danh_sach_Nguoi_dung>
-    <Nguoi_dung Ma_so="NV_1" Ho_ten="Nguyễn Nhập Hàng" Ten_Dang_nhap="NV_1" Mat_khau="NV_1">
-      <Nhom_Nguoi_dung Ma_so="NHAP_HANG" Ten="Nhân viên Nhập hàng" />
+    <Nguoi_dung Ma_so="NV_1" Ho_ten="Nguyễn Nhập Hàng" Ten_Dang_nhap="NV_1" Mat_khau="NV_1" >
+      <Nhom_Nguoi_dung Ma_so="NHAP_HANG" Ten="Nhân viên Nhập hàng" Dia_chi_MH_Dang_nhap = "http://localhost:64817/1-Man_hinh_Giao_dien/MH_Dang_nhap.cshtml"/>
       <Danh_sach_Nhom_San_pham>
         <Nhom_San_pham Ma_so="BANH_RONG_BIEN" Ten="Bánh rong biển" />
         <Nhom_San_pham Ma_so="SUA" Ten="Sữa" />
       </Danh_sach_Nhom_San_pham>
     </Nguoi_dung>
     <Nguoi_dung Ma_so="NV_2" Ho_ten="Nguyễn Bán Hàng 1" Ten_Dang_nhap="NV_2" Mat_khau="NV_2">
-      <Nhom_Nguoi_dung Ma_so="BAN_HANG" Ten="Nhân viên Bán hàng" />
+      <Nhom_Nguoi_dung Ma_so="BAN_HANG" Ten="Nhân viên Bán hàng" Dia_chi_MH_Dang_nhap = "http://localhost:49929/1-Man_hinh_Giao_dien/MH_Dang_nhap.cshtml"/>
       <Danh_sach_Nhom_San_pham>
         <Nhom_San_pham Ma_so="BANH_RONG_BIEN" Ten="Bánh rong biển" />
       </Danh_sach_Nhom_San_pham>
     </Nguoi_dung>
     <Nguoi_dung Ma_so="NV_3" Ho_ten="Nguyễn Bán Hàng 2" Ten_Dang_nhap="NV_3" Mat_khau="NV_3">
-      <Nhom_Nguoi_dung Ma_so="BAN_HANG" Ten="Nhân viên Bán hàng" />
+      <Nhom_Nguoi_dung Ma_so="BAN_HANG" Ten="Nhân viên Bán hàng" Dia_chi_MH_Dang_nhap = "http://localhost:49929/1-Man_hinh_Giao_dien/MH_Dang_nhap.cshtml"/>
       <Danh_sach_Nhom_San_pham>
         <Nhom_San_pham Ma_so="SUA" Ten="Sữa" />
       </Danh_sach_Nhom_San_pham>
     </Nguoi_dung>
     <Nguoi_dung Ma_so="NV_4" Ho_ten="Nguyễn QL Nhập Hàng" Ten_Dang_nhap="NV_4" Mat_khau="NV_4">
-      <Nhom_Nguoi_dung Ma_so="QUAN_LY_NHAP_HANG" Ten="Quản lý Nhập hàng" />
+      <Nhom_Nguoi_dung Ma_so="QUAN_LY_NHAP_HANG" Ten="Quản lý Nhập hàng" Dia_chi_MH_Dang_nhap = "http://localhost:64819/1-Man_hinh_Giao_dien/MH_Dang_nhap.cshtml"/>
     </Nguoi_dung>
     <Nguoi_dung Ma_so="NV_5" Ho_ten="Nguyễn QL Bán Hàng" Ten_Dang_nhap="NV_5" Mat_khau="NV_5">
-      <Nhom_Nguoi_dung Ma_so="QUAN_LY_BAN_HANG" Ten="Quản lý Bán hàng" />
+      <Nhom_Nguoi_dung Ma_so="QUAN_LY_BAN_HANG" Ten="Quản lý Bán hàng" Dia_chi_MH_Dang_nhap = "http://localhost:64816/1-Man_hinh_Giao_dien/MH_Chinh.cshtml"/>
     </Nguoi_dung>
     <Nguoi_dung Ma_so="NV_6" Ho_ten="Nguyễn QL Cửa Hàng" Ten_Dang_nhap="NV_6" Mat_khau="NV_6">
-      <Nhom_Nguoi_dung Ma_so="QUAN_LY_CUA_HANG" Ten="Quản lý Cửa hàng" />
+      <Nhom_Nguoi_dung Ma_so="QUAN_LY_CUA_HANG" Ten="Quản lý Cửa hàng" Dia_chi_MH_Dang_nhap = "http://localhost:64816/1-Man_hinh_Giao_dien/MH_Chinh.cshtml"/>
     </Nguoi_dung>
     <Nguoi_dung Ma_so="NV_7" Ho_ten="Nguyễn Giao Hàng 1" Ten_Dang_nhap="NV_7" Mat_khau="NV_7">
-      <Nhom_Nguoi_dung Ma_so="GIAO_HANG" Ten="Nhân viên Giao hàng" />
+      <Nhom_Nguoi_dung Ma_so="GIAO_HANG" Ten="Nhân viên Giao hàng" Dia_chi_MH_Dang_nhap = "http://localhost:64850/1-Man_hinh_Giao_dien/MH_Dang_nhap.cshtml"/>
     </Nguoi_dung>
     <Nguoi_dung Ma_so="NV_8" Ho_ten="Nguyễn Giao Hàng 2" Ten_Dang_nhap="NV_8" Mat_khau="NV_8">
-      <Nhom_Nguoi_dung Ma_so="GIAO_HANG" Ten="Nhân viên Giao hàng" />
+      <Nhom_Nguoi_dung Ma_so="GIAO_HANG" Ten="Nhân viên Giao hàng" Dia_chi_MH_Dang_nhap = "http://localhost:64850/1-Man_hinh_Giao_dien/MH_Dang_nhap.cshtml"/>
     </Nguoi_dung>
     <Nguoi_dung Ma_so="NV_9" Ho_ten="Nguyễn QL Giao Hàng" Ten_Dang_nhap="NV_9" Mat_khau="NV_9">
-      <Nhom_Nguoi_dung Ma_so="QUAN_LY_GIAO_HANG" Ten="Quản lý Giao hàng" />
+      <Nhom_Nguoi_dung Ma_so="QUAN_LY_GIAO_HANG" Ten="Quản lý Giao hàng" Dia_chi_MH_Dang_nhap = "http://localhost:64851/1-Man_hinh_Giao_dien/MH_Dang_nhap.cshtml"/>
     </Nguoi_dung>
   </Danh_sach_Nguoi_dung>
 </Cua_hang>

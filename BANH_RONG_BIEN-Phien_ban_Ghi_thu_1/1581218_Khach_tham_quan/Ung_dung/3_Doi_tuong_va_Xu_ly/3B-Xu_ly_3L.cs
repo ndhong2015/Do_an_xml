@@ -15,6 +15,7 @@ public class XL_UNG_DUNG
     XmlElement Cua_hang;
     List<XmlElement> Danh_sach_Nhom_San_pham = new List<XmlElement>();
     List<XmlElement> Danh_sach_San_pham = new List<XmlElement>();
+    List<XmlElement> Danh_sach_Nguoi_dung = new List<XmlElement>();
 
     public static XL_UNG_DUNG Khoi_dong_Ung_dung()
     {
@@ -33,10 +34,28 @@ public class XL_UNG_DUNG
         Danh_sach_Nhom_San_pham = XL_NGHIEP_VU.Tao_Danh_sach(DS_Nhom_San_pham, "Nhom_San_pham");
         var DS_San_pham = (XmlElement)Du_lieu_Ung_dung.GetElementsByTagName("Danh_sach_San_pham")[0];
         Danh_sach_San_pham = XL_NGHIEP_VU.Tao_Danh_sach(DS_San_pham, "San_pham");
-        
+
+        var DS_Nguoi_dung = (XmlElement)Cua_hang.GetElementsByTagName("Danh_sach_Nguoi_dung")[0];
+        Danh_sach_Nguoi_dung = XL_NGHIEP_VU.Tao_Danh_sach(DS_Nguoi_dung, "Nguoi_dung");
     }
     //============= Xử lý Chức năng ========
-    
+    public string Dang_nhap(string Ten_Dang_nhap, string Mat_khau)
+    {
+
+        var Nguoi_dung = Danh_sach_Nguoi_dung.FirstOrDefault(
+            x => x.GetAttribute("Ten_Dang_nhap") == Ten_Dang_nhap && x.GetAttribute("Mat_khau") == Mat_khau);
+        var Chuoi_HTML = "";
+        if (Nguoi_dung != null)
+        {
+            var Dia_chi_MH_Dang_nhap = Nguoi_dung.SelectSingleNode("Nhom_Nguoi_dung/@Dia_chi_MH_Dang_nhap").Value;
+            var Tham_so = $"Th_Ma_so_Chuc_nang=DANG_NHAP&Th_Ten_Dang_nhap={Ten_Dang_nhap}&Th_Mat_khau={Mat_khau}";
+            var Dia_chi_Xu_ly = $"{Dia_chi_MH_Dang_nhap}?{Tham_so}";
+            HttpContext.Current.Response.Redirect(Dia_chi_Xu_ly);
+        }
+
+        else Chuoi_HTML = "Không hợp lệ";
+        return Chuoi_HTML;
+    }
     public string Khoi_dong_Nguoi_dung()
     {
         var Khach_Tham_quan = new XL_KHACH_THAM_QUAN();
