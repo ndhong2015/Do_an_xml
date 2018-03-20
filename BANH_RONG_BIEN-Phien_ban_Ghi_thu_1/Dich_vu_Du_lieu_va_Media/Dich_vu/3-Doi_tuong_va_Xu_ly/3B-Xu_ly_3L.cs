@@ -294,6 +294,27 @@ using System.Globalization;
         var Chuoi_Xml_Kq = $"<DU_LIEU Kq='{Chuoi_Kq_Ghi}' />";
         return Chuoi_Xml_Kq;
     }
+    public string Ghi_Ban_hang_Moi(string Ma_so_San_pham, string Chuoi_Xml_Ban_hang)
+    {
+        var San_pham = XL_NGHIEP_VU.Tim_San_pham(Ma_so_San_pham, Du_lieu_Dich_vu);
+        var Ban_hang = XL_NGHIEP_VU.Tao_Doi_tuong_Con(Chuoi_Xml_Ban_hang, San_pham);
+        var Chuoi_Kq_Ghi = XL_LUU_TRU.Ghi_Ban_hang_Moi(San_pham, Ban_hang);
+        if (Chuoi_Kq_Ghi == "OK")
+        {
+            var So_luong_Ton = XL_NGHIEP_VU.Tinh_So_luong_Ton_San_pham(San_pham);
+            San_pham.SetAttribute("So_luong_Ton", So_luong_Ton.ToString());
+        }
+        var Chuoi_Xml_Kq = $"<DU_LIEU Kq='{Chuoi_Kq_Ghi}' />";
+        return Chuoi_Xml_Kq;
+    }
+
+    public string Cap_nhat_Don_gia_Ban(string Ma_so_San_pham, string Chuoi_Don_gia_Ban)
+    {
+        var San_pham = XL_NGHIEP_VU.Tim_San_pham(Ma_so_San_pham, Du_lieu_Dich_vu);
+        var Chuoi_Kq_Ghi = XL_LUU_TRU.Cap_nhat_Don_gia_Ban(San_pham, Chuoi_Don_gia_Ban);
+        var Chuoi_Xml_Kq = $"<DU_LIEU Kq='{Chuoi_Kq_Ghi}' />";
+        return Chuoi_Xml_Kq;
+    }
 
 }
 //************************* Business-Layers BL **********************************
@@ -592,6 +613,35 @@ public partial class XL_LUU_TRU
         return Kq;
 
     }
+    public static string Cap_nhat_Don_gia_Ban(XmlElement San_pham, string Chuoi_Don_gia_Ban)
+    {
+        var Kq = "";
 
+        if (San_pham != null)
+        {
+            var Don_gia_Ban_Goc = 0L;
+            var Don_gia_Ban_Goc_Hop_le = long.TryParse(San_pham.GetAttribute("Don_gia_Ban"), out Don_gia_Ban_Goc);
+            try
+            {
+                var Don_gia_Ban = long.Parse(Chuoi_Don_gia_Ban);
+                San_pham.SetAttribute("Don_gia_Ban", Don_gia_Ban.ToString());
+                var Duong_dan = Thu_muc_San_pham.FullName + $"\\{San_pham.GetAttribute("Ma_so")}.xml";
+                var Chuoi_XML = San_pham.OuterXml;
+                File.WriteAllText(Duong_dan, Chuoi_XML);
+                Kq = "OK";
+            }
+            catch (Exception Loi)
+            {
+                Kq = Loi.Message;
+            }
+            if (Kq != "OK" && Don_gia_Ban_Goc_Hop_le)
+            {
+                San_pham.SetAttribute("Don_gia_Ban", Don_gia_Ban_Goc.ToString());
+            }
+        }
+
+        return Kq;
+
+    }
 
 }
