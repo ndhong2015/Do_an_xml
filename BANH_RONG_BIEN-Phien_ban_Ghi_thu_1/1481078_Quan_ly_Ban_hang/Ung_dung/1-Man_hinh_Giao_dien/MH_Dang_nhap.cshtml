@@ -6,7 +6,7 @@
 @{
     //****************** Khởi động Dữ liệu Nguồn-Nội bộ **********
     var Ung_dung = XL_UNG_DUNG.Khoi_dong_Ung_dung();
-
+    if (Ung_dung.Khoi_dong_Co_loi == true) { Response.Write("Lỗi Hệ thống hay Lỗi Lập trình viên"); Response.End(); }
     //******************* Khai báo và Khởi động giá trị đầu cho Biến  ********************
     var Ma_so_Chuc_nang = Request["Th_Ma_so_Chuc_nang"]; // Biến Nhập
     if (Ma_so_Chuc_nang == null) { Ma_so_Chuc_nang = "KHOI_DONG"; };

@@ -27,10 +27,10 @@
       <Nhom_Nguoi_dung Ma_so="QUAN_LY_NHAP_HANG" Ten="Quản lý Nhập hàng" Dia_chi_MH_Dang_nhap = "http://localhost:64819/1-Man_hinh_Giao_dien/MH_Dang_nhap.cshtml"/>
     </Nguoi_dung>
     <Nguoi_dung Ma_so="NV_5" Ho_ten="Nguyễn QL Bán Hàng" Ten_Dang_nhap="NV_5" Mat_khau="NV_5">
-      <Nhom_Nguoi_dung Ma_so="QUAN_LY_BAN_HANG" Ten="Quản lý Bán hàng" Dia_chi_MH_Dang_nhap = "http://localhost:64816/1-Man_hinh_Giao_dien/MH_Chinh.cshtml"/>
+      <Nhom_Nguoi_dung Ma_so="QUAN_LY_BAN_HANG" Ten="Quản lý Bán hàng" Dia_chi_MH_Dang_nhap = "http://localhost:49959/1-Man_hinh_Giao_dien/MH_Dang_nhap.cshtml"/>
     </Nguoi_dung>
     <Nguoi_dung Ma_so="NV_6" Ho_ten="Nguyễn QL Cửa Hàng" Ten_Dang_nhap="NV_6" Mat_khau="NV_6">
-      <Nhom_Nguoi_dung Ma_so="QUAN_LY_CUA_HANG" Ten="Quản lý Cửa hàng" Dia_chi_MH_Dang_nhap = "http://localhost:64816/1-Man_hinh_Giao_dien/MH_Chinh.cshtml"/>
+      <Nhom_Nguoi_dung Ma_so="QUAN_LY_CUA_HANG" Ten="Quản lý Cửa hàng" Dia_chi_MH_Dang_nhap = "http://localhost:64816/1-Man_hinh_Giao_dien/MH_Dang_nhap.cshtml"/>
     </Nguoi_dung>
     <Nguoi_dung Ma_so="NV_7" Ho_ten="Nguyễn Giao Hàng 1" Ten_Dang_nhap="NV_7" Mat_khau="NV_7">
       <Nhom_Nguoi_dung Ma_so="GIAO_HANG" Ten="Nhân viên Giao hàng" Dia_chi_MH_Dang_nhap = "http://localhost:64850/1-Man_hinh_Giao_dien/MH_Dang_nhap.cshtml"/>
