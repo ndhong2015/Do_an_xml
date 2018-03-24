@@ -1,0 +1,9 @@
+<PHIEU_DAT Ma_so="P_12" Ngay="24/03/2018 10:02:10 PM" Trang_thai="CHO_PHAN_CONG">
+    <Khach_hang Ho_ten="cbdf" Dien_thoai="dfbdfb" Dia_chi="dfbd" />
+    <Danh_sach_San_pham>
+        <San_pham Ma_so="B_1" Ten="Bánh cá vị rong biển Orion Marine Boy 32g" Don_gia="13000" So_luong="1" Tien="13000" />
+        <San_pham Ma_so="B_10" Ten="Bánh rong biển Wakame 50g" Don_gia="120000" So_luong="1" Tien="120000" />
+        <San_pham Ma_so="B_11" Ten="Bánh rong biển ăn liền BIBIGO 5g" Don_gia="12000" So_luong="1" Tien="12000" />
+    </Danh_sach_San_pham>
+    <Nhan_vien_Giao_hang Ma_so="" />
+</PHIEU_DAT>

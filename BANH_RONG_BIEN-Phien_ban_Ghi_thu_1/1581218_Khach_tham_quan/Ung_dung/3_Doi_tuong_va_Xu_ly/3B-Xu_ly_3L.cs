@@ -68,6 +68,7 @@ public class XL_UNG_DUNG
         Khach_Tham_quan.Danh_sach_Nhom_San_pham = Danh_sach_Nhom_San_pham;
         Khach_Tham_quan.Danh_sach_San_pham_Xem = Danh_sach_San_pham;
         Khach_Tham_quan.Danh_sach_San_pham_Chon = new List<XmlElement>();
+        Khach_Tham_quan.Danh_sach_Phieu_dat = Danh_sanh_Phieu_dat;
         HttpContext.Current.Session["Khach_Tham_quan"] = Khach_Tham_quan;
 
         var Chuoi_HTML = Tao_Chuoi_HTML_Ket_qua();
@@ -188,19 +189,45 @@ public class XL_UNG_DUNG
                 break;
             }            
         }
-        var Phieu_dat_moi = Danh_sanh_Phieu_dat[0];
+        var Chuoi_XML = "<PHIEU_DAT/>";
+        var Tai_lieu = new XmlDocument();
+        Tai_lieu.LoadXml(Chuoi_XML);
+        var Phieu_dat_moi = Tai_lieu.DocumentElement;
         Phieu_dat_moi.SetAttribute("Ma_so", Ma_so_Phieu_dat_moi.ToString());
         Phieu_dat_moi.SetAttribute("Ngay", DateTime.Now.ToString());
         Phieu_dat_moi.SetAttribute("Trang_thai", "CHO_PHAN_CONG");
-        Phieu_dat_moi.SelectSingleNode("Khach_hang/@Ho_ten").Value = Ho_ten;
-        Phieu_dat_moi.SelectSingleNode("Khach_hang/@Dien_thoai").Value = Dien_thoai;
-        Phieu_dat_moi.SelectSingleNode("Khach_hang/@Dia_chi").Value = Dia_chi;
-        Phieu_dat_moi.GetElementsByTagName("Danh_sach_San_pham")[0].InnerXml = "";
+        Chuoi_XML = "<Khach_hang/>";
+        Tai_lieu.LoadXml(Chuoi_XML);
+        var Khach_hang = Tai_lieu.DocumentElement;
+        Khach_hang.SetAttribute("Ho_ten", Ho_ten);
+        Khach_hang.SetAttribute("Dien_thoai",Dien_thoai);
+        Khach_hang.SetAttribute("Dia_chi", Dia_chi);
+        Phieu_dat_moi.AppendChild(Khach_hang);
 
+        Chuoi_XML = "<Danh_sach_San_pham/>";
+        Tai_lieu.LoadXml(Chuoi_XML);
+        var Danh_sach_San_pham = Tai_lieu.DocumentElement;
+        Phieu_dat_moi.AppendChild(Danh_sach_San_pham);
         Danh_sach.ForEach(San_pham =>
-        Phieu_dat_moi.GetElementsByTagName("Danh_sach_San_pham")[0].AppendChild(San_pham)
+        {
+            Chuoi_XML = "<San_pham/>";
+            Tai_lieu.LoadXml(Chuoi_XML);
+            var San_pham_chon = Tai_lieu.DocumentElement;
+            San_pham_chon.SetAttribute("Ma_so", San_pham.GetAttribute("Ma_so"));
+            San_pham_chon.SetAttribute("Ten", San_pham.GetAttribute("Ten"));
+            San_pham_chon.SetAttribute("Don_gia", San_pham.GetAttribute("Don_gia_Ban"));
+            San_pham_chon.SetAttribute("So_luong", San_pham.GetAttribute("So_luong"));
+            var Tien = (long.Parse(San_pham.GetAttribute("Don_gia_Ban"))) * (int.Parse(San_pham.GetAttribute("So_luong")));
+            San_pham_chon.SetAttribute("Tien", Tien.ToString());
+            Danh_sach_San_pham.AppendChild(San_pham_chon);
+        }
         );
-        Phieu_dat_moi.SelectSingleNode("Nhan_vien_Giao_hang/@Ma_so").Value = "";
+        Chuoi_XML = "<Nhan_vien_Giao_hang/>";
+        Tai_lieu.LoadXml(Chuoi_XML);
+        var Nhan_vien_Giao_hang = Tai_lieu.DocumentElement;
+        Phieu_dat_moi.AppendChild(Nhan_vien_Giao_hang);
+        Nhan_vien_Giao_hang.SetAttribute("Ma_so", "");
+
         var Hop_le = Phieu_dat_moi != null;
         if (Hop_le)
         {           
@@ -320,7 +347,8 @@ public partial class XL_THE_HIEN
 
     public static string Tao_Chuoi_HTML_Gio_hang(List<XmlElement> Danh_sach)
     {
-        var Chuoi_HTML_Danh_sach = "<div class='row' style='background-color:pink'><h5 style='color:red'>Giỏ hàng<h5/>";
+        var Chuoi_HTML_Gio_hang = "<div style='background-color:pink; width:500px; border: 2px solid blue;'>";
+        var Chuoi_HTML_Danh_sach = "<h2 style='color:red; text-align:center' >GIỎ HÀNG</h2>";
         var Tong_tien = 0.0;
         Danh_sach.ForEach(San_pham =>
         {
@@ -337,14 +365,14 @@ public partial class XL_THE_HIEN
                           $"<br />Đơn giá Bán {  Don_gia_Ban.ToString("n0", Dinh_dang_VN) }" +
                           $"<br />Số lượng Đặt {  So_luong.ToString("n0", Dinh_dang_VN) }" +
                           $"</div>";
-            var Chuoi_HTML = $"<div class='col-md-4' style='margin-bottom:10px;>" +
+            var Chuoi_HTML = $"<div>" +
                                $"{Chuoi_Hinh}" + $"{Chuoi_Thong_tin}" +
                              "</div>";
             Chuoi_HTML_Danh_sach += Chuoi_HTML;
         });
-        
-        Chuoi_HTML_Danh_sach +=$"<div><h4 style='color:red'>Tổng tiền: {Tong_tien}<h4> <div></div>";
-        return Chuoi_HTML_Danh_sach;
+        Chuoi_HTML_Danh_sach += $"<div><h4 style='color:red; text-align:center'>Tổng tiền: {Tong_tien}<h4>";
+        Chuoi_HTML_Gio_hang += Chuoi_HTML_Danh_sach + "</div></div>";
+        return Chuoi_HTML_Gio_hang;
     }
 
     public static string Tao_Chuoi_HTML_Danh_sach_Nhom_San_pham_Xem(List<XmlElement> Danh_sach)
@@ -382,18 +410,18 @@ public partial class XL_THE_HIEN
                                 
                                     $"Họ tên: <br><input name='Th_Ho_ten' required='required' autocomplete='off' " +
                                      $"style='border:none;border-bottom:solid 1px blue'" +
-                                    $"type='text' value='' /> <br> " +
+                                    $"type='text' value='' /> </br> " +
 
                                     $"Số điện thoại: <br><input name='Th_Dien_thoai' required='required' autocomplete='off' " +
                                      $"style='border:none;border-bottom:solid 1px blue'" +
-                                    $"type='text' value='' /> <br> " +                                   
+                                    $"type='text' value='' /> </br> " +                                   
 
                                     $"Địa chỉ: <br><input name='Th_Dia_chi' required='required' autocomplete='off' " +
                                      $"style='border:none;border-bottom:solid 1px blue'" +
-                                    $"type='text' value='' /> <br> " +
+                                    $"type='text' value='' /> </br></br> " +
 
                                     $"<button type='submit' class='btn btn-primary'>Đồng ý</button>" +
-                             $"</form><br>";
+                             $"</form></br>";
         var Chuoi_Gio_hang = Tao_Chuoi_HTML_Gio_hang(Danh_sach);
         var Chuoi_HTML = $"<div class='col-md-4' style='margin-bottom:10px;' >" +
                            $"{Chuoi_Thong_tin}" +
@@ -496,18 +524,11 @@ public partial class XL_LUU_TRU
         {
             Kq = Loi.Message;
         }
-        //if (Kq=="OK")
-        //{
-            
-
-        //    var So_luong_Ton = int.Parse(San_pham.GetAttribute("So_luong_Ton"));
-        //    var So_luong = int.Parse(Nhap_hang.GetAttribute("So_luong"));
-        //    So_luong_Ton += So_luong;
-        //    San_pham.SetAttribute("So_luong_Ton", So_luong_Ton.ToString());
-        //    var Nhom_San_pham_hien_hanh = Nguoi_dung_Dang_nhap.Danh_sach_Nhom_San_pham.FirstOrDefault(x => San_pham.SelectSingleNode("Nhom_San_pham/@Ma_so").Value == x.GetAttribute("Ma_so"));
-        //    var So_luong_Ton_Nhom_San_pham = int.Parse(Nhom_San_pham_hien_hanh.GetAttribute("So_luong_Ton")) + So_luong;
-        //    Nhom_San_pham_hien_hanh.SetAttribute("So_luong_Ton", So_luong_Ton_Nhom_San_pham.ToString());
-        //}
+        if (Kq == "OK")
+        {
+            var Khach_Tham_quan = (XL_KHACH_THAM_QUAN)HttpContext.Current.Session["Khach_Tham_quan"];
+            Khach_Tham_quan.Danh_sach_Phieu_dat.Add(Phieu_dat);
+        }
         return Kq;
 
     }

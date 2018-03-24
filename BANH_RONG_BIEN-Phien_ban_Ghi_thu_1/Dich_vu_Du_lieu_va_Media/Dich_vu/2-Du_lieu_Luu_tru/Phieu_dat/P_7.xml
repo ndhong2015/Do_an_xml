@@ -1,8 +1,0 @@
-<PHIEU_DAT Ma_so="P_7"  Ngay="12/3/2018 12:00:00 AM"  Trang_thai="CHO_GIAO_HANG">
-  <Khach_hang Ho_ten="Trần Mạnh Hùng" Dien_thoai="0982839738" Dia_chi="295 Võ Thị Sáu" />
-  <Danh_sach_San_pham>
-    <San_pham Ma_so="S_2" Ten="Sữa Óc Chó Hạnh Nhân Đậu Đen Hàn Quốc" Don_gia="267000" So_luong="1"  Tien="267000"/>
-    <San_pham Ma_so="B_5" Ten="Snack rong biển Tao Kae Noi Big Bang vị truyền thống 6g" Don_gia="9000" So_luong="3" Tien="27000" />
-  </Danh_sach_San_pham>
-  <Nhan_vien_Giao_hang Ma_so="NV_7"/>
-</PHIEU_DAT>
