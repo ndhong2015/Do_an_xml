@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<PHIEU_DAT Ma_so="P_6" Ngay="24/03/2018 8:37:17 PM" Trang_thai="CHO_PHAN_CONG">
-    <Khach_hang Ho_ten="sdfds" Dien_thoai="sdf" Dia_chi="sdf" />
-    <Nhan_vien_Giao_hang Ma_so="" />
-</PHIEU_DAT>
-=======
 <PHIEU_DAT Ma_so="P_6"  Ngay="10/3/2018 12:00:00 AM"  Trang_thai="CHO_GIAO_HANG">
   <Khach_hang Ho_ten="Nguyễn Thị Hồng Nhung" Dien_thoai="02823682367" Dia_chi="10 Phan Văn Trị" />
   <Danh_sach_San_pham>
@@ -13,4 +7,3 @@
   <Nhan_vien_Giao_hang Ma_so="NV_8"/>
 </PHIEU_DAT>
 
->>>>>>> eca943b8551fe740b40ddb7028b48a8ccc24a374

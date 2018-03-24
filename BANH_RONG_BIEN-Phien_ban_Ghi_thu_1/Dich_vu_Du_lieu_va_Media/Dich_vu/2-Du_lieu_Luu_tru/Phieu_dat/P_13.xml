@@ -1,1 +1,7 @@
-<PHIEU_DAT Ma_so="P_13" Ngay="24/03/2018 10:04:41 PM" Trang_thai="CHO_PHAN_CONG"><Khach_hang Ho_ten="Hồng" Dien_thoai="345345" Dia_chi="23523423" /><Danh_sach_San_pham><San_pham Ma_so="S_1" Ten="Sữa Óc Chó Hạnh Nhân Đậu Đen Hàn Quốc 24 hộp/thùng" Don_gia="282000" So_luong="1" Tien="282000" /></Danh_sach_San_pham><Nhan_vien_Giao_hang Ma_so="" /></PHIEU_DAT>
+<PHIEU_DAT Ma_so="P_13" Ngay="24/03/2018 10:04:41 PM" Trang_thai="CHO_PHAN_CONG">
+    <Khach_hang Ho_ten="Hồng" Dien_thoai="345345" Dia_chi="23523423" />
+    <Danh_sach_San_pham>
+        <San_pham Ma_so="S_1" Ten="Sữa Óc Chó Hạnh Nhân Đậu Đen Hàn Quốc 24 hộp/thùng" Don_gia="282000" So_luong="1" Tien="282000" />
+    </Danh_sach_San_pham>
+    <Nhan_vien_Giao_hang Ma_so="" />
+</PHIEU_DAT>
