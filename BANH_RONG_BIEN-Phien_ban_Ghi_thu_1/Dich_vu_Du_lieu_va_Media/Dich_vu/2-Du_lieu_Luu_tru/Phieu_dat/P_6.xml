@@ -3,5 +3,6 @@
   <Danh_sach_San_pham>
     <San_pham Ma_so="B_1" Ten="Bánh cá vị rong biển Orion Marine Boy 32g" Don_gia="13000"   So_luong="1"   Tien="13000" />
     <San_pham Ma_so="S_2" Ten="Sữa Óc Chó Hạnh Nhân Đậu Đen Hàn Quốc" Don_gia="267000" So_luong="1"  Tien="267000"/>
+  </Danh_sach_San_pham>
   <Nhan_vien_Giao_hang Ma_so="NV_8"/>
 </PHIEU_DAT>
