@@ -1,0 +1,8 @@
+<PHIEU_DAT Ma_so="P_8"  Ngay="20/3/2018 12:00:00 AM"  Trang_thai="CHO_PHAN_CONG">
+  <Khach_hang Ho_ten="Phạm Tiến Đồng" Dien_thoai="01663528496" Dia_chi="60 Hoàng Văn Thụ" />
+  <Danh_sach_San_pham>
+     <San_pham Ma_so="B_9" Ten="Bánh rong biển Tẩm gia vị ăn liền 10g" Don_gia="15000" So_luong="3" Tien="45000"/>
+     <San_pham Ma_so="S_7" Ten="Sữa Hạnh nhân - Đậu gà Pháp " Don_gia="37000" So_luong="2" Tien="74000" />
+  </Danh_sach_San_pham>
+  <Nhan_vien_Giao_hang Ma_so="NV_8"/>
+</PHIEU_DAT>
