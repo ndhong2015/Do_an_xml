@@ -131,11 +131,11 @@ public partial class XL_THE_HIEN
             var Ma_Phieu = Phieu_dat.GetAttribute("Ma_so");
             var Ngay = Phieu_dat.GetAttribute("Ngay");
             var Ten_Khach_hang = Phieu_dat.SelectSingleNode("Khach_hang/@Ho_ten").Value;
-            //var So_Phieu_dat = Phieu_dat.SelectSingleNode("Khach_hang/@Phieu_dat").Value;
             var So_Dien_thoai = Phieu_dat.SelectSingleNode("Khach_hang/@Dien_thoai").Value;
             var Dia_chi = Phieu_dat.SelectSingleNode("Khach_hang/@Dia_chi").Value;
 
             var Chuoi_Thong_tin_sp = "";
+            var Tong_tien = 0L;
             foreach (XmlElement San_pham in Phieu_dat.GetElementsByTagName("San_pham"))
             {
                 var Ma_San_pham = San_pham.GetAttribute("Ma_so");
@@ -143,30 +143,28 @@ public partial class XL_THE_HIEN
                 var Don_gia = San_pham.GetAttribute("Don_gia");
                 var So_luong = San_pham.GetAttribute("So_luong");
                 var Thanh_tien = San_pham.GetAttribute("Tien");
+                Tong_tien += long.Parse(Thanh_tien);
                 Chuoi_Thong_tin_sp = Chuoi_Thong_tin_sp +
                           $"<br />Mã Sản phẩm giao: {  Ma_San_pham}" +
                           $"<br />Tên Sản phẩm: {  Ten_San_pham}" +
                           $"<br />Đơn giá bán: {  Don_gia}" +
                           $"<br />Số lượng: {  So_luong}" +
-                          $"<br />Thành tiền: {  Thanh_tien} <br />" +
-                          
-                          $"<form method='post'>   " +
-                            $"<input name='Th_Ma_so_Chuc_nang' type='hidden' value='GIAO_HANG' />  " +
-                            $"<input name='Th_Ma_so_Phieu_dat' type='hidden' value='{Ma_Phieu}' />  " +
-                            $"<button type='submit' class ='btn btn-primary'>Giao hàng xong</button>" +
-                          $"</form>" +
-
-                          $"</div>";
+                          $"<br /><i>Thành tiền: { Thanh_tien}</i>";
             }
-            var Chuoi_Thong_tin = $"<div class='btn' style='text-align:left'> " +
+            var Chuoi_Thong_tin = $"<div class='btn' style='text-align:left; border:1px' > " +
                           $"<br /><b>Mã phiếu: {  Ma_Phieu}</b>" +
                           $"<br />Ngày: {  Ngay}" +
                           $"<br />Tên khách hàng: {  Ten_Khach_hang}" +
                           $"<br />Số Điện thoại Khách hàng: {  So_Dien_thoai}" +
                           $"<br />Địa chỉ Khách hàng: {  Dia_chi}";
-
-
-            Chuoi_HTML_Danh_sach += Chuoi_Thong_tin + Chuoi_Thong_tin_sp;
+            var Chuoi_Giao_hang = $"<form method='post'>" +
+                        $"<b>Tổng tiền: { Tong_tien}</b> </br>" +
+                        $"<input name='Th_Ma_so_Chuc_nang' type='hidden' value='GIAO_HANG' />  " +
+                        $"<input name='Th_Ma_so_Phieu_dat' type='hidden' value='{Ma_Phieu}' />  " +
+                        $"<button type='submit' class ='btn btn-primary'>Giao hàng xong</button>" +
+                        $"</form>" +
+                        $"</div>";
+            Chuoi_HTML_Danh_sach += Chuoi_Thong_tin + Chuoi_Thong_tin_sp + Chuoi_Giao_hang;
         });
         Chuoi_HTML_Danh_sach += "</div>";
         return Chuoi_HTML_Danh_sach;
