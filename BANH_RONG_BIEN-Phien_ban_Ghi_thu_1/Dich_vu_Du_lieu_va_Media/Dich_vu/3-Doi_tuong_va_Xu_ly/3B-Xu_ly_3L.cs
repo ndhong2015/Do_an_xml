@@ -525,7 +525,7 @@ public partial class XL_LUU_TRU
  
    static XmlElement Doc_Danh_sach_Phieu_dat()
     {
-        var Chuoi_XML_Danh_sach = "<Danh_sach_Phieu_dat />";
+        var Chuoi_XML_Danh_sach = "<Danh_sach_Phieu_dat/>";
         var Tai_lieu_Danh_sach = new XmlDocument();
         Tai_lieu_Danh_sach.LoadXml(Chuoi_XML_Danh_sach);
         var Danh_sach = Tai_lieu_Danh_sach.DocumentElement;
