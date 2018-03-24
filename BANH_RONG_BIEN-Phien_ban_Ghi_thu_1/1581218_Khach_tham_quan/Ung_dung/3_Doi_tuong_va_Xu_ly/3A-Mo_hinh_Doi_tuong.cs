@@ -25,6 +25,8 @@ public class XL_KHACH_THAM_QUAN
     public string Thong_bao = "";
     public List<XmlElement> Danh_sach_San_pham_Xem = new List<XmlElement>();
     public List<XmlElement> Danh_sach_San_pham_Chon = new List<XmlElement>();
+    public List<XmlElement> Danh_sach_Phieu_dat = new List<XmlElement>();
+
 
 }
 

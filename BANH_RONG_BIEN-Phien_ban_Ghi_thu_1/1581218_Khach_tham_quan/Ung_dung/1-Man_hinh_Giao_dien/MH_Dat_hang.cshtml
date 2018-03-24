@@ -9,44 +9,18 @@
     if (Ma_so_Chuc_nang == null) { Ma_so_Chuc_nang = "KHOI_DONG"; };
 
     var Chuoi_HTML_Ket_qua = "";
-    //if (Ma_so_Chuc_nang == "KHOI_DONG")
-    //{
-    //    Chuoi_HTML_Ket_qua = Ung_dung.Khoi_dong_Nguoi_dung();
-    //}
-    //else if (Ma_so_Chuc_nang == "TRA_CUU")
-    //{
-    //    var Chuoi_Tra_cuu = Request["Th_Chuoi_Tra_cuu"];
-    //    Chuoi_HTML_Ket_qua = Ung_dung.Tra_cuu(Chuoi_Tra_cuu);
-    //}
-    //else if (Ma_so_Chuc_nang == "CHON_NHOM_SAN_PHAM")
-    //{
-    //    var Ma_so_Nhom_San_pham = Request["Th_Ma_so_Nhom_San_pham"];
-    //    Chuoi_HTML_Ket_qua = Ung_dung.Chon_Nhom_San_pham(Ma_so_Nhom_San_pham);
-    //}
-    //else if (Ma_so_Chuc_nang == "GHI_PHIEU_DAT_MOI")
-    //{
-    //var Ho_ten = Request["Th_Ho_ten"];
-    //var Dien_thoai = Request["Th_Dien_thoai"];
-    //var Dia_chi = Request["Th_Dia_chi"];
-    Chuoi_HTML_Ket_qua = Ung_dung.Ghi_Phieu_Dat_moi(Nguoi_dung.Danh_sach_San_pham_Chon);
+    if (Ma_so_Chuc_nang == "KHOI_DONG")
+    {
+        Chuoi_HTML_Ket_qua = Ung_dung.Tao_Chuoi_HTML_Dat_hang();
+    }
 
-    //Chuoi_HTML_Ket_qua = Ung_dung.Ghi_Phieu_Dat_moi(Ma_so, Ngay, Trang_thai, Khach_hang, Danh_sach_San_pham);
-    @*}*@
-    //                                  $"Họ tên: <br><input name='Th_Ho_ten' required='required' autocomplete='off' " +
-    //                                 $"style='border:none;border-bottom:solid 1px blue'" +
-    //                                $"type='text' value='' /> <br> " +
-
-    //                                $"Số điện thoại: <br><input name='Th_Dien_thoai' required='required' autocomplete='off' " +
-    //                                 $"style='border:none;border-bottom:solid 1px blue'" +
-    //                                $"type='text' value='' /> <br> " +
-
-    //                                $"Mail: <br><input name='Th_Mail' required='required' autocomplete='off' " +
-    //                                 $"style='border:none;border-bottom:solid 1px blue'" +
-    //                                $"type='text' value='' /> <br> " +
-
-    //                                $"Địa chỉ: <br><input name='Th_Dia_chi' required='required' autocomplete='off' " +
-    //                                 $"style='border:none;border-bottom:solid 1px blue'" +
-    //                                $"type='text' value='' /> <br> " +
+    else if (Ma_so_Chuc_nang == "GHI_PHIEU_DAT_MOI")
+    {
+        var Ho_ten = Request["Th_Ho_ten"];
+        var Dien_thoai = Request["Th_Dien_thoai"];
+        var Dia_chi = Request["Th_Dia_chi"];
+        Chuoi_HTML_Ket_qua = Ung_dung.Ghi_Phieu_Dat_moi(Nguoi_dung.Danh_sach_San_pham_Chon, Ho_ten, Dien_thoai, Dia_chi);
+    }
 }
 
 <!DOCTYPE html>
@@ -59,32 +33,7 @@
           integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 </head>
 <body style="font-family:Arial;width:100%;box-sizing:border-box;
-              margin:0px;padding:0px;overflow-x:hidden" class="container-fluid">
-    <div class="CUA_SO_TIEU_DE" style="background-color:aliceblue;margin:10px">
-        <div class="btn PET" style="margin-left:0px">
-            <img src="@XL_THE_HIEN.Dia_chi_Media/PET.png"
-                 style="width:40px;height:30px;" />
-            <div class="btn TOM_TAT" style="color:blue;text-align:center">
-                Mô hình - Công nghệ - Kỹ thuật
-                <br /><b><i>Đơn giản</i></b>
-            </div>
-        </div>
-        <div class="btn btn-outline-primary" style="background-color:white;color:blue">
-            <h1>@Html.Raw(Ung_dung.Ten_Cua_hang())</h1>
-        </div>
-    </div>
-    <div class="CUA_SO_CHUC_NANG" style="background-color:gray;margin:10px">
-        <div class="DANH_SACH_CHUC_NANG">
-            <div class="btn  CHUC_NANG">
-                <form method="post">
-                    <input name="Th_Ma_so_Chuc_nang" type="hidden" value="TRA_CUU" />
-                    <input name="Th_Chuoi_Tra_cuu" style="height:30px"
-                           spellcheck="false" autocomplete="off" />
-                </form>
-            </div>
-
-        </div>
-    </div>
+              margin:0px;padding:0px;overflow-x:hidden" class="container-fluid">   
     <div class="CUA_SO_KET_QUA" style="background-color:white;margin:10px">
         @Html.Raw(Chuoi_HTML_Ket_qua)
     </div>

@@ -84,11 +84,8 @@
     <Content Include="2-Du_lieu_Luu_tru\Cua_hang\Cua_hang.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="2-Du_lieu_Luu_tru\Phieu_dat\P_1.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Phieu_dat\P_2.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Phieu_dat\P_3.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Phieu_dat\P_4.xml" />
-    <Content Include="2-Du_lieu_Luu_tru\Phieu_dat\P_5.xml" />
+    <Content Include="2-Du_lieu_Luu_tru\Phieu_dat\P_0.xml" />
+    <Content Include="2-Du_lieu_Luu_tru\Phieu_dat\P_6.xml" />
     <Content Include="2-Du_lieu_Luu_tru\San_pham\B_1.xml" />
     <Content Include="2-Du_lieu_Luu_tru\San_pham\B_10.xml" />
     <Content Include="2-Du_lieu_Luu_tru\San_pham\B_11.xml" />
