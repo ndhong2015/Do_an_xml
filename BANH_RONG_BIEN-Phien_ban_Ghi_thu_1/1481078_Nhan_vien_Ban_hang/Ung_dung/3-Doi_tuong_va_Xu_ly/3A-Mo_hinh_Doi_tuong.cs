@@ -22,6 +22,7 @@ using System.Xml;
 public class XL_NGUOI_DUNG_DANG_NHAP
 {
     public string Ho_ten, Ma_so = "";
+    public long Doanh_thu;
     public XmlElement Cua_hang = null;
     public List<XmlElement> Danh_sach_San_pham = new List<XmlElement>();
     public List<XmlElement> Danh_sach_Nhom_San_pham = new List<XmlElement>();

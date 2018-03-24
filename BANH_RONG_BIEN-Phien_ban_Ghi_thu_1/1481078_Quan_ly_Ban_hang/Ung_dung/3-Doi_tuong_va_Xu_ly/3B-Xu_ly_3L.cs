@@ -30,6 +30,7 @@ public class XL_UNG_DUNG
             else
                 Ung_dung.Khoi_dong_Co_loi = true;
         }
+
         return Ung_dung;
     }
 
@@ -55,11 +56,7 @@ public class XL_UNG_DUNG
             x => x.GetAttribute("Ten_Dang_nhap") == Ten_Dang_nhap && x.GetAttribute("Mat_khau") == Mat_khau);
         if (Nguoi_dung != null)
         {
-            //var DS_Nhom_San_pham = (XmlElement)Nguoi_dung.GetElementsByTagName("Danh_sach_Nhom_San_pham")[0];
-            //var Danh_sach_Nhom_San_pham_cua_Nguoi_dung = XL_NGHIEP_VU.Tao_Danh_sach(DS_Nhom_San_pham, "Nhom_San_pham");
-            //var Danh_sach_San_pham_cua_Nguoi_dung = Danh_sach_San_pham.FindAll(
-            //    x => Danh_sach_Nhom_San_pham_cua_Nguoi_dung.Any(Nhom => Nhom.GetAttribute("Ma_so") == x.SelectSingleNode("Nhom_San_pham/@Ma_so").Value));
-
+            
             // Thống tin Online 
             Nguoi_dung_Dang_nhap = new XL_NGUOI_DUNG_DANG_NHAP();
             Nguoi_dung_Dang_nhap.Ho_ten = Nguoi_dung.GetAttribute("Ho_ten");
@@ -70,6 +67,14 @@ public class XL_UNG_DUNG
             Nguoi_dung_Dang_nhap.Danh_sach_Phieu_dat = Danh_sach_Phieu_dat;
             Nguoi_dung_Dang_nhap.Danh_sach_Nhan_vien_Ban_hang = Danh_sach_Nhan_vien_Ban_hang;
             Nguoi_dung_Dang_nhap.Danh_sach_San_pham_Xem = Nguoi_dung_Dang_nhap.Danh_sach_San_pham;
+            //Bổ xung thông tin cho Nhân viên Bán hàng
+            Danh_sach_Nhan_vien_Ban_hang.ForEach(Nhan_vien =>
+            {
+                var DS_Nhom_San_pham_Nhan_vien = (XmlElement)Nhan_vien.GetElementsByTagName("Danh_sach_Nhom_San_pham")[0];
+                var Danh_sach_Nhom_San_pham_Nhan_vien = XL_NGHIEP_VU.Tao_Danh_sach(DS_Nhom_San_pham_Nhan_vien, "Nhom_San_pham");
+                var Doanh_thu = Danh_sach_Nhom_San_pham_Nhan_vien.Sum(x => long.Parse(x.GetAttribute("Doanh_thu")));
+                Nhan_vien.SetAttribute("Doanh_thu", Doanh_thu.ToString());
+            });
 
             HttpContext.Current.Session["Nguoi_dung_Dang_nhap"] = Nguoi_dung_Dang_nhap;
         }
@@ -113,8 +118,9 @@ public class XL_UNG_DUNG
         var Nguoi_dung_Dang_nhap = (XL_NGUOI_DUNG_DANG_NHAP)HttpContext.Current.Session["Nguoi_dung_Dang_nhap"];
 
         var Chuoi_HTML = $"<div>" +
-                 $"{XL_THE_HIEN.Tao_Chuoi_HTML_Thong_bao(Nguoi_dung_Dang_nhap.Thong_bao)}" +
+                 $"{XL_THE_HIEN.Tao_Chuoi_HTML_Nguoi_dung(Nguoi_dung_Dang_nhap)}" +
                  $"{XL_THE_HIEN.Tao_Chuoi_HTML_Danh_sach_Nhan_vien_Ban_hang(Nguoi_dung_Dang_nhap.Danh_sach_Nhan_vien_Ban_hang, Nguoi_dung_Dang_nhap.Danh_sach_San_pham_Xem, Nguoi_dung_Dang_nhap.Danh_sach_Nhom_San_pham)}" +
+                 $"{XL_THE_HIEN.Tao_Chuoi_HTML_Thong_bao(Nguoi_dung_Dang_nhap.Thong_bao)}" +
                  $"{XL_THE_HIEN.Tao_Chuoi_HTML_Danh_sach_San_pham_Xem(Nguoi_dung_Dang_nhap.Danh_sach_San_pham_Xem)}" +
              $"</div>";
         return Chuoi_HTML;
@@ -294,7 +300,7 @@ public partial class XL_THE_HIEN
         Danh_sach_Nhan_vien.ForEach(Nhan_vien =>
         {
             var Danh_sach_San_pham_cua_Nhan_vien = XL_NGHIEP_VU.Tao_Danh_sach_San_pham_cua_Nhan_vien_Ban_hang(Nhan_vien, Danh_sach_San_pham);
-            var Doanh_thu = 0L;
+            var Doanh_thu = long.Parse(Nhan_vien.GetAttribute("Doanh_thu"));
             var Chuoi_Hinh = $"<img src='{Dia_chi_Media}/{Nhan_vien.GetAttribute("Ma_so")}.png' " +
                                  "style='width:50px;height:50px;' />";
             var Chuoi_Thong_tin = $"<div class='btn text-left' > " +
@@ -314,6 +320,21 @@ public partial class XL_THE_HIEN
         Chuoi_HTML_Danh_sach += "</div>";
         return Chuoi_HTML_Danh_sach;
     }
+    public static string Tao_Chuoi_HTML_Nguoi_dung(XL_NGUOI_DUNG_DANG_NHAP Nguoi_dung)
+    {
+        //var Doanh_thu = Nguoi_dung.Doanh_thu;
+        var Chuoi_Hinh = $"<img src='{Dia_chi_Media}/{Nguoi_dung.Ma_so}.png' " +
+                                 "style='width:50px;height:50px;' />";
+        var Chuoi_Thong_tin = $"<div class='btn text-left' > " +
+                      $"{Nguoi_dung.Ho_ten}" +
+          //             $"<br /><i><b>Doanh thu: {Doanh_thu.ToString("n0", Dinh_dang_VN)}</b></i>" +
+                      $"</div>";
+        var Chuoi_HTML = $"<div class='alert'>" +
+                         $"{Chuoi_Hinh}" + $"{Chuoi_Thong_tin}" +
+                         $"</div>";
+        return Chuoi_HTML;
+    }
+
 
 }
 //************************* Business-Layers BL **********************************
