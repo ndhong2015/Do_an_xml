@@ -362,7 +362,7 @@ public partial class XL_NGHIEP_VU
          string Ma_so, XmlElement Du_lieu)
     {
 
-        var Danh_sach_Phieu_dat = (XmlElement)Du_lieu.GetElementsByTagName("Danh_sach_Phieu_Dat")[0];
+        var Danh_sach_Phieu_dat = (XmlElement)Du_lieu.GetElementsByTagName("Danh_sach_Phieu_dat")[0];
         var Kq = (XmlElement)null;
         foreach (XmlElement Phieu_dat in Danh_sach_Phieu_dat.GetElementsByTagName("PHIEU_DAT"))
         {
