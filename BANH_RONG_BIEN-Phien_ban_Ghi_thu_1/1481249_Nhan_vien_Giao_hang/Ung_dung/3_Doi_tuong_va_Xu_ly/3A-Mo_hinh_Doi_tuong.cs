@@ -25,5 +25,5 @@ public class XL_NGUOI_DUNG_DANG_NHAP
     
     public string Thong_bao = "";
     public List<XmlElement> Danh_sach_Phieu_dat_Xem = new List<XmlElement>();
-
+    public XmlElement Cua_hang = null;
 }
