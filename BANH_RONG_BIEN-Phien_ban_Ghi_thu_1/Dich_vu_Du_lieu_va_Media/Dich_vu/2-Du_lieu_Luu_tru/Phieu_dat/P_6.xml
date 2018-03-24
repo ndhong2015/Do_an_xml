@@ -1,1 +1,12 @@
+<<<<<<< HEAD
 <PHIEU_DAT Ma_so="P_6" Ngay="24/03/2018 4:06:45 PM" Trang_thai="CHO_PHAN_CONG"><Khach_hang Ho_ten="sfsdf" Dien_thoai="sdfs" Dia_chi="sdfd" /><Danh_sach_San_pham><San_pham Ma_so="B_4" Ten="Snack rong biển Tao Kae Noi Big Sheet vị truyền thống 4g" Don_gia_Ban="6000" Don_gia_Nhap="4000" So_luong_Ton="14" Doanh_thu="0" So_luong="1"><Nhom_San_pham Ma_so="BANH_RONG_BIEN" Ten="Bánh rong biển"><Phan_loai Ma_so="VI_TRUYEN_THONG" Ten="Vị truyền thống" /></Nhom_San_pham></San_pham></Danh_sach_San_pham><Nhan_vien_Giao_hang Ma_so="" /></PHIEU_DAT>
+=======
+<PHIEU_DAT Ma_so="P_6"  Ngay="10/3/2018 12:00:00 AM"  Trang_thai="CHO_GIAO_HANG">
+  <Khach_hang Ho_ten="Nguyễn Thị Hồng Nhung" Dien_thoai="02823682367" Dia_chi="10 Phan Văn Trị" />
+  <Danh_sach_San_pham>
+    <San_pham Ma_so="B_1" Ten="Bánh cá vị rong biển Orion Marine Boy 32g" Don_gia="13000"   So_luong="1"   Tien="13000" />
+    <San_pham Ma_so="S_2" Ten="Sữa Óc Chó Hạnh Nhân Đậu Đen Hàn Quốc" Don_gia="267000" So_luong="1"  Tien="267000"/>
+  </Danh_sach_San_pham>
+  <Nhan_vien_Giao_hang Ma_so="NV_8"/>
+</PHIEU_DAT>
+>>>>>>> 434aca4b84c668ae7a672af8d807848c8d5d3071

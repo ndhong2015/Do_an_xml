@@ -29,6 +29,7 @@ public class XL_UNG_DUNG
             else
                 Ung_dung.Khoi_dong_Co_loi = true;
         }
+
         return Ung_dung;
     }
     void Khoi_dong_Du_lieu_Ung_dung()
@@ -54,15 +55,18 @@ public class XL_UNG_DUNG
             var Danh_sach_Nhom_San_pham_cua_Nguoi_dung = XL_NGHIEP_VU.Tao_Danh_sach(DS_Nhom_San_pham, "Nhom_San_pham");
             var Danh_sach_San_pham_cua_Nguoi_dung = Danh_sach_San_pham.FindAll(
                 x => Danh_sach_Nhom_San_pham_cua_Nguoi_dung.Any(Nhom => Nhom.GetAttribute("Ma_so") == x.SelectSingleNode("Nhom_San_pham/@Ma_so").Value));
+            var Doanh_thu = Danh_sach_Nhom_San_pham_cua_Nguoi_dung.Sum(x => long.Parse(x.GetAttribute("Doanh_thu")));
 
             // Thống tin Online 
             Nguoi_dung_Dang_nhap = new XL_NGUOI_DUNG_DANG_NHAP();
             Nguoi_dung_Dang_nhap.Ho_ten = Nguoi_dung.GetAttribute("Ho_ten");
             Nguoi_dung_Dang_nhap.Ma_so = Nguoi_dung.GetAttribute("Ma_so");
+            Nguoi_dung_Dang_nhap.Doanh_thu = Doanh_thu;
             Nguoi_dung_Dang_nhap.Cua_hang = Cua_hang;
             Nguoi_dung_Dang_nhap.Danh_sach_San_pham = Danh_sach_San_pham_cua_Nguoi_dung;
             Nguoi_dung_Dang_nhap.Danh_sach_Nhom_San_pham = Danh_sach_Nhom_San_pham_cua_Nguoi_dung;
             Nguoi_dung_Dang_nhap.Danh_sach_San_pham_Xem = Nguoi_dung_Dang_nhap.Danh_sach_San_pham;
+            
             HttpContext.Current.Session["Nguoi_dung_Dang_nhap"] = Nguoi_dung_Dang_nhap;
         }
 
@@ -72,6 +76,8 @@ public class XL_UNG_DUNG
     // Chức năng Xem
     public string Khoi_dong()
     {
+        var Nguoi_dung_Dang_nhap = (XL_NGUOI_DUNG_DANG_NHAP)HttpContext.Current.Session["Nguoi_dung_Dang_nhap"];
+
         var Chuoi_HTML = Tao_Chuoi_HTML_Ket_qua();
         return Chuoi_HTML;
     }
@@ -97,6 +103,7 @@ public class XL_UNG_DUNG
         var Nguoi_dung_Dang_nhap = (XL_NGUOI_DUNG_DANG_NHAP)HttpContext.Current.Session["Nguoi_dung_Dang_nhap"];
 
         var Chuoi_HTML = $"<div>" +
+                 $"{XL_THE_HIEN.Tao_Chuoi_HTML_Nguoi_dung(Nguoi_dung_Dang_nhap)}" +
                  $"{XL_THE_HIEN.Tao_Chuoi_HTML_Thong_bao(Nguoi_dung_Dang_nhap.Thong_bao)}" +
                  $"{XL_THE_HIEN.Tao_Chuoi_HTML_Danh_sach_Nhom_San_pham_Xem(Nguoi_dung_Dang_nhap.Danh_sach_Nhom_San_pham)}" +
                  $"{XL_THE_HIEN.Tao_Chuoi_HTML_Danh_sach_San_pham_Xem(Nguoi_dung_Dang_nhap.Danh_sach_San_pham_Xem)}" +
@@ -132,6 +139,10 @@ public class XL_UNG_DUNG
                 var Nhom_San_pham = Nguoi_dung_Dang_nhap.Danh_sach_Nhom_San_pham.FirstOrDefault(x => San_pham.SelectSingleNode("Nhom_San_pham/@Ma_so").Value == x.GetAttribute("Ma_so"));
                 var So_luong_Ton_Nhom_San_pham = int.Parse(Nhom_San_pham.GetAttribute("So_luong_Ton")) - So_luong;
                 Nhom_San_pham.SetAttribute("So_luong_Ton", So_luong_Ton_Nhom_San_pham.ToString());
+                var Doanh_thu_Nhom_San_pham = long.Parse(Nhom_San_pham.GetAttribute("Doanh_thu"));
+                Doanh_thu_Nhom_San_pham += Tien;
+                Nhom_San_pham.SetAttribute("Doanh_thu", Doanh_thu_Nhom_San_pham.ToString());
+                Nguoi_dung_Dang_nhap.Doanh_thu += Tien;
             }
             else
                 Nguoi_dung_Dang_nhap.Thong_bao = "Lỗi Hệ thống - Xin Thực hiện lại  ";
@@ -229,7 +240,21 @@ public partial class XL_THE_HIEN
         Chuoi_HTML_Danh_sach += "</div>";
         return Chuoi_HTML_Danh_sach;
     }
-    
+    public static string Tao_Chuoi_HTML_Nguoi_dung(XL_NGUOI_DUNG_DANG_NHAP Nguoi_dung)
+    {
+        var Doanh_thu = Nguoi_dung.Doanh_thu;
+        var Chuoi_Hinh = $"<img src='{Dia_chi_Media}/{Nguoi_dung.Ma_so}.png' " +
+                                 "style='width:50px;height:50px;' />";
+        var Chuoi_Thong_tin = $"<div class='btn text-left' > " +
+                      $"{Nguoi_dung.Ho_ten}" +
+                       $"<br /><i><b>Doanh thu: {Doanh_thu.ToString("n0", Dinh_dang_VN)}</b></i>" +
+                      $"</div>";
+        var Chuoi_HTML = $"<div class='alert'>" +
+                         $"{Chuoi_Hinh}" + $"{Chuoi_Thong_tin}" +
+                         $"</div>";
+        return Chuoi_HTML;
+    }
+
 }
 //************************* Business-Layers BL **********************************
 public partial class XL_NGHIEP_VU
@@ -333,7 +358,10 @@ public partial class XL_LUU_TRU
             var So_luong = int.Parse(Ban_hang.GetAttribute("So_luong"));
             So_luong_Ton -= So_luong;
             San_pham.SetAttribute("So_luong_Ton", So_luong_Ton.ToString());
-
+            var Doanh_thu = long.Parse(San_pham.GetAttribute("Doanh_thu"));
+            var Tien = long.Parse(Ban_hang.GetAttribute("Tien"));
+            Doanh_thu += Tien;
+            San_pham.SetAttribute("Doanh_thu", Doanh_thu.ToString());
         }
         return Kq;
 
