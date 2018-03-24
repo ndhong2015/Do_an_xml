@@ -1,0 +1,7 @@
+<PHIEU_DAT Ma_so="P_6"  Ngay="10/3/2018 12:00:00 AM"  Trang_thai="CHO_GIAO_HANG">
+  <Khach_hang Ho_ten="Nguyễn Thị Hồng Nhung" Dien_thoai="02823682367" Dia_chi="10 Phan Văn Trị" />
+  <Danh_sach_San_pham>
+    <San_pham Ma_so="B_1" Ten="Bánh cá vị rong biển Orion Marine Boy 32g" Don_gia="13000"   So_luong="1"   Tien="13000" />
+    <San_pham Ma_so="S_2" Ten="Sữa Óc Chó Hạnh Nhân Đậu Đen Hàn Quốc" Don_gia="267000" So_luong="1"  Tien="267000"/>
+  <Nhan_vien_Giao_hang Ma_so="NV_8"/>
+</PHIEU_DAT>
