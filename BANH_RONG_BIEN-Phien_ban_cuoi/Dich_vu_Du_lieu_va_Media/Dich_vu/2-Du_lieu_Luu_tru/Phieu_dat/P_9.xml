@@ -6,5 +6,5 @@
         <San_pham Ma_so="B_11" Ten="Bánh rong biển ăn liền BIBIGO 5g" Don_gia="12000" So_luong="1" Tien="12000" />
         <San_pham Ma_so="S_6" Ten="Sữa Macca Hạnh nhân" Don_gia="45000" So_luong="1" Tien="45000" />
     </Danh_sach_San_pham>
-    <Nhan_vien_Giao_hang Ma_so="" />
+    <Nhan_vien_Giao_hang Ma_so="NV_8" />
 </PHIEU_DAT>
