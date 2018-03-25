@@ -246,9 +246,12 @@ public partial class XL_THE_HIEN
             {
                 var Ma_so_San_pham = San_pham.GetAttribute("Ma_so");
                 var Ten = San_pham.GetAttribute("Ten");
-                var Don_gia = long.Parse(San_pham.GetAttribute("Don_gia"));
-                var So_luong = int.Parse(San_pham.GetAttribute("So_luong"));
-                var Tien = long.Parse(San_pham.GetAttribute("Tien"));
+                var Don_gia = 0L;
+                long.TryParse(San_pham.GetAttribute("Don_gia"),out Don_gia);
+                var So_luong = 0;
+                int.TryParse(San_pham.GetAttribute("So_luong"), out So_luong);
+                var Tien = 0L;
+                long.TryParse(San_pham.GetAttribute("Tien"), out Tien);
                 Tong_tien += Tien;
                 var Chuoi_Hinh = $"<img src='{Dia_chi_Media}/{ Ma_so_San_pham}.jpg' " +
                              "class='float-left' style='width:25%;height:80%;' />";

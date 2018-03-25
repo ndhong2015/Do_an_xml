@@ -14,11 +14,11 @@ using System.Globalization;
     XmlElement Du_lieu_Dich_vu = null;
     //========= Khởi động ======
     public static XL_DICH_VU Khoi_dong_Dich_vu()
-    {   if ( Dich_vu == null)
-        {
+    {   //if ( Dich_vu == null)
+        //{
             Dich_vu = new XL_DICH_VU();
             Dich_vu.Khoi_dong_Du_lieu_cua_Dich_vu();
-        }
+        //}
             
         return Dich_vu;
     }
