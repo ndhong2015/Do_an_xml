@@ -6,7 +6,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{257F0892-DDB1-4D42-8CE4-2D084491F8B9}</ProjectGuid>
+    <ProjectGuid>{15A40F02-7021-4CE0-A576-E88005A492DC}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -84,16 +84,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="3_Doi_tuong_va_Xu_ly\Doi_tuong.cs" />
-    <Compile Include="3_Doi_tuong_va_Xu_ly\XL_LUU_TRU.cs" />
-    <Compile Include="3_Doi_tuong_va_Xu_ly\XL_NGHIEP_VU.cs" />
-    <Compile Include="3_Doi_tuong_va_Xu_ly\XL_THE_HIEN.cs" />
-    <Compile Include="3_Doi_tuong_va_Xu_ly\XL_UNG_DUNG.cs" />
+    <Compile Include="3-Doi_tuong_va_Xu_ly\3A-Mo_hinh_Doi_tuong.cs" />
+    <Compile Include="3-Doi_tuong_va_Xu_ly\3B-Xu_ly_3L.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="1-Man_hinh_Giao_dien\MH_Chinh.cshtml" />
-    <Content Include="1-Man_hinh_Giao_dien\MH_Dat_hang.cshtml" />
+    <Content Include="1-Man_hinh_Giao_dien\MH_Dang_nhap.cshtml" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -116,9 +113,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>64816</DevelopmentServerPort>
+          <DevelopmentServerPort>49929</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:64816/</IISUrl>
+          <IISUrl>http://localhost:49900/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

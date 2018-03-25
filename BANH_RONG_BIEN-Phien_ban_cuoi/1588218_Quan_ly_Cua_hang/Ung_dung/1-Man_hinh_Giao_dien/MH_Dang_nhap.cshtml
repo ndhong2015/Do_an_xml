@@ -2,12 +2,12 @@
 @{
     //****************** Khởi động Dữ liệu Nguồn-Nội bộ **********
     var Ung_dung = XL_UNG_DUNG.Khoi_dong_Ung_dung();
-
+    if (Ung_dung.Khoi_dong_Co_loi == true) { Response.Write("Lỗi Hệ thống hay Lỗi Lập trình viên"); Response.End(); }
     //******************* Khai báo và Khởi động giá trị đầu cho Biến  ********************
     var Ma_so_Chuc_nang = Request["Th_Ma_so_Chuc_nang"]; // Biến Nhập
     if (Ma_so_Chuc_nang == null) { Ma_so_Chuc_nang = "KHOI_DONG"; };
 
-    var Chuoi_HTML_Thong_bao= "";
+    var Chuoi_HTML_Thong_bao = "";
     if (Ma_so_Chuc_nang == "KHOI_DONG")
     {
         Chuoi_HTML_Thong_bao = "<div class='alert alert-info' >Xin vui lòng Nhập Tên đăng nhập và Mật khẩu"
@@ -19,15 +19,16 @@
         var Mat_khau = Request["Th_Mat_khau"];
         var Nguoi_dung = Ung_dung.Dang_nhap(Ten_Dang_nhap, Mat_khau);
         if (Nguoi_dung != null) { Response.Redirect("MH_Chinh.cshtml"); }
-        else {
+        else
+        {
             Chuoi_HTML_Thong_bao = "<div  class='alert alert-danger' >Đăng nhập không hợp lệ"
            + "<br />Xin vui lòng Nhập <b>lại</b> Tên đăng nhập và Mật khẩu" + "</div>";
         }
     }
-   
- 
+
+
 }
- 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,19 +40,19 @@
 </head>
 <body>
     <form method="post">
-        
+
         <div class="container-fluid">
             <div>
                 <div class="alert" style="height:10px">
                     Đăng nhập
                 </div>
                 <div class="alert" style="height:30px">
-                    <input name="Th_Ten_Dang_nhap" required="required"
-                           spellcheck="false" autocomplete="off"   />
+                    <input name="Th_Ten_dang_nhap" required="required"
+                           spellcheck="false" autocomplete="off" />
                 </div>
                 <div class="alert" style="height:30px">
                     <input name="Th_Mat_khau" type="password" required="required"
-                           spellcheck="false" autocomplete="off"   />
+                           spellcheck="false" autocomplete="off" />
                 </div>
                 <div class="alert" style="height:40px">
                     <input name="Th_Ma_so_Chuc_nang" type="hidden" value="DANG_NHAP" />
