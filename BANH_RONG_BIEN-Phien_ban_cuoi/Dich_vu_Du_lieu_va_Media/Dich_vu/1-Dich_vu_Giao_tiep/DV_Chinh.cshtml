@@ -64,10 +64,10 @@
     else if (Ma_so_Xu_ly == "GHI_PHAN_CONG")
     {
         var Ma_so_Phieu_dat = Request["Ma_so_Phieu_dat"];
+        var Ma_so_Nhan_vien_Giao_hang = Request["Ma_so_Nhan_vien_Giao_hang"];
+        Chuoi_XML_Ket_qua = Dich_vu.Ghi_Phan_cong(Ma_so_Phieu_dat, Ma_so_Nhan_vien_Giao_hang);
 
-        Chuoi_XML_Ket_qua = Dich_vu.Ghi_Phan_cong(Ma_so_Phieu_dat, Chuoi_Nhan);
-
-    }    
+    }
         else if (Ma_so_Xu_ly == "GHI_DAT_HANG_MOI")
     {
         var Ma_so_Phieu_dat = Request["Ma_so_Phieu_dat"];
