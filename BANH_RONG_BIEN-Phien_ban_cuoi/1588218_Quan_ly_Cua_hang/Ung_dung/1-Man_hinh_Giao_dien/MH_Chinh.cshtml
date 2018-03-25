@@ -27,12 +27,16 @@
         var Ma_so_Nhom_San_pham = Request["Th_Ma_so_Nhom_San_pham"];
         Chuoi_HTML_Ket_qua = Ung_dung.Chon_Nhom_San_pham(Ma_so_Nhom_San_pham);
     }
-    else if (Ma_so_Chuc_nang == "CAP_NHAT_DON_GIA_BAN")
+    else if (Ma_so_Chuc_nang == Nguoi_dung.Chuc_nang_Chon_Nguoi_dung.Ma_so)
     {
-        var Ma_so_San_pham = Request["Th_Ma_so_San_pham"];
-        var Don_gia_Ban = long.Parse(Request["Th_Don_gia_Ban"]);
-        Chuoi_HTML_Ket_qua = Ung_dung.Cap_nhat_Don_gia_Ban(Ma_so_San_pham, Don_gia_Ban);
+        var Ma_so_Nguoi_dung = Request["Th_Ma_so_Nguoi_dung"];
+        Chuoi_HTML_Ket_qua = Ung_dung.Chon_Nguoi_dung(Ma_so_Nguoi_dung);
     }
+    else if (Ma_so_Chuc_nang == Nguoi_dung.Chuc_nang_Tra_cuu_Nguoi_dung.Ma_so)
+    {
+        var Chuoi_Tra_cuu = Request["Th_Chuoi_Tra_cuu"];
+        Chuoi_HTML_Ket_qua = Ung_dung.Tra_cuu(Chuoi_Tra_cuu);
+    }   
 
 
 }
@@ -56,7 +60,7 @@
             </div>
         </div>
         <div class="btn btn-outline-primary" style="background-color:white;color:blue">
-            Ứng dụng của Quản lý Bán hàng
+            Ứng dụng của Quản lý Cửa hàng
             <br />@Nguoi_dung.Ho_ten
         </div>
     </div>

@@ -37,10 +37,24 @@ public class XL_NGUOI_DUNG_DANG_NHAP
     public List<XmlElement> Danh_sach_Quan_ly_Ban_hang = new List<XmlElement>();
     public List<XmlElement> Danh_sach_Quan_ly_Nhap_hang = new List<XmlElement>();
     public List<XmlElement> Danh_sach_Quan_ly_Cua_hang = new List<XmlElement>();
+    public List<XmlElement> Danh_sach_San_pham_Xem = new List<XmlElement>();
 
+    public List<XmlElement> Danh_sach_Nguoi_dung_Xem = new List<XmlElement>();
+    public List<XmlElement> Danh_sach_Nguoi_dung_Chon = new List<XmlElement>();
     public List<XmlElement> Danh_sach_Nguoi_dung = new List<XmlElement>();
 
     public string Thong_bao = "";
-    public List<XmlElement> Danh_sach_San_pham_Xem = new List<XmlElement>();
     
+
+    // Chức năng 
+    public XL_CHUC_NANG Chuc_nang_Khoi_dong_MH_Chinh = new XL_CHUC_NANG()
+    { Ten = "Khởi động", Ma_so = "KHOI_DONG_MH_CHINH" };
+    public XL_CHUC_NANG Chuc_nang_Chon_Nguoi_dung = new XL_CHUC_NANG()
+    { Ten = "Chọn người dùng", Ma_so = "CHON_NGUOI_DUNG" };
+    public XL_CHUC_NANG Chuc_nang_Tra_cuu_Nguoi_dung = new XL_CHUC_NANG()
+    { Ten = "Tra cứu người dùng", Ma_so = "TRA_CUU_NGUOI_DUNG" };
+}
+public class XL_CHUC_NANG
+{
+    public string Ten, Ma_so;
 }
