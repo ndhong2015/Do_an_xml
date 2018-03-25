@@ -257,10 +257,6 @@ public partial class XL_LUU_TRU
         {
             Kq = Loi.Message;
         }
-        if (Kq == "OK")
-        {
-            Phieu_dat.SetAttribute("Trang_thai", "DA_GIAO_HANG");
-        }
         return Kq;
     }
 }
