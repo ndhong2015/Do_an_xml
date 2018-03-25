@@ -14,11 +14,11 @@ using System.Globalization;
     XmlElement Du_lieu_Dich_vu = null;
     //========= Khởi động ======
     public static XL_DICH_VU Khoi_dong_Dich_vu()
-    {   if ( Dich_vu == null)
-        {
+    {   //if ( Dich_vu == null)
+        //{
             Dich_vu = new XL_DICH_VU();
             Dich_vu.Khoi_dong_Du_lieu_cua_Dich_vu();
-        }
+        //}
             
         return Dich_vu;
     }
@@ -307,14 +307,15 @@ using System.Globalization;
         var Chuoi_Xml_Kq = $"<DU_LIEU Kq='{Chuoi_Kq_Ghi}' />";
         return Chuoi_Xml_Kq;
     }
-    public string Ghi_Phan_cong(string Ma_so_Phieu_dat, string Chuoi_Xml_NV_Giao_hang)
+    public string Ghi_Phan_cong(string Ma_so_Phieu_dat, string Ma_Nhan_vien_Giao_hang)
     {
         var Phieu_dat = XL_NGHIEP_VU.Tim_Phieu_dat(Ma_so_Phieu_dat, Du_lieu_Dich_vu);
-        var Nhan_vien_Giao_hang = XL_NGHIEP_VU.Tao_Doi_tuong_Con(Chuoi_Xml_NV_Giao_hang, Phieu_dat);
-        var Chuoi_Kq_Ghi = XL_LUU_TRU.Ghi_Phan_cong(Phieu_dat, Nhan_vien_Giao_hang);
+        var Nhan_vien_Giao_hang = (XmlElement)Phieu_dat.SelectNodes("Nhan_vien_Giao_hang")[0];
+        var Chuoi_Kq_Ghi = XL_LUU_TRU.Ghi_Phan_cong(Phieu_dat);
         if (Chuoi_Kq_Ghi == "OK")
         {
             Phieu_dat.SetAttribute("Trang_thai", "CHO_GIAO_HANG");
+            Nhan_vien_Giao_hang.SetAttribute("Ma_so", Ma_Nhan_vien_Giao_hang);
         }
         var Chuoi_Xml_Kq = $"<DU_LIEU Kq='{Chuoi_Kq_Ghi}' />";
         return Chuoi_Xml_Kq;
@@ -649,14 +650,11 @@ public partial class XL_LUU_TRU
         return Kq;
 
     }
-    public static string Ghi_Phan_cong(XmlElement Phieu_dat, XmlElement Nhan_vien_Giao_hang)
+    public static string Ghi_Phan_cong(XmlElement Phieu_dat)
     {
         var Kq = "";
-
         try
         {
-            var DS_Phieu_dat = Phieu_dat.GetElementsByTagName("PHIEU_DAT")[0];//Can xem lai
-            DS_Phieu_dat.AppendChild(Nhan_vien_Giao_hang);
             var Duong_dan = Thu_muc_Phieu_dat.FullName + $"\\{Phieu_dat.GetAttribute("Ma_so")}.xml";
             var Chuoi_XML = Phieu_dat.OuterXml;
             File.WriteAllText(Duong_dan, Chuoi_XML);
@@ -666,13 +664,7 @@ public partial class XL_LUU_TRU
         {
             Kq = Loi.Message;
         }
-        if (Kq != "OK" && Phieu_dat != null && Nhan_vien_Giao_hang != null)
-        {
-            var DS_Phieu_dat = Phieu_dat.GetElementsByTagName("PHIEU_DAT")[0];//Can xem lai
-            DS_Phieu_dat.RemoveChild(Nhan_vien_Giao_hang);
-        }
         return Kq;
-
     }
     public static string Ghi_Giao_hang(XmlElement Phieu_dat)
     {
