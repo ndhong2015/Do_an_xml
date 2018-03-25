@@ -5,5 +5,5 @@
     <San_pham Ma_so="B_1" Ten="Bánh cá vị rong biển Orion Marine Boy 32g" Don_gia="13000" So_luong="1" Tien="13000" />
     <San_pham Ma_so="S_3" Ten="Ngũ cốc hạnh nhân, vani Kellogg's Special hộp 385g" Don_gia="100000" So_luong="2" Tien="200000" />
   </Danh_sach_San_pham>
-  <Nhan_vien_Giao_hang Ma_so="" />
+  <Nhan_vien_Giao_hang Ma_so="NV_7" />
 </PHIEU_DAT>
