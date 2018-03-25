@@ -1,1 +1,8 @@
-<San_pham Ma_so="S_3" Ten="Ngũ cốc hạnh nhân, vani Kellogg's Special hộp 385g" Don_gia_Ban="100000" Don_gia_Nhap="70000" So_luong_Ton="20" Doanh_thu="0"><Nhom_San_pham Ma_so="SUA" Ten="Sữa"><Phan_loai Ma_so="VI_VANI" Ten="Vị Vani" /></Nhom_San_pham><Danh_sach_Ban_hang /><Danh_sach_Nhap_hang><Nhap_hang Ngay="19/03/2018 7:39:31 PM" So_luong="10" Don_gia="70000" Tien="700000" /><Nhap_hang Ngay="19/03/2018 7:39:35 PM" So_luong="10" Don_gia="70000" Tien="700000" /><Nhap_hang Ngay="19/03/2018 7:39:37 PM" So_luong="10" Don_gia="70000" Tien="700000" /></Danh_sach_Nhap_hang></San_pham>
+<San_pham Ma_so="S_3" Ten="Ngũ cốc hạnh nhân, vani Kellogg's Special hộp 385g" Don_gia_Ban="100000" Don_gia_Nhap="70000" So_luong_Ton="0" Doanh_thu="0">
+    <Nhom_San_pham Ma_so="SUA" Ten="Sữa">
+        <Phan_loai Ma_so="VI_VANI" Ten="Vị Vani" />
+    </Nhom_San_pham>
+    <Danh_sach_Ban_hang />
+    <Danh_sach_Nhap_hang/>
+        
+</San_pham>

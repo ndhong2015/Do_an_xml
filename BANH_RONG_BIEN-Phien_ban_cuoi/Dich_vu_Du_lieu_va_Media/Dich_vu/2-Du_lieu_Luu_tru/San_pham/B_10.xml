@@ -1,1 +1,8 @@
-<San_pham Ma_so="B_10" Ten="Bánh rong biển Wakame 50g" Don_gia_Ban="120000" Don_gia_Nhap="105000" So_luong_Ton="70" Doanh_thu="0"><Nhom_San_pham Ma_so="BANH_RONG_BIEN" Ten="Bánh rong biển"><Phan_loai Ma_so="VI_RONG_BIEN" Ten="Vị rong biển" /></Nhom_San_pham><Danh_sach_Ban_hang /><Danh_sach_Nhap_hang><Nhap_hang Ngay="19/03/2018 4:03:56 PM" So_luong="10" Don_gia="105000" Tien="1050000" /><Nhap_hang Ngay="20/03/2018 9:07:06 PM" So_luong="10" Don_gia="105000" Tien="1050000" /><Nhap_hang Ngay="20/03/2018 9:07:10 PM" So_luong="10" Don_gia="105000" Tien="1050000" /><Nhap_hang Ngay="20/03/2018 10:41:37 PM" So_luong="10" Don_gia="105000" Tien="1050000" /><Nhap_hang Ngay="20/03/2018 10:41:40 PM" So_luong="10" Don_gia="105000" Tien="1050000" /><Nhap_hang Ngay="20/03/2018 11:07:32 PM" So_luong="10" Don_gia="105000" Tien="1050000" /><Nhap_hang Ngay="25/03/2018 12:43:08 AM" So_luong="10" Don_gia="105000" Tien="1050000" /><Nhap_hang Ngay="25/03/2018 12:43:10 AM" So_luong="10" Don_gia="105000" Tien="1050000" /></Danh_sach_Nhap_hang></San_pham>
+<San_pham Ma_so="B_10" Ten="Bánh rong biển Wakame 50g" Don_gia_Ban="120000" Don_gia_Nhap="105000" So_luong_Ton="0" Doanh_thu="0">
+    <Nhom_San_pham Ma_so="BANH_RONG_BIEN" Ten="Bánh rong biển">
+        <Phan_loai Ma_so="VI_RONG_BIEN" Ten="Vị rong biển" />
+    </Nhom_San_pham>
+    <Danh_sach_Ban_hang />
+    <Danh_sach_Nhap_hang/>
+       
+</San_pham>

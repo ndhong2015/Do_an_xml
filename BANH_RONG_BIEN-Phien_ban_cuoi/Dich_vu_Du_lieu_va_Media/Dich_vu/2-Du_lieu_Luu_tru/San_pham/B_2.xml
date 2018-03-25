@@ -1,1 +1,7 @@
-<San_pham Ma_so="B_2" Ten="Snack khoai tây Poca vị rong biển 54g" Don_gia_Ban="11000" Don_gia_Nhap="8000" So_luong_Ton="0" Doanh_thu="0"><Nhom_San_pham Ma_so="BANH_RONG_BIEN" Ten="Bánh rong biển"><Phan_loai Ma_so="VI_RONG_BIEN" Ten="Vị rong biển" /></Nhom_San_pham><Danh_sach_Ban_hang /><Danh_sach_Nhap_hang><Nhap_hang Ngay="19/03/2018 6:03:52 PM" So_luong="10" Don_gia="8000" Tien="80000" /></Danh_sach_Nhap_hang></San_pham>
+<San_pham Ma_so="B_2" Ten="Snack khoai tây Poca vị rong biển 54g" Don_gia_Ban="11000" Don_gia_Nhap="8000" So_luong_Ton="0" Doanh_thu="0">
+    <Nhom_San_pham Ma_so="BANH_RONG_BIEN" Ten="Bánh rong biển">
+        <Phan_loai Ma_so="VI_RONG_BIEN" Ten="Vị rong biển" />
+    </Nhom_San_pham>
+    <Danh_sach_Ban_hang />
+    <Danh_sach_Nhap_hang/>
+</San_pham>
